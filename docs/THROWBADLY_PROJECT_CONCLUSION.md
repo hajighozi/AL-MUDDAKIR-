@@ -37,10 +37,10 @@ Keempat unsur diupayakan hadir sejak awal pembelajaran, bukan empat tahap yang h
 ### Jalur penyelenggaraan
 
 1. **Al Muddakir** — jalur IQRA’ dan FAHM.
-2. **Suarau Shift** — jalur pendalaman TAZKIYAH; dalam Master Plan tercantum cabang **Sarang Lebah Baginda Nabi Minangkaba**.
+2. **Surau Shift** — jalur pendalaman TAZKIYAH; dalam Master Plan tercantum cabang **Sarang Lebah Baginda Nabi Minangkaba**.
 3. **Tan Project** — jalur KHIDMAH.
 
-Nama **Suarau Shift** dan **Minangkaba** dipertahankan mengikuti ejaan keputusan dalam Master Plan. **Pustaka Rehat Sang Muddakir** adalah fasilitas rekreasi membaca dan pendukung pembelajaran.
+Nama **Surau Shift** digunakan sesuai koreksi ejaan terbaru pengguna; **Minangkaba** tetap mengikuti penulisan Master Plan. **Pustaka Rehat Sang Muddakir** adalah fasilitas rekreasi membaca dan pendukung pembelajaran.
 
 ## 4. Arsitektur M0–M7
 
@@ -97,7 +97,7 @@ Daftar ini hanya memuat contoh yang telah dikutip dalam sintesis; **dua siklus l
 
 1. **Nafsiyah**: dalam korpus M1–M7 berfokus pada manusia sebagai diri (jiwa, kesadaran, perkembangan); dalam Master Plan Revisi 2 dipakai untuk jalur keteladanan Nabi melalui hadis dan sirah. **Perlu audit semantik**.
 2. **Aqliyah / Nizhamiyah**: nama ranah kelima dalam Master Plan masih terbuka untuk audit taksonomi.
-3. **Sarang Lebah**: secara konseptual model kolaborasi/khidmah; dalam operasi Master Plan juga menjadi cabang Suarau Shift. Hubungan teori dan kelembagaan perlu dijelaskan.
+3. **Sarang Lebah**: secara konseptual model kolaborasi/khidmah; dalam operasi Master Plan juga menjadi cabang Surau Shift. Hubungan teori dan kelembagaan perlu dijelaskan.
 4. **Status bukti**: M0–M7 menggunakan status epistemik A/B/C/Gap; Master Plan juga memakai K/S/P/V/B untuk status keputusan dan implementasi. **Jangan dicampur menjadi satu skala**.
 
 ## 8. Status penyelesaian yang dapat dipertanggungjawabkan
