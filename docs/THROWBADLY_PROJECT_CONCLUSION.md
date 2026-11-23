@@ -85,7 +85,7 @@ Dalam **M7-B**, ranah kerja yang dibahas adalah **Qauliyah, Kauniyah, Nafsiyah, 
 
 Contoh pemilihan *jihāt*: air yang mengalir diperiksa secara empiris; hak giliran air dipelajari dari keterangan warga dan kesepakatan; penggunaan air untuk bersuci ditelaah dengan tuntunan agama. Satu fenomena dapat dibaca dari beberapa sisi dengan metode yang berbeda.
 
-### Aturan epistemik
+### Aturan pembuktian dan klasifikasi
 
 - Lima domain (**Qauliyah, Kauniyah, Nafsiyah, Ijtima‘iyah, Aqliyah**) diperlakukan sebagai **domain kerja/objek kajian**, bukan lima sumber pengetahuan setara atau klasifikasi universal yang sudah terbukti.
 - **Madārik** berkaitan dengan jalan memperoleh pengetahuan; **Jihāt al-I‘tibār** dengan sudut kajian. Jenis klaim menentukan metode pemeriksaan.
@@ -140,7 +140,7 @@ Metode dapat mencakup talaqqi, sorogan, halaqah, kisah/sirah yang diperiksa, pen
 
 **Catatan durasi:** lampiran draf 19 November menyebut kemungkinan 2–4 minggu, tetapi Revisi 21 November menegaskan penyesuaian usia dan kalender. **Tidak ada kalender final yang telah disahkan** dalam bukti yang ditelaah.
 
-### Contoh kecil penerapan teruji secara desain, belum empiris: Siklus 02
+### Contoh penerapan sebagai rancangan (belum diuji empiris): Siklus 02
 
 **Objek:** tanah dan tanaman. **Pertanyaan empiris:** apakah tanah masih basah? **Metode:** pengamatan sederhana dengan pendamping. **Praktik:** menentukan apakah perlu menyiram dan memberi tahu teman yang mendapat giliran berikutnya. **Catatan murabbi:** alasan keputusan, ketepatan pengamatan, kejujuran penyampaian, dan perubahan setelah koreksi. Jangan menyimpulkan tingkat syukur atau iman dari keputusan menyiram.
 
