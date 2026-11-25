@@ -1,4 +1,4 @@
-# Hurairah World — Web Edition 0.9.0
+# Hurairah World — Web Edition 0.9.1
 
 Prototipe pendidikan Raudhah’s Dome, cabang hurairah-web-stable. Tidak mengubah aplikasi utama.
 
@@ -40,3 +40,6 @@ Jika grafis 3D gagal, pilih Peta 2D. Jika konteks grafis pulih, pilih Dunia 3D k
 
 ## Atlas wilayah 0.9.0
 81 wilayah (koordinat -4 hingga +4), masing-masing 20×20 petak, digenerasikan deterministik dari seed. Tombol arah berjalan ke gerbang lalu memuat wilayah tetangga. Hurairah muncul di petak aman di samping gerbang. Perubahan peta wilayah yang ditinggalkan dipertahankan dalam data simpan, dan progres belajar bersifat global. Save versi 0.8.x yang valid dapat dimigrasikan. Wilayah bukan dunia tak terbatas atau streaming seamless; belum ada elevasi medan atau tumpukan voxel. Cache versi 090. Uji browser nyata tetap diperlukan.
+
+## Konstruksi berlapis 0.9.1
+Pilih Bengkel voxel → Lapisan 0–5 atau Dasar. Lapisan tambahan tersimpan per wilayah, maksimum 10.000 blok. Lapisan 0–1 memblokir navigasi pemain dan Hurairah; lapisan 2–5 menyediakan ruang untuk atap atau bentuk dekoratif. Peta 2D menampilkan lapisan yang dipilih; 3D menampilkan semua lapisan. Bangun/ambil di petak yang ditunjuk dengan lapisan pilihan. Gerbang dan jalur masuk dilindungi. Model ini belum memiliki gravitasi, tangga yang dapat dinaiki, simulasi struktur, atau penempatan blok berdasarkan sisi permukaan. Data simpan lama yang valid tetap didukung. Uji regresi DOM: 40/40. Uji nyata Android dan WebGL belum selesai.
