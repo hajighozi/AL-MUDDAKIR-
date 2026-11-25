@@ -38,6 +38,19 @@ check("Visited region count",nodes.region.textContent.includes("2 wilayah dikunj
 check("Saved region archive",Object.keys(next.world.regions).length===1&&Array.isArray(next.world.regions["0,0"]));
 nodes.reset.click();nodes.reset.click();check("Reset atlas",nodes.region.textContent.includes("(0, 0)")&&nodes.region.textContent.includes("1 wilayah dikunjungi"));
 
+
+nodes.level.value="0";nodes.level.onchange();modes[2].click();nodes.board.children[168].click();
+check("Layer 0 construction",nodes.voxelcount.textContent.startsWith("1 /"));
+nodes.level.value="1";nodes.level.onchange();nodes.board.children[168].click();
+nodes.level.value="2";nodes.level.onchange();nodes.board.children[168].click();
+check("Three layers independently placed",nodes.voxelcount.textContent.startsWith("3 /"));
+modes[3].click();nodes.level.value="0";nodes.board.children[168].click();nodes.level.value="1";nodes.board.children[168].click();
+check("Roof remains after removing walls",nodes.voxelcount.textContent.startsWith("1 /"));
+modes[0].click();nodes.board.children[168].click();for(let j=0;j<100;j++)interval();
+nodes.save.click();let roof=JSON.parse([...storage.values()][0]);check("Walk under overhead block",roof.p.join()==="8,8"&&roof.world.layers["0,0"]["8,8,2"]==="w");
+nodes.east.click();for(let j=0;j<100;j++)interval();nodes.west.click();for(let j=0;j<100;j++)interval();nodes.save.click();let ret=JSON.parse([...storage.values()][0]);check("Layer persists across regions",ret.world.layers["0,0"]["8,8,2"]==="w");
+nodes.reset.click();nodes.reset.click();check("Reset clears blocks",nodes.voxelcount.textContent.startsWith("0 /"));
+
 return tests;
 };
 const tests=regression(html);for(const t of tests)console.log((t.pass?'PASS ':'FAIL ')+t.name);console.log(tests.filter(t=>t.pass).length+'/'+tests.length+' passed');if(tests.some(t=>!t.pass))process.exitCode=1;
