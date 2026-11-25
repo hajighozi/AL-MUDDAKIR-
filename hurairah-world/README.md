@@ -1,4 +1,4 @@
-# Hurairah World — Web Edition 0.8.1
+# Hurairah World — Web Edition 0.9.0
 
 Prototipe pendidikan Raudhah’s Dome, cabang hurairah-web-stable. Tidak mengubah aplikasi utama.
 
@@ -37,3 +37,6 @@ Dari folder hurairah-world jalankan `node tests.mjs`. Tidak perlu npm install. S
 
 ## Pemulihan
 Jika grafis 3D gagal, pilih Peta 2D. Jika konteks grafis pulih, pilih Dunia 3D kembali. Ekspor JSON sebelum menghapus penyimpanan browser. Cache offline 0.8.1 hanya melayani beranda permainan dan asetnya sendiri.
+
+## Atlas wilayah 0.9.0
+81 wilayah (koordinat -4 hingga +4), masing-masing 20×20 petak, digenerasikan deterministik dari seed. Tombol arah berjalan ke gerbang lalu memuat wilayah tetangga. Hurairah muncul di petak aman di samping gerbang. Perubahan peta wilayah yang ditinggalkan dipertahankan dalam data simpan, dan progres belajar bersifat global. Save versi 0.8.x yang valid dapat dimigrasikan. Wilayah bukan dunia tak terbatas atau streaming seamless; belum ada elevasi medan atau tumpukan voxel. Cache versi 090. Uji browser nyata tetap diperlukan.
