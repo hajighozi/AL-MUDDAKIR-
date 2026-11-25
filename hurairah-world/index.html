@@ -66,7 +66,7 @@ if(b.mode==="observe"){
 if(!inside(b.target)||distance(s.p,b.target)>5){commandCat(s,b,"follow");}
 else{let r=route(s,s.cat,adj(b.target),s.p);if(r===null){b.state="blocked";return b.state;}if(r.length){s.cat=r[0];faceCat(b,old,s.cat);b.step++;b.state="moving";return b.state;}faceCat(b,s.cat,b.target);b.state="observe";return b.state;}}
 const result=follow(s);
-if(!same(old,s.cat)){faceCat(b,old,s.cat);b.step++;b.still=0;b.wait=0;b.state="moving";}
+if(!same(old,s.cat)){faceCat(b,old,s.cat);b.step++;b.still=0;b.state="moving";}
 else if(result==="Terhalang"){b.state="blocked";b.wait=0;}
 else if(b.wait>0){b.wait--;faceCat(b,s.cat,s.p);b.state="explain";}
 else{b.still++;faceCat(b,s.cat,s.p);b.state=b.still>=10?"sitting":"idle";}return b.state;}
@@ -84,7 +84,7 @@ const tiles=[];for(let z=0;z<C.N;z++)for(let x=0;x<C.N;x++){let b=document.creat
 C.sites.forEach((site,i)=>{let b=document.createElement("button");b.textContent=site.name;b.onclick=()=>go(site.room);$("sites").append(b);});
 function render(){for(let z=0;z<C.N;z++)for(let x=0;x<C.N;x++){let a=[x,z],b=tiles[z*C.N+x],base=C.at(s,a),lv=layer(),m=lv===null?base:(C.voxelAt(s,a,lv)||base),player=C.same(a,s.p),cat=C.same(a,s.cat);b.className="tile "+m+(player?" player":cat?" cat cat-"+brain.state:"")+(selected&&C.same(a,selected)?" selected":"");b.textContent=player?"🧑":cat?"🐱":lv!==null&&C.voxelAt(s,a,lv)?"■":icons[m];b.setAttribute("aria-label",(player?"Pemain ":cat?"Hurairah ":"")+C.names[m]+" "+(x+1)+", "+(z+1));}if(viewMode==="3d")drawScene();let i=C.zone(s);renderRegion();renderVoxel();renderCat();$("info").textContent=(i<0?(s.world.cx===0&&s.world.cz===0?"Halaman Nagari":C.regionName(s)):C.sites[i].name)+" · Hurairah: "+catState+" · posisi "+(s.p[0]+1)+", "+(s.p[1]+1);if(i!==lastZone&&i>=0)discover(C.sites[i].name,C.sites[i].text);lastZone=i;$("book").textContent=s.found.join(" · ")||"Belum ada penemuan.";renderJournal();}
 function syncMode(){document.querySelectorAll("[data-mode]").forEach(b=>b.classList.toggle("active",b.dataset.mode===mode));}
-function discover(n,t){if(brain.mode!=="sit"){C.commandCat(s,brain,"explain");catState=C.catLabel(brain);}if(!s.found.includes(n))s.found.push(n);reply(t);$("book").textContent=s.found.join(" · ");renderJournal();}
+function discover(n,t){if(brain.mode!=="sit"){C.commandCat(s,brain,"explain");catState=C.catLabel(brain);renderCat();}if(!s.found.includes(n))s.found.push(n);reply(t);$("book").textContent=s.found.join(" · ");renderJournal();}
 function go(a){regionTravel=null;let r=C.route(s,s.p,[a],brain.mode==="sit"?s.cat:null);if(r===null){path=[];status("Jalur terhalang. Pilih petak yang dapat dilalui.");}else{path=r;status(r.length?"Berjalan menuju tujuan…":"Sudah berada di tujuan.");}}
 function click(a){regionTravel=null;selected=a;if(mode==="walk")go(a);else if(mode==="inspect")inspectCell(a);else{path=[];editCell(a,mode==="build");}render();}
 function step(dx,dz){path=[];regionTravel=null;if(viewMode==="3d"){const a=Math.round(yaw/(Math.PI/2));const r=((a%4)+4)%4;[dx,dz]=[[dx,dz],[-dz,dx],[-dx,-dz],[dz,-dx]][r];}if(movePlayer([s.p[0]+dx,s.p[1]+dz])){tickCompanion();status("Berjalan.");}else status("Jalur terhalang.");render();}
