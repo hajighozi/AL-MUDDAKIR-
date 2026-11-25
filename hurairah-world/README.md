@@ -1,4 +1,4 @@
-# Hurairah World — Web Edition 0.9.1
+# Hurairah World — Web Edition 0.9.2
 
 Prototipe pendidikan Raudhah’s Dome, cabang hurairah-web-stable. Tidak mengubah aplikasi utama.
 
@@ -43,3 +43,6 @@ Jika grafis 3D gagal, pilih Peta 2D. Jika konteks grafis pulih, pilih Dunia 3D k
 
 ## Konstruksi berlapis 0.9.1
 Pilih Bengkel voxel → Lapisan 0–5 atau Dasar. Lapisan tambahan tersimpan per wilayah, maksimum 10.000 blok. Lapisan 0–1 memblokir navigasi pemain dan Hurairah; lapisan 2–5 menyediakan ruang untuk atap atau bentuk dekoratif. Peta 2D menampilkan lapisan yang dipilih; 3D menampilkan semua lapisan. Bangun/ambil di petak yang ditunjuk dengan lapisan pilihan. Gerbang dan jalur masuk dilindungi. Model ini belum memiliki gravitasi, tangga yang dapat dinaiki, simulasi struktur, atau penempatan blok berdasarkan sisi permukaan. Data simpan lama yang valid tetap didukung. Uji regresi DOM: 40/40. Uji nyata Android dan WebGL belum selesai.
+
+## Living Hurairah 0.9.2
+Mode ikuti, duduk, dan amati pilihan; enam keadaan idle, moving, sitting, observe, explain, blocked. Navigasi BFS tetap menggunakan petak dan pemeriksaan voxel. Pengamatan maksimal empat petak dari pemain ketika diperintah, otomatis kembali mengikuti bila pemain menjauh. Pose berjalan, duduk, arah badan, dan buku penjelasan ditambahkan pada renderer WebGL; animasi ringan peta 2D menghormati prefers-reduced-motion. Pergantian wilayah membawa Hurairah ke gerbang aman. Posisi tersimpan, mode perilaku direset saat memuat cadangan atau berpindah wilayah. Uji regresi DOM 45/45. Belum ada AI generatif atau pengujian visual Android nyata.
