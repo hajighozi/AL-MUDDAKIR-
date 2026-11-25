@@ -24,6 +24,20 @@ for(let i=0;i<5;i++){nodes.questlist.children[i].click();nodes.questbody.childre
 nodes.save.click();const saved=JSON.parse([...storage.values()][0]);check("Save all quest progress",Object.keys(saved.quests).length===5&&Object.values(saved.quests).every(v=>v===3));
 nodes.selftest.click();check("Internal diagnostics 16/16",nodes.testresult.textContent.startsWith("16/16 lulus"));
 nodes.reset.click();nodes.reset.click();check("Reset save and initial quest",storage.size===0&&nodes.info.textContent.includes("Halaman Nagari")&&nodes.questbody.children.some(x=>x.textContent.startsWith("IQRA’"))&&nodes.questlist.children[0].textContent==="Misteri Buku yang Hilang");
+
+nodes.east.click();for(let j=0;j<100;j++)interval();
+check("Travel east across region",nodes.region.textContent.includes("(1, 0)")&&nodes.sites.hidden);
+check("Only 400 tiles rendered in new region",nodes.board.children.length===400);
+modes[2].click();nodes.board.children[42].click();nodes.save.click();let eastSave=JSON.parse([...storage.values()][0]);
+check("Edit new region",eastSave.map[2][2]==="w");
+nodes.west.click();for(let j=0;j<100;j++)interval();
+check("Return to Nagari",nodes.region.textContent.includes("(0, 0)")&&!nodes.sites.hidden);
+nodes.east.click();for(let j=0;j<100;j++)interval();nodes.save.click();let next=JSON.parse([...storage.values()][0]);
+check("Region edit retained on revisit",next.map[2][2]==="w"&&next.world.cx===1);
+check("Visited region count",nodes.region.textContent.includes("2 wilayah dikunjungi"));
+check("Saved region archive",Object.keys(next.world.regions).length===1&&Array.isArray(next.world.regions["0,0"]));
+nodes.reset.click();nodes.reset.click();check("Reset atlas",nodes.region.textContent.includes("(0, 0)")&&nodes.region.textContent.includes("1 wilayah dikunjungi"));
+
 return tests;
 };
 const tests=regression(html);for(const t of tests)console.log((t.pass?'PASS ':'FAIL ')+t.name);console.log(tests.filter(t=>t.pass).length+'/'+tests.length+' passed');if(tests.some(t=>!t.pass))process.exitCode=1;
