@@ -1,5 +1,5 @@
 /* Hurairah World: cache only its own static assets. */
-const CACHE="hurairah-world-081";
+const CACHE="hurairah-world-090";
 const ROOT=new URL("./",self.registration.scope);
 const INDEX=new URL("./index.html",ROOT).href;
 const assets=["./index.html","./manifest.webmanifest","./icon.svg"].map(x=>new URL(x,ROOT).href);
