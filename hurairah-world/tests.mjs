@@ -51,6 +51,13 @@ nodes.save.click();let roof=JSON.parse([...storage.values()][0]);check("Walk und
 nodes.east.click();for(let j=0;j<100;j++)interval();nodes.west.click();for(let j=0;j<100;j++)interval();nodes.save.click();let ret=JSON.parse([...storage.values()][0]);check("Layer persists across regions",ret.world.layers["0,0"]["8,8,2"]==="w");
 nodes.reset.click();nodes.reset.click();check("Reset clears blocks",nodes.voxelcount.textContent.startsWith("0 /"));
 
+
+nodes.catsit.click();nodes.save.click();let beforeSit=JSON.parse([...storage.values()][0]);dirs[2].click();for(let j=0;j<20;j++)interval();nodes.save.click();let afterSit=JSON.parse([...storage.values()][0]);check("Sit stays in place",beforeSit.cat.join()===afterSit.cat.join()&&nodes.catmood.textContent.includes("menunggu"));
+nodes.catfollow.click();for(let j=0;j<20;j++)interval();nodes.save.click();let afterFollow=JSON.parse([...storage.values()][0]);check("Follow resumes",Math.abs(afterFollow.p[0]-afterFollow.cat[0])+Math.abs(afterFollow.p[1]-afterFollow.cat[1])===1);
+modes[1].click();nodes.board.children[209].click();nodes.catobserve.click();for(let j=0;j<20;j++)interval();check("Observe command",nodes.catmood.textContent.includes("Mengamati"));
+nodes.catfollow.click();nodes.ask.value="pohon";nodes.question.onsubmit({preventDefault(){}});let explained=nodes.catmood.textContent.includes("Menjelaskan");for(let j=0;j<20;j++){interval();explained=explained||nodes.catmood.textContent.includes("Menjelaskan");}check("Knowledge explanation state",explained);
+nodes.reset.click();nodes.reset.click();check("Reset companion mode",nodes.catmood.textContent.includes("mode mengikuti"));
+
 return tests;
 };
 const tests=regression(html);for(const t of tests)console.log((t.pass?'PASS ':'FAIL ')+t.name);console.log(tests.filter(t=>t.pass).length+'/'+tests.length+' passed');if(tests.some(t=>!t.pass))process.exitCode=1;
