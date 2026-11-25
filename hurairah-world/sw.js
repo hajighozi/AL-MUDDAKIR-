@@ -1,0 +1,7 @@
+/* Offline cache limited to Hurairah World's own scope. */
+const CACHE="hurairah-world-080";
+const ROOT=new URL("./",self.registration.scope);
+const assets=["./","./index.html","./manifest.webmanifest","./icon.svg"].map(x=>new URL(x,ROOT).href);
+self.addEventListener("install",event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(assets)).then(()=>self.skipWaiting()));});
+self.addEventListener("activate",event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith("hurairah-world-")&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
+self.addEventListener("fetch",event=>{const url=new URL(event.request.url);if(event.request.method!=="GET"||url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return;if(event.request.mode==="navigate"){event.respondWith(fetch(event.request).then(response=>{if(response.ok&&[ROOT.pathname,ROOT.pathname+"index.html"].includes(url.pathname)){const copy=response.clone();event.waitUntil(caches.open(CACHE).then(cache=>cache.put(new URL("./index.html",ROOT).href,copy)));}return response;}).catch(()=>caches.match(new URL("./index.html",ROOT).href).then(response=>response||new Response("Buka Hurairah World saat online terlebih dahulu.",{status:503}))));return;}if(!assets.includes(url.href))return;event.respondWith(caches.match(event.request).then(response=>response||fetch(event.request)));});
