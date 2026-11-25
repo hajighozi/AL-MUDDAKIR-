@@ -1,4 +1,4 @@
-# Hurairah World — Web Edition 0.8.0
+# Hurairah World — Web Edition 0.8.1
 
 Prototipe pendidikan Raudhah’s Dome, cabang hurairah-web-stable. Tidak mengubah aplikasi utama.
 
@@ -31,3 +31,9 @@ Belum merupakan Minecraft lengkap: gerakan diskret, dunia terbatas, satu jenis o
 8. Di HTTPS setelah cache siap, uji reload offline.
 9. Uji WebGL gagal atau context loss; peta tetap berfungsi.
 10. Uji layar kecil, touch, keyboard, navigasi aksesibilitas.
+
+## Regresi otomatis (0.8.1)
+Dari folder hurairah-world jalankan `node tests.mjs`. Tidak perlu npm install. Suite memeriksa 26 kasus menggunakan simulasi DOM: startup, fallback WebGL, navigasi, jurnal, kelima cerita, penyimpanan, diagnostik internal dan reset. Ini bukan browser sungguhan; uji WebGL dan offline Android tetap diperlukan.
+
+## Pemulihan
+Jika grafis 3D gagal, pilih Peta 2D. Jika konteks grafis pulih, pilih Dunia 3D kembali. Ekspor JSON sebelum menghapus penyimpanan browser. Cache offline 0.8.1 hanya melayani beranda permainan dan asetnya sendiri.
