@@ -42,5 +42,5 @@ document.addEventListener("click",e=>{if(pending&&e.target!==$("reset")){pending
 $("call").onclick=()=>{catState=C.follow(s);reply(catState==="Terhalang"?"Belum ada jalur menuju pemain. Coba buka jalan.":"Aku akan mencari jalan di dekatmu.");render();};
 render();status("Ketuk petak atau pilih tempat untuk berjalan.");
 setInterval(()=>{let changed=false;if(path.length){if(C.move(s,path[0])){path.shift();changed=true;if(!path.length)status("Perjalanan selesai.");}else{path=[];status("Perjalanan terhalang.");}}let before=[...s.cat],prior=catState;catState=C.follow(s);if(changed||!C.same(before,s.cat)||prior!==catState)render();},180);
-}catch(e){$("fatal").textContent="Game tidak dapat dimulai: "+e.message;}})();
+}catch(e){document.getElementById("fatal").textContent="Game tidak dapat dimulai: "+e.message;}})();
 </script></body></html>
