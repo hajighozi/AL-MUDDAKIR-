@@ -57,3 +57,16 @@ Repositori ini **publik**. Jangan mengunggah data pribadi santri, refleksi priba
 ---
 
 *README ini adalah pintu masuk proyek; uraian dan catatan audit yang lebih lengkap berada dalam [dokumen kesimpulan induk](docs/THROWBADLY_PROJECT_CONCLUSION.md).*
+
+
+## Peta modul dan cabang kerja
+
+Baca [tata kelola branch dan alur merge](docs/BRANCH_WORKFLOW.md) sebelum mengembangkan modul. `main` adalah baseline terintegrasi, `raudhah-integrated` adalah staging, dan cabang fitur dipisahkan menurut mandat. Kode dalam repo publik bukan seluruh korpus privat.
+
+## Checkpoint integrasi R-129
+
+- [Register integrasi Qur’an, Hadis, Kitab IQRA’ dan tiga fakultas](docs/R129_INTEGRATION_CHECKPOINT.md)
+- [Alam, Peradaban, Matematika — pilot offline 0.1](al-muddakir-faculties/index.html) · [data dan cara uji](al-muddakir-faculties/README.md)
+- [Hurairah World v0.9.2](hurairah-world/index.html)
+
+Semua pelajaran baru berstatus draf; korpus privat tidak dimigrasikan ke repo publik.

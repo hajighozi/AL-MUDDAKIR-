@@ -1,0 +1,48 @@
+# Hurairah World — Web Edition 0.9.2
+
+Prototipe pendidikan Raudhah’s Dome. Pengembangan pada hurairah-web-stable; baseline terintegrasi melalui PR.
+
+## Menjalankan
+Buka index.html dalam browser. Tidak memerlukan instalasi, npm, akun, API, atau server untuk mode permainan lokal. Pada hosting HTTPS, service worker mencoba menyimpan aset lokal agar sesi berikutnya dapat dibuka offline. Pemasangan sebagai PWA bergantung pada dukungan browser.
+
+## Alur
+- Dunia 20 × 20 petak, peta 2D dan visualisasi WebGL first-person dari keadaan dunia yang sama.
+- Gerak petak, kamera putar, konstruksi satu petak, pengambilan objek, navigasi BFS Hurairah, empat lokasi.
+- Kitab Penemuan dan filter lima ranah IQRA’. Materi adalah draf pengantar, belum audit kitab/kurikulum.
+- Lima cerita opsional: Misteri Buku, Bayangan, Anugerah Ilmu, Ruang Bersama, Kebun.
+- Refleksi dan gagasan khidmah tidak menilai iman. Kegiatan luar game bersifat pilihan.
+- Simpan lokal, ekspor/impor JSON, data versi lama kompatibel.
+- Diagnostik internal menjalankan uji fungsi permainan tanpa mengubah dunia pemain.
+
+## Publikasi
+Gunakan host statis HTTPS. GitHub Pages memerlukan konfigurasi oleh pemilik repositori. Jika repo sudah memakai Pages untuk aplikasi utama, jangan ubah sumber deploy tanpa memeriksa dampaknya. Alamat yang direncanakan untuk deployment dari root cabang: https://hajighozi.github.io/AL-MUDDAKIR-/hurairah-world/
+
+## Batas versi
+Belum merupakan Minecraft lengkap: gerakan diskret, 81 wilayah, lapisan voxel tambahan 0–5 dan batas 10.000 blok; tidak ada multiplayer, akun, AI generatif, atau audio. Bangunan 3D berupa model blok berlapis; belum ada gravitasi atau elevasi medan. Ilmu draf perlu verifikasi guru dan sumber. WebGL, kinerja Android, cache offline serta ekspor/impor harus diperiksa di browser. Jangan menganggap jumlah tes logika sebagai bukti uji pengguna atau rilis produksi.
+
+## Uji penerimaan
+1. Buka website; klik Dunia 3D, kemudian Peta 2D. Posisi harus sama.
+2. Kunjungi empat lokasi; periksa Hurairah mengikuti.
+3. Bangun dan ambil objek; pastikan tidak dapat menimpa pemain/kucing.
+4. Teliti objek; filter Kitab Penemuan.
+5. Selesaikan cerita opsional dan coba ulang.
+6. Simpan, muat ulang; ekspor cadangan, impor setelah konfirmasi.
+7. Jalankan diagnostik; periksa hasil.
+8. Di HTTPS setelah cache siap, uji reload offline.
+9. Uji WebGL gagal atau context loss; peta tetap berfungsi.
+10. Uji layar kecil, touch, keyboard, navigasi aksesibilitas.
+
+## Regresi otomatis (0.9.2)
+Dari folder hurairah-world jalankan `node tests.mjs`. Tidak perlu npm install. Suite memeriksa 45 kasus menggunakan simulasi DOM: startup, fallback WebGL, navigasi, jurnal, kelima cerita, penyimpanan, diagnostik internal dan reset. Ini bukan browser sungguhan; uji WebGL dan offline Android tetap diperlukan.
+
+## Pemulihan
+Jika grafis 3D gagal, pilih Peta 2D. Jika konteks grafis pulih, pilih Dunia 3D kembali. Ekspor JSON sebelum menghapus penyimpanan browser. Cache offline 0.9.2 hanya melayani beranda permainan dan asetnya sendiri.
+
+## Atlas wilayah 0.9.0
+81 wilayah (koordinat -4 hingga +4), masing-masing 20×20 petak, digenerasikan deterministik dari seed. Tombol arah berjalan ke gerbang lalu memuat wilayah tetangga. Hurairah muncul di petak aman di samping gerbang. Perubahan peta wilayah yang ditinggalkan dipertahankan dalam data simpan, dan progres belajar bersifat global. Save versi 0.8.x yang valid dapat dimigrasikan. Wilayah bukan dunia tak terbatas atau streaming seamless; belum ada elevasi medan atau tumpukan voxel. Cache versi 090. Uji browser nyata tetap diperlukan.
+
+## Konstruksi berlapis 0.9.1
+Pilih Bengkel voxel → Lapisan 0–5 atau Dasar. Lapisan tambahan tersimpan per wilayah, maksimum 10.000 blok. Lapisan 0–1 memblokir navigasi pemain dan Hurairah; lapisan 2–5 menyediakan ruang untuk atap atau bentuk dekoratif. Peta 2D menampilkan lapisan yang dipilih; 3D menampilkan semua lapisan. Bangun/ambil di petak yang ditunjuk dengan lapisan pilihan. Gerbang dan jalur masuk dilindungi. Model ini belum memiliki gravitasi, tangga yang dapat dinaiki, simulasi struktur, atau penempatan blok berdasarkan sisi permukaan. Data simpan lama yang valid tetap didukung. Uji regresi DOM: 40/40. Uji nyata Android dan WebGL belum selesai.
+
+## Living Hurairah 0.9.2
+Mode ikuti, duduk, dan amati pilihan; enam keadaan idle, moving, sitting, observe, explain, blocked. Navigasi BFS tetap menggunakan petak dan pemeriksaan voxel. Pengamatan maksimal empat petak dari pemain ketika diperintah, otomatis kembali mengikuti bila pemain menjauh. Pose berjalan, duduk, arah badan, dan buku penjelasan ditambahkan pada renderer WebGL; animasi ringan peta 2D menghormati prefers-reduced-motion. Pergantian wilayah membawa Hurairah ke gerbang aman. Posisi tersimpan, mode perilaku direset saat memuat cadangan atau berpindah wilayah. Uji regresi DOM 45/45. Belum ada AI generatif atau pengujian visual Android nyata.
