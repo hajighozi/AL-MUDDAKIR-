@@ -1,0 +1,7 @@
+"use strict";
+const data=JSON.parse(document.getElementById("data").textContent);
+const $=id=>document.getElementById(id),node=(tag,text)=>{let e=document.createElement(tag);if(text!==undefined)e.textContent=text;return e};
+const labels={located:"Lokator ditemukan · belum disahkan",discovery:"Perlu sumber spesifik",source_gap:"Belum ada kandidat"};
+function filterQueue(q,faculty,status,query){let s=query.trim().toLowerCase();return q.filter(x=>(faculty==="all"||x.faculty===faculty)&&(status==="all"||x.status===status)&&(!s||(x.pathId+" "+x.topic).toLowerCase().includes(s)))}
+function render(){let matches=filterQueue(data.queue,$("faculty").value,$("status").value,$("query").value);$("count").textContent=matches.length+" dari "+data.queue.length+" Fashl";$("queue").replaceChildren();for(const q of matches){let a=node("article");a.className="panel";a.append(node("h3",q.pathId+" · "+q.topic),node("p",labels[q.status]));for(const id of q.recordIds){let r=data.records.find(v=>v.id===id);if(!r)continue;let b=node("section");b.className="panel";let link=node("a",r.publisher+" — "+r.title);link.href=r.url; b.append(link,node("p",r.locator),node("p","Klaim draf: "+r.claim),node("p","Batas: "+r.limitation),node("p","Akses: cuplikan pencarian · Rujukan saja · Review manusia diperlukan"));a.append(b)}if(!q.recordIds.length)a.append(node("p",q.sourceIds.length?"Kandidat umum: "+q.sourceIds.join(", "):"Cari rujukan khusus."));$("queue").append(a)}}
+for(const id of ["faculty","status","query"])$(id).addEventListener(id==="query"?"input":"change",render);render();

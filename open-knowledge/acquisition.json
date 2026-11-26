@@ -1,0 +1,865 @@
+{
+  "version": "0.1.0",
+  "checkpoint": "R-135",
+  "status": "draft",
+  "policy": "Lokator ditemukan melalui cuplikan pencarian; bukan pembacaan seluruh halaman, bukan tahqiq atau persetujuan ahli. Tidak ada konten penuh pihak ketiga disalin. Hak reproduksi belum diberikan. Catatan penelaahan lokal tidak mengubah status resmi.",
+  "records": [
+    {
+      "id": "ACQ-001",
+      "pathId": "fa-001",
+      "publisher": "About Tajweed",
+      "title": "Places of Articulation",
+      "url": "https://abouttajweed.com/tajweed-rules/32-articulation-points-and-articulation-areas-of-the-arabic-letters/19-places-of-articulation",
+      "locator": "Introduction to articulation points",
+      "claim": "Makharij membantu mengenali tempat pembentukan bunyi huruf Arab.",
+      "limitation": "Talaqqi dan koreksi guru; tidak menilai pengucapan secara otomatis.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-002",
+      "pathId": "fa-002",
+      "publisher": "About Tajweed",
+      "title": "Noon Saakinah and Tanween",
+      "url": "https://www.abouttajweed.com/index.php/tajweed-rules/47-the-noon-saakinah-and-tanween/34-noon-saakinah-and-tanween",
+      "locator": "Pembahasan empat hukum bacaan",
+      "claim": "Ada empat kategori hukum nun sukun dan tanwin; penerapannya perlu dibimbing.",
+      "limitation": "Periksa contoh dan riwayat bacaan bersama guru tajwid.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-003",
+      "pathId": "ma-007",
+      "publisher": "OpenStax",
+      "title": "Introduction to Philosophy",
+      "url": "https://openstax.org/books/introduction-philosophy/pages/1-2-how-do-philosophers-arrive-at-truth",
+      "locator": "§1.2 — conceptual analysis",
+      "claim": "Analisis konsep membantu memperjelas definisi dan cakupannya.",
+      "limitation": "Rujukan konsep modern, bukan tahqiq definisi ta‘rif dalam mantiq klasik.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-004",
+      "pathId": "ma-008",
+      "publisher": "OpenStax",
+      "title": "Introduction to Philosophy",
+      "url": "https://openstax.org/books/introduction-philosophy/pages/5-4-types-of-inferences",
+      "locator": "§5.4 — deductive inference",
+      "claim": "Argumen deduktif valid apabila tidak mungkin premisnya benar dan kesimpulannya salah.",
+      "limitation": "Validitas berbeda dari kebenaran premis; belum membandingkan syarah mantiq klasik.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-005",
+      "pathId": "al-006",
+      "publisher": "OpenStax",
+      "title": "Chemistry 2e",
+      "url": "https://openstax.org/books/chemistry-2e/pages/10-3-phase-transitions",
+      "locator": "§10.3 — Phase Transitions",
+      "claim": "Peleburan merupakan perubahan fase dari padat ke cair.",
+      "limitation": "Gunakan observasi es pada suhu ruang; sumber tingkat lanjut untuk guru.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-006",
+      "pathId": "al-011",
+      "publisher": "OpenStax",
+      "title": "Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body",
+      "locator": "§30.1 — The Plant Body",
+      "claim": "Tumbuhan berpembuluh memiliki sistem akar dan sistem tajuk.",
+      "limitation": "Batasi objek pada tumbuhan berpembuluh; jangan generalisasikan ke semua organisme fotosintetik.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    },
+    {
+      "id": "ACQ-007",
+      "pathId": "ma-003",
+      "publisher": "OpenStax",
+      "title": "Prealgebra 2e",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/9-4-use-properties-of-rectangles-triangles-and-trapezoids",
+      "locator": "§9.4 — area of rectangles",
+      "claim": "Luas persegi panjang merupakan hasil kali panjang dan lebar dalam satuan yang sesuai.",
+      "limitation": "Bedakan luas dari keliling; gunakan petak satuan sebelum rumus.",
+      "access": "search_excerpt_inspected",
+      "checkedDate": "2026-11-26",
+      "rights": "reference_only",
+      "fullTextImported": false,
+      "editorialStatus": "draft",
+      "reviewer": null,
+      "reviewDate": null,
+      "claimVerification": "pending_human_review"
+    }
+  ],
+  "queue": [
+    {
+      "pathId": "fa-001",
+      "faculty": "quran",
+      "topic": "Pengenalan tempat keluarnya huruf",
+      "sourceIds": [],
+      "recordIds": [
+        "ACQ-001"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-002",
+      "faculty": "quran",
+      "topic": "Nun sukun dan tanwin",
+      "sourceIds": [],
+      "recordIds": [
+        "ACQ-002"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-003",
+      "faculty": "quran",
+      "topic": "Isim mu‘rab",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-004",
+      "faculty": "quran",
+      "topic": "Fi‘il mudhari‘",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-005",
+      "faculty": "quran",
+      "topic": "Al-Qur’an dengan Al-Qur’an",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-006",
+      "faculty": "quran",
+      "topic": "Al-Qur’an dengan Sunnah",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-007",
+      "faculty": "quran",
+      "topic": "Asbab nuzul",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-008",
+      "faculty": "quran",
+      "topic": "Tema sosial",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-009",
+      "faculty": "quran",
+      "topic": "‘Amm dan khass",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "fa-010",
+      "faculty": "quran",
+      "topic": "Hubungan niat dan perbuatan",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-001",
+      "faculty": "hadis",
+      "topic": "Identitas perawi",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-002",
+      "faculty": "hadis",
+      "topic": "Syarat kesahihan",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-003",
+      "faculty": "hadis",
+      "topic": "Identitas kitab dan nomor hadis",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-004",
+      "faculty": "hadis",
+      "topic": "Jarh wa ta‘dil",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-005",
+      "faculty": "hadis",
+      "topic": "Perbedaan lafaz",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-006",
+      "faculty": "hadis",
+      "topic": "I‘rab dan tashrif",
+      "sourceIds": [
+        "QAC",
+        "STANZA"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-007",
+      "faculty": "hadis",
+      "topic": "Batas istinbath",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ha-008",
+      "faculty": "hadis",
+      "topic": "Amanah dan kasih sayang",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-001",
+      "faculty": "lughah",
+      "topic": "Isim mu‘rab",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-002",
+      "faculty": "lughah",
+      "topic": "Isim mabni",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-003",
+      "faculty": "lughah",
+      "topic": "Fi‘il madhi",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-004",
+      "faculty": "lughah",
+      "topic": "Fi‘il mudhari‘",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-005",
+      "faculty": "lughah",
+      "topic": "Harf jar",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-006",
+      "faculty": "lughah",
+      "topic": "Pola فَاعِلٌ",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-007",
+      "faculty": "lughah",
+      "topic": "Pola مَفْعُولٌ",
+      "sourceIds": [
+        "QAC"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-008",
+      "faculty": "lughah",
+      "topic": "Kesesuaian ungkapan dengan konteks",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "lu-009",
+      "faculty": "lughah",
+      "topic": "Tasybih",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-001",
+      "faculty": "alam",
+      "topic": "Gerak lurus beraturan",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-002",
+      "faculty": "alam",
+      "topic": "Gerak lurus berubah beraturan",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-003",
+      "faculty": "alam",
+      "topic": "Hukum Newton",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-004",
+      "faculty": "alam",
+      "topic": "Kesetimbangan translasi",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-005",
+      "faculty": "alam",
+      "topic": "Cahaya dan bayangan",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "ALM-01"
+    },
+    {
+      "pathId": "al-006",
+      "faculty": "alam",
+      "topic": "Air dan perubahan wujud",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "recordIds": [
+        "ACQ-005"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": "ALM-02"
+    },
+    {
+      "pathId": "al-007",
+      "faculty": "alam",
+      "topic": "Unsur dan senyawa",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-008",
+      "faculty": "alam",
+      "topic": "Spektrum cahaya",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-009",
+      "faculty": "alam",
+      "topic": "Xilem dan floem",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-010",
+      "faculty": "alam",
+      "topic": "Reaksi terang",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-011",
+      "faculty": "alam",
+      "topic": "Tumbuhan di sekitar",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [
+        "ACQ-006"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": "ALM-03"
+    },
+    {
+      "pathId": "al-012",
+      "faculty": "alam",
+      "topic": "Interaksi makhluk hidup",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-013",
+      "faculty": "alam",
+      "topic": "Jarak bintang",
+      "sourceIds": [
+        "OS",
+        "MIT-OCW"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "al-014",
+      "faculty": "alam",
+      "topic": "Jenis batuan",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "pr-001",
+      "faculty": "peradaban",
+      "topic": "Jejak sejarah",
+      "sourceIds": [
+        "DIG"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "PRD-01"
+    },
+    {
+      "pathId": "pr-002",
+      "faculty": "peradaban",
+      "topic": "Berita dan sumber",
+      "sourceIds": [
+        "DIG"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "PRD-03"
+    },
+    {
+      "pathId": "pr-003",
+      "faculty": "peradaban",
+      "topic": "Tanggung jawab antaranggota",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "pr-004",
+      "faculty": "peradaban",
+      "topic": "Nagari dan kerja sama",
+      "sourceIds": [
+        "DIG"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "PRD-02"
+    },
+    {
+      "pathId": "pr-005",
+      "faculty": "peradaban",
+      "topic": "Tradisi dan perubahan",
+      "sourceIds": [
+        "DIG",
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "pr-006",
+      "faculty": "peradaban",
+      "topic": "Produksi dan distribusi",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "pr-007",
+      "faculty": "peradaban",
+      "topic": "Pengambilan keputusan bersama",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "pr-008",
+      "faculty": "peradaban",
+      "topic": "Peta lingkungan",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-001",
+      "faculty": "matematika",
+      "topic": "Operasi hitung",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-002",
+      "faculty": "matematika",
+      "topic": "Pola dan generalisasi",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "MAT-01"
+    },
+    {
+      "pathId": "ma-003",
+      "faculty": "matematika",
+      "topic": "Luas petak",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "recordIds": [
+        "ACQ-007"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": "MAT-02"
+    },
+    {
+      "pathId": "ma-004",
+      "faculty": "matematika",
+      "topic": "Data dan kesimpulan",
+      "sourceIds": [
+        "OS",
+        "MIT-CT"
+      ],
+      "recordIds": [],
+      "priority": "pilot_source",
+      "status": "discovery",
+      "pilot": "MAT-03"
+    },
+    {
+      "pathId": "ma-005",
+      "faculty": "matematika",
+      "topic": "Persamaan linear",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-006",
+      "faculty": "matematika",
+      "topic": "Simetri",
+      "sourceIds": [
+        "OS"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-007",
+      "faculty": "matematika",
+      "topic": "Batas konsep",
+      "sourceIds": [],
+      "recordIds": [
+        "ACQ-003"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-008",
+      "faculty": "matematika",
+      "topic": "Validitas inferensi",
+      "sourceIds": [],
+      "recordIds": [
+        "ACQ-004"
+      ],
+      "priority": "located_review",
+      "status": "located",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-009",
+      "faculty": "matematika",
+      "topic": "Percabangan dan perulangan",
+      "sourceIds": [
+        "MIT-CT"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    },
+    {
+      "pathId": "ma-010",
+      "faculty": "matematika",
+      "topic": "Contoh dan kontra-contoh",
+      "sourceIds": [
+        "MIT-OCW"
+      ],
+      "recordIds": [],
+      "priority": "general_source",
+      "status": "discovery",
+      "pilot": null
+    }
+  ]
+}
