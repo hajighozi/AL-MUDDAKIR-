@@ -1,0 +1,7 @@
+# R-138 — Sarang Lebah Baginda Nabi Minangkaba
+Status C/draft. Cabang Surau Shift (TAZKIYAH), sekaligus metafora kerja sama; bukan hierarki nilai manusia. QS An-Nahl 68–69 sebagai bahan tadabur bersama guru, bukan bukti empiris efektivitas metode.
+Tujuan teramati: mendengarkan, menyampaikan alasan, berbagi tugas, meminta bantuan, memperbaiki kesalahan. Raso pareso: pertimbangan rasa dan pemeriksaan alasan; rumusan adat perlu telaah pemangku adat. Kato nan ampek digunakan dengan hormat, bukan alasan membungkam murid.
+Contoh 35 menit: kelompok kecil merawat sudut baca. 5 menit memahami kebutuhan, 5 memilih peran bergilir, 15 bekerja, 5 memeriksa hasil bersama, 5 umpan balik. Murid boleh memilih peran lain atau kegiatan setara. Guru memodelkan kalimat "Saya melihat..., bagaimana menurutmu?" dan menengahi jika terjadi konflik. Tidak ada hukuman sosial atau peringkat kesalehan.
+Bukti: pekerjaan selesai sesuai kesepakatan, alasan yang disampaikan, giliran yang dihormati, kesempatan memperbaiki. Refleksi pribadi sukarela. Rubrik 0 belum diperagakan/1 dengan bantuan/2 mandiri, atau belum diamati; hanya keterampilan teramati, tidak mengukur iman.
+Jika terjadi perundungan, hentikan tindakan, lindungi anak, dengarkan tanpa mempermalukan, libatkan orang dewasa yang bertanggung jawab dan prosedur perlindungan. Jangan mewajibkan korban berdamai.
+Review: murabbi, pemangku adat, ahli perkembangan dan perlindungan anak; pilot kecil dengan izin, tidak mengumpulkan data pribadi di repo publik. Belum diuji.
