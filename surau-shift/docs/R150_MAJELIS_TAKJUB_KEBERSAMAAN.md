@@ -1,0 +1,8 @@
+# R-150 addendum — Majelis Takjub dan Kebersamaan
+Status: arahan filosofis pengguna; nama dan desain kegiatan usulan C/draft, belum validasi.
+## Arah
+Orang dengan mazhab fikih, tradisi aqidah dan tasawuf berbeda dapat duduk bersama, minum kopi atau minuman lain, bercerita, belajar dan berkhidmah. Tujuannya bukan kemenangan golongan, melainkan ketakjuban terhadap kebesaran Allah serta menunaikan kewajiban kepada Allah dan amanah terhadap manusia dan alam. Penghambaan kepada Allah dibedakan dari tanggung jawab terhadap makhluk.
+## Usulan budaya Surau Shift / Sarang Lebah
+Majelis Takjub dan Kebersamaan: ruang percakapan sukarela, mendengarkan, berbagi pengamatan atas alam, membaca sumber sesuai kompetensi, mendiskusikan perbedaan dengan adab, dan memilih khidmah sipil bersama. Tidak mengharuskan perubahan mazhab, afiliasi tarekat, pengakuan batin atau kesepakatan teologis. Tidak meniadakan kritik ilmiah. Raso pareso, penghormatan martabat, kebebasan bertanya, perlindungan anak dan privasi berlaku. Minuman sesuai usia dan kebutuhan; tidak menjadi syarat kegiatan. Perawatan alam dan manusia dilakukan secara aman sesuai kemampuan.
+## Audit
+Kandidat dalil: QS 3:190–191 (tafakkur dan dzikir), 49:13 (saling mengenal), 5:2 (tolong-menolong dalam kebajikan), hadis hak Allah atas hamba dan hadis hak diri/keluarga; perlu tahqiq konteks, sumber, edisi dan lokator. Rujuk R150_TAZKIYAH_DIVERSITY_ATLAS.md dan R150_ADAB_BERMAZHAB_TAZKIYAH.md. Tidak mengklaim efektivitas atau pengesahan agama. Audit korpus asli tetap terbuka; tidak mengubah main atau merge.
