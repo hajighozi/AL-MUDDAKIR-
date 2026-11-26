@@ -1,0 +1,1912 @@
+{
+  "checkpoint": "R-150.2",
+  "status": "draft_audit_public_registry_only",
+  "baseline": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+  "sourceFiles": [
+    {
+      "path": "knowledge-core/registry.json",
+      "sha": "048a02b739201b48b6e1caa909b539bd719ca947"
+    },
+    {
+      "path": "learning-core/pedagogy.json",
+      "sha": "9045d459b27a5af866804910dc820ea851bc6bd2"
+    },
+    {
+      "path": "open-knowledge/sources.json",
+      "sha": "1fa8a1e5dd139954055e3a309cf789ca9b307f70"
+    },
+    {
+      "path": "open-knowledge/acquisition.json",
+      "sha": "5444aa37023a93fe63ab36aac89cd72c4f96877e"
+    },
+    {
+      "path": "open-knowledge/turats.json",
+      "sha": "1d8908d997f8f0f102bde47c5bc29d95110401f0"
+    },
+    {
+      "path": "al-muddakir-faculties/curriculum.json",
+      "sha": "b7714cae463de78adb2dd51fbd0e9e5d4977957c"
+    }
+  ],
+  "originalArchiveAudit": "BLOCKED: file access size limit; no contents, hashes, or 398-node extraction checked",
+  "policy": "Candidate links are not evidence of claims. Keep stable IDs; original corpus labels are not source locators; no approval from structural tests.",
+  "summary": {
+    "rows": 59,
+    "located": 7,
+    "withBook": 29,
+    "withoutBook": 30,
+    "withSourceCandidate": 55,
+    "withoutSourceCandidate": 4,
+    "withoutAnyCandidate": [],
+    "locatedWithoutBook": [
+      "al-006",
+      "al-011",
+      "ma-003"
+    ],
+    "tests": [
+      {
+        "name": "59 rows",
+        "pass": true
+      },
+      {
+        "name": "unique path IDs",
+        "pass": true
+      },
+      {
+        "name": "source mapping unique and complete",
+        "pass": true
+      },
+      {
+        "name": "acquisition queue unique and complete",
+        "pass": true
+      },
+      {
+        "name": "faculty consistency",
+        "pass": true
+      },
+      {
+        "name": "topic consistency",
+        "pass": true
+      },
+      {
+        "name": "acquisition record path consistency",
+        "pass": true
+      },
+      {
+        "name": "pilot identity and faculty consistency",
+        "pass": true
+      },
+      {
+        "name": "valid competency level IDs",
+        "pass": true
+      },
+      {
+        "name": "source candidate ID integrity",
+        "pass": true
+      },
+      {
+        "name": "book mapping integrity",
+        "pass": true
+      },
+      {
+        "name": "no accidental approval",
+        "pass": true
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": "fa-001",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Ulumul Qur’an",
+      "anak": "Tajwid",
+      "cucu": "Makharij",
+      "fashl": "Pengenalan tempat keluarnya huruf",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-001"
+      ],
+      "bookCandidateIds": [
+        "t-05"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-002",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Ulumul Qur’an",
+      "anak": "Tajwid",
+      "cucu": "Hukum bacaan",
+      "fashl": "Nun sukun dan tanwin",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-002"
+      ],
+      "bookCandidateIds": [
+        "t-06"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-003",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Isim",
+      "fashl": "Isim mu‘rab",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01",
+        "t-02"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-004",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Fi‘il",
+      "fashl": "Fi‘il mudhari‘",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01",
+        "t-03"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-005",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Tafsir",
+      "anak": "Tafsir bi al-Ma’tsur",
+      "cucu": "Sumber riwayat",
+      "fashl": "Al-Qur’an dengan Al-Qur’an",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-08",
+        "t-09"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-006",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Tafsir",
+      "anak": "Tafsir bi al-Ma’tsur",
+      "cucu": "Sumber riwayat",
+      "fashl": "Al-Qur’an dengan Sunnah",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-08"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-007",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Tafsir",
+      "anak": "Tafsir bi ar-Ra’yi al-Mahmud",
+      "cucu": "Analisis konteks",
+      "fashl": "Asbab nuzul",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-07",
+        "t-08",
+        "t-09"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-008",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Tafsir",
+      "anak": "Tafsir maudhu‘i",
+      "cucu": "Pengumpulan ayat tematik",
+      "fashl": "Tema sosial",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-07",
+        "t-09"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-009",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Ushul fikih",
+      "anak": "Dalalah lafaz",
+      "cucu": "Keumuman dan kekhususan",
+      "fashl": "‘Amm dan khass",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-10"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "fa-010",
+      "faculty": "quran",
+      "forge": "Qauliyah",
+      "ibu": "Fikih",
+      "anak": "Kaidah fikih",
+      "cucu": "Kaidah dasar",
+      "fashl": "Hubungan niat dan perbuatan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-11"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-001",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Ulumul Hadis",
+      "anak": "Riwayah",
+      "cucu": "Sanad",
+      "fashl": "Identitas perawi",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-12"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-002",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Ulumul Hadis",
+      "anak": "Dirayah",
+      "cucu": "Kualitas riwayat",
+      "fashl": "Syarat kesahihan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-12",
+        "t-13"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-003",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Ulumul Hadis",
+      "anak": "Takhrij",
+      "cucu": "Pelacakan sumber",
+      "fashl": "Identitas kitab dan nomor hadis",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-14",
+        "t-15"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-004",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Ulumul Hadis",
+      "anak": "Kritik sanad",
+      "cucu": "Rijal",
+      "fashl": "Jarh wa ta‘dil",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-12",
+        "t-13"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-005",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Ulumul Hadis",
+      "anak": "Kritik matan",
+      "cucu": "Perbandingan redaksi",
+      "fashl": "Perbedaan lafaz",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-12",
+        "t-13",
+        "t-14",
+        "t-15",
+        "t-16",
+        "t-17"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-006",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Syarah hadis",
+      "anak": "Analisis lughawi",
+      "cucu": "Sorogan",
+      "fashl": "I‘rab dan tashrif",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "QAC",
+        "STANZA"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01",
+        "t-02",
+        "t-03"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-007",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Syarah hadis",
+      "anak": "Pemahaman",
+      "cucu": "Konteks",
+      "fashl": "Batas istinbath",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-10",
+        "t-16",
+        "t-17"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ha-008",
+      "faculty": "hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "ibu": "Sirah dan akhlak",
+      "anak": "Keteladanan",
+      "cucu": "Adab",
+      "fashl": "Amanah dan kasih sayang",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-14",
+        "t-15",
+        "t-16",
+        "t-17",
+        "t-18"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-001",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Isim",
+      "fashl": "Isim mu‘rab",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01",
+        "t-02"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-002",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Isim",
+      "fashl": "Isim mabni",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-003",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Fi‘il",
+      "fashl": "Fi‘il madhi",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-004",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Fi‘il",
+      "fashl": "Fi‘il mudhari‘",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-005",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Nahwu",
+      "cucu": "Huruf",
+      "fashl": "Harf jar",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-01",
+        "t-02"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-006",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Sharaf",
+      "cucu": "Isim fa‘il",
+      "fashl": "Pola فَاعِلٌ",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-03"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-007",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Sharaf",
+      "cucu": "Isim maf‘ul",
+      "fashl": "Pola مَفْعُولٌ",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "QAC"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-03"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-008",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Balaghah",
+      "cucu": "Ma‘ani",
+      "fashl": "Kesesuaian ungkapan dengan konteks",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-04"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "lu-009",
+      "faculty": "lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "ibu": "Bahasa Arab",
+      "anak": "Balaghah",
+      "cucu": "Bayan",
+      "fashl": "Tasybih",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OPENITI"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [
+        "t-04"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-001",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Mekanika klasik",
+      "cucu": "Kinematika",
+      "fashl": "Gerak lurus beraturan",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-002",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Mekanika klasik",
+      "cucu": "Kinematika",
+      "fashl": "Gerak lurus berubah beraturan",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-003",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Mekanika klasik",
+      "cucu": "Dinamika",
+      "fashl": "Hukum Newton",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-004",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Mekanika klasik",
+      "cucu": "Statika",
+      "fashl": "Kesetimbangan translasi",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-005",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Optika",
+      "cucu": "Cahaya",
+      "fashl": "Cahaya dan bayangan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "PHET",
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "ALM-01"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-006",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Fisika",
+      "anak": "Termodinamika",
+      "cucu": "Perubahan wujud",
+      "fashl": "Air dan perubahan wujud",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "PHET",
+        "OS"
+      ],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-005"
+      ],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "ALM-02"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-007",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Kimia",
+      "anak": "Kimia dasar",
+      "cucu": "Materi",
+      "fashl": "Unsur dan senyawa",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-008",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Kimia",
+      "anak": "Kimia analitik",
+      "cucu": "Spektroskopi",
+      "fashl": "Spektrum cahaya",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "PHET",
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-009",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Biologi",
+      "anak": "Botani",
+      "cucu": "Jaringan tumbuhan",
+      "fashl": "Xilem dan floem",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-010",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Biologi",
+      "anak": "Botani",
+      "cucu": "Fotosintesis",
+      "fashl": "Reaksi terang",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-011",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Biologi",
+      "anak": "Botani",
+      "cucu": "Struktur tumbuhan",
+      "fashl": "Tumbuhan di sekitar",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-006"
+      ],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "ALM-03"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-012",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Biologi",
+      "anak": "Ekologi",
+      "cucu": "Ekosistem",
+      "fashl": "Interaksi makhluk hidup",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-013",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Astronomi",
+      "anak": "Astrometri",
+      "cucu": "Paralaks",
+      "fashl": "Jarak bintang",
+      "origin": "corpus-label",
+      "epistemicStatus": "B",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Korpus Cucu dan Fashl Forge — bagian terkait",
+      "originalLocatorStatus": "generic_label_only",
+      "sourceCandidateIds": [
+        "OS",
+        "MIT-OCW"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "locate_original_corpus_passage",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "al-014",
+      "faculty": "alam",
+      "forge": "Kauniyah",
+      "ibu": "Geologi",
+      "anak": "Ilmu bumi",
+      "cucu": "Batuan",
+      "fashl": "Jenis batuan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-001",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Sejarah",
+      "anak": "Historiografi",
+      "cucu": "Kronologi",
+      "fashl": "Jejak sejarah",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "DIG"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "PRD-01"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-002",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Sejarah",
+      "anak": "Kritik sumber",
+      "cucu": "Independensi kesaksian",
+      "fashl": "Berita dan sumber",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "DIG"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "PRD-03"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-003",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Usrah",
+      "anak": "Keluarga",
+      "cucu": "Relasi sosial",
+      "fashl": "Tanggung jawab antaranggota",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-004",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "‘Umran",
+      "anak": "Masyarakat",
+      "cucu": "Kerja sama",
+      "fashl": "Nagari dan kerja sama",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "DIG"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "PRD-02"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-005",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "‘Umran",
+      "anak": "Kebudayaan",
+      "cucu": "Adat",
+      "fashl": "Tradisi dan perubahan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "DIG",
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-006",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Iqtisad",
+      "anak": "Ekonomi",
+      "cucu": "Kegiatan ekonomi",
+      "fashl": "Produksi dan distribusi",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-007",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Siyasah",
+      "anak": "Tata masyarakat",
+      "cucu": "Musyawarah",
+      "fashl": "Pengambilan keputusan bersama",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "pr-008",
+      "faculty": "peradaban",
+      "forge": "Ijtima’iyah",
+      "ibu": "Geografi manusia",
+      "anak": "Permukiman",
+      "cucu": "Ruang dan manusia",
+      "fashl": "Peta lingkungan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-001",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Aritmetika",
+      "cucu": "Bilangan",
+      "fashl": "Operasi hitung",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-002",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Aljabar",
+      "cucu": "Barisan",
+      "fashl": "Pola dan generalisasi",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "MAT-01"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-003",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Geometri",
+      "cucu": "Bangun datar",
+      "fashl": "Luas petak",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-007"
+      ],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "MAT-02"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-004",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Statistika",
+      "cucu": "Representasi data",
+      "fashl": "Data dan kesimpulan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS",
+        "MIT-CT"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [
+        "MAT-03"
+      ],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "verify_pilot_claims_and_sources",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-005",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Aljabar",
+      "cucu": "Persamaan",
+      "fashl": "Persamaan linear",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-006",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Geometri",
+      "cucu": "Transformasi",
+      "fashl": "Simetri",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "OS"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-007",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Mantiq",
+      "anak": "Tashawwur",
+      "cucu": "Ta‘rif",
+      "fashl": "Batas konsep",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-003"
+      ],
+      "bookCandidateIds": [
+        "t-19",
+        "t-20"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-008",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Mantiq",
+      "anak": "Tashdiq",
+      "cucu": "Qiyas",
+      "fashl": "Validitas inferensi",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [],
+      "acquisitionStatus": "located",
+      "locatedReferenceIds": [
+        "ACQ-004"
+      ],
+      "bookCandidateIds": [
+        "t-19",
+        "t-20"
+      ],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "read_located_reference_in_full",
+        "verify_book_edition_and_passage",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-009",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Komputasi",
+      "anak": "Algoritma",
+      "cucu": "Urutan instruksi",
+      "fashl": "Percabangan dan perulangan",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "MIT-CT"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    },
+    {
+      "id": "ma-010",
+      "faculty": "matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "ibu": "Matematika",
+      "anak": "Pembuktian",
+      "cucu": "Argumen",
+      "fashl": "Contoh dan kontra-contoh",
+      "origin": "proposal",
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "originalSourceLabel": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+      "originalLocatorStatus": "proposal_not_primary_source",
+      "sourceCandidateIds": [
+        "MIT-OCW"
+      ],
+      "acquisitionStatus": "discovery",
+      "locatedReferenceIds": [],
+      "bookCandidateIds": [],
+      "pilotUnitIds": [],
+      "verificationStatus": "UNVALIDATED",
+      "auditStatus": "PENDING",
+      "requiredNext": [
+        "justify_proposed_classification",
+        "find_specific_reference",
+        "review_claim_evidence_and_rights"
+      ]
+    }
+  ]
+}
