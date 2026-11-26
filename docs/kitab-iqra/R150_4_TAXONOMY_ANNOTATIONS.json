@@ -1,0 +1,1625 @@
+{
+  "checkpoint": "R-150.4",
+  "status": "pilot_annotation_draft_not_expert_validation",
+  "inputBlob": "601a520218054a4eca8dcfbe7cec9b3e9cd1a36b",
+  "method": "Single AI-generated hypothesis per path; no independent annotators. A/B/G provisional; C/D/E deliberately null until claim-specific source and review. F candidate IDs not evidence. H not established. Type refers to Fashl or its immediate path role, not a final taxonomy of disciplines.",
+  "counts": {
+    "topic": 47,
+    "method": 9,
+    "tool": 2,
+    "principle": 1
+  },
+  "structuralChecks": {
+    "passed": 6,
+    "total": 6
+  },
+  "rows": [
+    {
+      "id": "fa-001",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Ulumul Qur’an",
+        "Tajwid",
+        "Makharij",
+        "Pengenalan tempat keluarnya huruf"
+      ],
+      "candidateType": "topic",
+      "A_object": "Bunyi huruf",
+      "B_perspective": "Artikulasi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "ACQ-001",
+        "t-05"
+      ],
+      "G_boundary": "Identifikasi makhraj dengan talaqqi; metode bukan definisi disiplin.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-002",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Ulumul Qur’an",
+        "Tajwid",
+        "Hukum bacaan",
+        "Nun sukun dan tanwin"
+      ],
+      "candidateType": "topic",
+      "A_object": "Nun sukun dan tanwin",
+      "B_perspective": "Kaidah bacaan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "ACQ-002",
+        "t-06"
+      ],
+      "G_boundary": "Aturan tajwid; variasi riwayat perlu diperiksa.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-003",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Bahasa Arab",
+        "Nahwu",
+        "Isim",
+        "Isim mu‘rab"
+      ],
+      "candidateType": "topic",
+      "A_object": "Isim",
+      "B_perspective": "I‘rab",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01",
+        "t-02"
+      ],
+      "G_boundary": "Jalur penggunaan nahwu dalam pembelajaran Qur’an; bandingkan lu-001.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-004",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Bahasa Arab",
+        "Nahwu",
+        "Fi‘il",
+        "Fi‘il mudhari‘"
+      ],
+      "candidateType": "topic",
+      "A_object": "Fi‘il mudhari‘",
+      "B_perspective": "I‘rab dan bentuk",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01",
+        "t-03"
+      ],
+      "G_boundary": "Bandingkan lu-004; cakupan tidak otomatis identik.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-005",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Tafsir",
+        "Tafsir bi al-Ma’tsur",
+        "Sumber riwayat",
+        "Al-Qur’an dengan Al-Qur’an"
+      ],
+      "candidateType": "method",
+      "A_object": "Ayat",
+      "B_perspective": "Penafsiran dengan ayat lain",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-08",
+        "t-09"
+      ],
+      "G_boundary": "Relasi interpretatif perlu bukti konteks.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-006",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Tafsir",
+        "Tafsir bi al-Ma’tsur",
+        "Sumber riwayat",
+        "Al-Qur’an dengan Sunnah"
+      ],
+      "candidateType": "method",
+      "A_object": "Ayat dan sunnah",
+      "B_perspective": "Penafsiran melalui riwayat",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-08"
+      ],
+      "G_boundary": "Perlu audit riwayat dan hubungan tafsir.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-007",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Tafsir",
+        "Tafsir bi ar-Ra’yi al-Mahmud",
+        "Analisis konteks",
+        "Asbab nuzul"
+      ],
+      "candidateType": "topic",
+      "A_object": "Riwayat sebab turun ayat",
+      "B_perspective": "Konteks pewahyuan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-07",
+        "t-08",
+        "t-09"
+      ],
+      "G_boundary": "Bedakan konteks historis dan metode tafsir; posisi hierarki perlu telaah.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-008",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Tafsir",
+        "Tafsir maudhu‘i",
+        "Pengumpulan ayat tematik",
+        "Tema sosial"
+      ],
+      "candidateType": "topic",
+      "A_object": "Ayat bertema sosial",
+      "B_perspective": "Pengelompokan tematik",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-07",
+        "t-09"
+      ],
+      "G_boundary": "Tema belum membatasi persoalan secara spesifik.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-009",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Ushul fikih",
+        "Dalalah lafaz",
+        "Keumuman dan kekhususan",
+        "‘Amm dan khass"
+      ],
+      "candidateType": "topic",
+      "A_object": "Lafaz",
+      "B_perspective": "Cakupan dalalah",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-10"
+      ],
+      "G_boundary": "Kajian umum-khusus; penggunaan fikih memerlukan ahli.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "fa-010",
+      "faculty": "quran",
+      "originalPath": [
+        "Qauliyah",
+        "Fikih",
+        "Kaidah fikih",
+        "Kaidah dasar",
+        "Hubungan niat dan perbuatan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Niat dan perbuatan",
+      "B_perspective": "Kaidah fikih",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-11"
+      ],
+      "G_boundary": "Judul bukan redaksi kaidah; perlu sumber primer.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-001",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Ulumul Hadis",
+        "Riwayah",
+        "Sanad",
+        "Identitas perawi"
+      ],
+      "candidateType": "topic",
+      "A_object": "Perawi",
+      "B_perspective": "Identitas dan transmisi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "LK",
+        "OPENITI",
+        "t-12"
+      ],
+      "G_boundary": "Bedakan identitas dari penilaian kualitas.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-002",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Ulumul Hadis",
+        "Dirayah",
+        "Kualitas riwayat",
+        "Syarat kesahihan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Riwayat",
+      "B_perspective": "Syarat kesahihan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-12",
+        "t-13"
+      ],
+      "G_boundary": "Kriteria memerlukan sumber musthalah.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-003",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Ulumul Hadis",
+        "Takhrij",
+        "Pelacakan sumber",
+        "Identitas kitab dan nomor hadis"
+      ],
+      "candidateType": "method",
+      "A_object": "Riwayat dan kitab",
+      "B_perspective": "Pelacakan sumber",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "LK",
+        "OPENITI",
+        "t-14",
+        "t-15"
+      ],
+      "G_boundary": "Takhrij adalah prosedur; nomor bergantung edisi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-004",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Ulumul Hadis",
+        "Kritik sanad",
+        "Rijal",
+        "Jarh wa ta‘dil"
+      ],
+      "candidateType": "topic",
+      "A_object": "Perawi",
+      "B_perspective": "Penilaian periwayatan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-12",
+        "t-13"
+      ],
+      "G_boundary": "Jarh wa ta‘dil memerlukan ahli dan konteks.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-005",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Ulumul Hadis",
+        "Kritik matan",
+        "Perbandingan redaksi",
+        "Perbedaan lafaz"
+      ],
+      "candidateType": "method",
+      "A_object": "Redaksi riwayat",
+      "B_perspective": "Perbandingan lafaz",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "LK",
+        "OPENITI",
+        "t-12",
+        "t-13",
+        "t-14",
+        "t-15",
+        "t-16",
+        "t-17"
+      ],
+      "G_boundary": "Perbedaan tidak otomatis menunjukkan cacat.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-006",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Syarah hadis",
+        "Analisis lughawi",
+        "Sorogan",
+        "I‘rab dan tashrif"
+      ],
+      "candidateType": "tool",
+      "A_object": "Lafaz hadis",
+      "B_perspective": "Analisis gramatikal",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "STANZA",
+        "t-01",
+        "t-02",
+        "t-03"
+      ],
+      "G_boundary": "Nahwu dan sharaf sebagai alat; sorogan metode mengajar.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-007",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Syarah hadis",
+        "Pemahaman",
+        "Konteks",
+        "Batas istinbath"
+      ],
+      "candidateType": "topic",
+      "A_object": "Teks dan simpulan hukum",
+      "B_perspective": "Batas interpretasi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-10",
+        "t-16",
+        "t-17"
+      ],
+      "G_boundary": "Bukan otoritas fatwa.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ha-008",
+      "faculty": "hadis",
+      "originalPath": [
+        "Nafsiyah / Qauliyah",
+        "Sirah dan akhlak",
+        "Keteladanan",
+        "Adab",
+        "Amanah dan kasih sayang"
+      ],
+      "candidateType": "topic",
+      "A_object": "Perilaku manusia",
+      "B_perspective": "Keteladanan dan akhlak",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-14",
+        "t-15",
+        "t-16",
+        "t-17",
+        "t-18"
+      ],
+      "G_boundary": "Tema luas; pisahkan riwayat dari hasil belajar.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-001",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Nahwu",
+        "Isim",
+        "Isim mu‘rab"
+      ],
+      "candidateType": "topic",
+      "A_object": "Isim",
+      "B_perspective": "I‘rab",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01",
+        "t-02"
+      ],
+      "G_boundary": "Bandingkan fa-003.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-002",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Nahwu",
+        "Isim",
+        "Isim mabni"
+      ],
+      "candidateType": "topic",
+      "A_object": "Isim",
+      "B_perspective": "Bina’",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01"
+      ],
+      "G_boundary": "Butuh definisi dan pengecualian.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-003",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Nahwu",
+        "Fi‘il",
+        "Fi‘il madhi"
+      ],
+      "candidateType": "topic",
+      "A_object": "Fi‘il madhi",
+      "B_perspective": "Bentuk dan fungsi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01"
+      ],
+      "G_boundary": "Bedakan nahwu dan sharaf.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-004",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Nahwu",
+        "Fi‘il",
+        "Fi‘il mudhari‘"
+      ],
+      "candidateType": "topic",
+      "A_object": "Fi‘il mudhari‘",
+      "B_perspective": "Bentuk dan fungsi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01"
+      ],
+      "G_boundary": "Bandingkan fa-004.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-005",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Nahwu",
+        "Huruf",
+        "Harf jar"
+      ],
+      "candidateType": "topic",
+      "A_object": "Harf jar",
+      "B_perspective": "Fungsi gramatikal",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-01",
+        "t-02"
+      ],
+      "G_boundary": "Perlu contoh dan batas.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-006",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Sharaf",
+        "Isim fa‘il",
+        "Pola فَاعِلٌ"
+      ],
+      "candidateType": "topic",
+      "A_object": "Isim fa‘il",
+      "B_perspective": "Pola morfologis",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-03"
+      ],
+      "G_boundary": "Pola fa‘il tidak mencakup seluruh bentuk.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-007",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Sharaf",
+        "Isim maf‘ul",
+        "Pola مَفْعُولٌ"
+      ],
+      "candidateType": "topic",
+      "A_object": "Isim maf‘ul",
+      "B_perspective": "Pola morfologis",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "QAC",
+        "t-03"
+      ],
+      "G_boundary": "Pola maf‘ul tidak mencakup seluruh bentuk.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-008",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Balaghah",
+        "Ma‘ani",
+        "Kesesuaian ungkapan dengan konteks"
+      ],
+      "candidateType": "topic",
+      "A_object": "Ungkapan",
+      "B_perspective": "Kesesuaian konteks",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-04"
+      ],
+      "G_boundary": "Perlu definisi ma‘ani dan contoh.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "lu-009",
+      "faculty": "lughah",
+      "originalPath": [
+        "Qauliyah / lintas Forge",
+        "Bahasa Arab",
+        "Balaghah",
+        "Bayan",
+        "Tasybih"
+      ],
+      "candidateType": "topic",
+      "A_object": "Ungkapan perbandingan",
+      "B_perspective": "Tasybih",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OPENITI",
+        "t-04"
+      ],
+      "G_boundary": "Perlu klasifikasi balaghah.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-001",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Mekanika klasik",
+        "Kinematika",
+        "Gerak lurus beraturan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Gerak benda",
+      "B_perspective": "Kecepatan konstan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "G_boundary": "Nyatakan batas model gerak.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-002",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Mekanika klasik",
+        "Kinematika",
+        "Gerak lurus berubah beraturan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Gerak benda",
+      "B_perspective": "Percepatan konstan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "G_boundary": "Bedakan model dan pengamatan.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-003",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Mekanika klasik",
+        "Dinamika",
+        "Hukum Newton"
+      ],
+      "candidateType": "principle",
+      "A_object": "Gerak benda",
+      "B_perspective": "Hubungan gaya dan gerak",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "G_boundary": "Hukum Newton sebagai prinsip/model, bukan disiplin mandiri.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-004",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Mekanika klasik",
+        "Statika",
+        "Kesetimbangan translasi"
+      ],
+      "candidateType": "topic",
+      "A_object": "Benda",
+      "B_perspective": "Kesetimbangan translasi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "PHET"
+      ],
+      "G_boundary": "Batasi pada model dan resultan gaya.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-005",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Optika",
+        "Cahaya",
+        "Cahaya dan bayangan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Cahaya dan benda",
+      "B_perspective": "Bayangan",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "PHET",
+        "OS"
+      ],
+      "G_boundary": "Unit pilot; sumber optika masih diperlukan.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-006",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Fisika",
+        "Termodinamika",
+        "Perubahan wujud",
+        "Air dan perubahan wujud"
+      ],
+      "candidateType": "topic",
+      "A_object": "Air",
+      "B_perspective": "Perubahan wujud",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "PHET",
+        "OS",
+        "ACQ-005"
+      ],
+      "G_boundary": "Unit pilot; bedakan pengamatan dan penjelasan.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-007",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Kimia",
+        "Kimia dasar",
+        "Materi",
+        "Unsur dan senyawa"
+      ],
+      "candidateType": "topic",
+      "A_object": "Materi",
+      "B_perspective": "Komposisi kimia",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Definisi unsur/senyawa perlu sumber.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-008",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Kimia",
+        "Kimia analitik",
+        "Spektroskopi",
+        "Spektrum cahaya"
+      ],
+      "candidateType": "topic",
+      "A_object": "Cahaya",
+      "B_perspective": "Spektrum",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "PHET",
+        "OS"
+      ],
+      "G_boundary": "Bedakan konsep fisika dari metode analitik.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-009",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Biologi",
+        "Botani",
+        "Jaringan tumbuhan",
+        "Xilem dan floem"
+      ],
+      "candidateType": "topic",
+      "A_object": "Jaringan tumbuhan",
+      "B_perspective": "Transport zat",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Perlu sumber botani.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-010",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Biologi",
+        "Botani",
+        "Fotosintesis",
+        "Reaksi terang"
+      ],
+      "candidateType": "topic",
+      "A_object": "Tumbuhan",
+      "B_perspective": "Proses fotosintesis",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Butuh batas model dan prasyarat.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-011",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Biologi",
+        "Botani",
+        "Struktur tumbuhan",
+        "Tumbuhan di sekitar"
+      ],
+      "candidateType": "topic",
+      "A_object": "Tumbuhan sekitar",
+      "B_perspective": "Struktur yang teramati",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "ACQ-006"
+      ],
+      "G_boundary": "Identifikasi tidak pasti; tidak untuk konsumsi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-012",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Biologi",
+        "Ekologi",
+        "Ekosistem",
+        "Interaksi makhluk hidup"
+      ],
+      "candidateType": "topic",
+      "A_object": "Makhluk hidup",
+      "B_perspective": "Interaksi ekosistem",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Jangan menyimpulkan sebab dari asosiasi saja.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-013",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Astronomi",
+        "Astrometri",
+        "Paralaks",
+        "Jarak bintang"
+      ],
+      "candidateType": "method",
+      "A_object": "Bintang",
+      "B_perspective": "Estimasi jarak melalui paralaks",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "MIT-OCW"
+      ],
+      "G_boundary": "Perlu asumsi geometris dan batas pengukuran.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "al-014",
+      "faculty": "alam",
+      "originalPath": [
+        "Kauniyah",
+        "Geologi",
+        "Ilmu bumi",
+        "Batuan",
+        "Jenis batuan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Batuan",
+      "B_perspective": "Klasifikasi geologi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Butuh kriteria dan sumber.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-001",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Sejarah",
+        "Historiografi",
+        "Kronologi",
+        "Jejak sejarah"
+      ],
+      "candidateType": "topic",
+      "A_object": "Peristiwa masa lalu",
+      "B_perspective": "Kronologi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "DIG"
+      ],
+      "G_boundary": "Tema pembelajaran; bukan disiplin.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-002",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Sejarah",
+        "Kritik sumber",
+        "Independensi kesaksian",
+        "Berita dan sumber"
+      ],
+      "candidateType": "method",
+      "A_object": "Berita dan sumber",
+      "B_perspective": "Independensi kesaksian",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "DIG"
+      ],
+      "G_boundary": "Independensi perlu bukti, bukan banyaknya sumber.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-003",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Usrah",
+        "Keluarga",
+        "Relasi sosial",
+        "Tanggung jawab antaranggota"
+      ],
+      "candidateType": "topic",
+      "A_object": "Keluarga",
+      "B_perspective": "Tanggung jawab sosial",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Pisahkan norma dari deskripsi empiris.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-004",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "‘Umran",
+        "Masyarakat",
+        "Kerja sama",
+        "Nagari dan kerja sama"
+      ],
+      "candidateType": "topic",
+      "A_object": "Nagari",
+      "B_perspective": "Kerja sama",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "DIG"
+      ],
+      "G_boundary": "Perlu konteks adat dan sumber lokal.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-005",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "‘Umran",
+        "Kebudayaan",
+        "Adat",
+        "Tradisi dan perubahan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Tradisi",
+      "B_perspective": "Perubahan budaya",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "DIG",
+        "OS"
+      ],
+      "G_boundary": "Hindari generalisasi semua nagari.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-006",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Iqtisad",
+        "Ekonomi",
+        "Kegiatan ekonomi",
+        "Produksi dan distribusi"
+      ],
+      "candidateType": "topic",
+      "A_object": "Kegiatan ekonomi",
+      "B_perspective": "Produksi dan distribusi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Pisahkan konsep dan data empiris.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-007",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Siyasah",
+        "Tata masyarakat",
+        "Musyawarah",
+        "Pengambilan keputusan bersama"
+      ],
+      "candidateType": "topic",
+      "A_object": "Masyarakat",
+      "B_perspective": "Musyawarah",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Pisahkan norma, prosedur, dan hasil.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "pr-008",
+      "faculty": "peradaban",
+      "originalPath": [
+        "Ijtima’iyah",
+        "Geografi manusia",
+        "Permukiman",
+        "Ruang dan manusia",
+        "Peta lingkungan"
+      ],
+      "candidateType": "tool",
+      "A_object": "Lingkungan permukiman",
+      "B_perspective": "Representasi ruang",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Peta adalah alat representasi; jaga privasi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-001",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Aritmetika",
+        "Bilangan",
+        "Operasi hitung"
+      ],
+      "candidateType": "topic",
+      "A_object": "Bilangan",
+      "B_perspective": "Operasi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Perlu prasyarat dan definisi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-002",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Aljabar",
+        "Barisan",
+        "Pola dan generalisasi"
+      ],
+      "candidateType": "topic",
+      "A_object": "Barisan",
+      "B_perspective": "Pola dan generalisasi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Contoh terbatas bukan bukti universal.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-003",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Geometri",
+        "Bangun datar",
+        "Luas petak"
+      ],
+      "candidateType": "topic",
+      "A_object": "Bangun datar",
+      "B_perspective": "Luas",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "PHET",
+        "ACQ-007"
+      ],
+      "G_boundary": "Unit pilot; bedakan luas dan keliling.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-004",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Statistika",
+        "Representasi data",
+        "Data dan kesimpulan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Data",
+      "B_perspective": "Representasi dan inferensi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS",
+        "MIT-CT"
+      ],
+      "G_boundary": "Pisahkan deskripsi dan kesimpulan.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-005",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Aljabar",
+        "Persamaan",
+        "Persamaan linear"
+      ],
+      "candidateType": "topic",
+      "A_object": "Persamaan",
+      "B_perspective": "Relasi linear",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Perlu domain dan definisi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-006",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Geometri",
+        "Transformasi",
+        "Simetri"
+      ],
+      "candidateType": "topic",
+      "A_object": "Bangun",
+      "B_perspective": "Simetri",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "OS"
+      ],
+      "G_boundary": "Nyatakan transformasi dan invariansi.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-007",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Mantiq",
+        "Tashawwur",
+        "Ta‘rif",
+        "Batas konsep"
+      ],
+      "candidateType": "method",
+      "A_object": "Konsep",
+      "B_perspective": "Definisi dan batas",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "ACQ-003",
+        "t-19",
+        "t-20"
+      ],
+      "G_boundary": "Ta‘rif adalah metode; perlu teks mantiq.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-008",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Mantiq",
+        "Tashdiq",
+        "Qiyas",
+        "Validitas inferensi"
+      ],
+      "candidateType": "method",
+      "A_object": "Proposisi",
+      "B_perspective": "Validitas inferensi",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "ACQ-004",
+        "t-19",
+        "t-20"
+      ],
+      "G_boundary": "Qiyas mantiq jangan disamakan dengan qiyas fikih.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-009",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Komputasi",
+        "Algoritma",
+        "Urutan instruksi",
+        "Percabangan dan perulangan"
+      ],
+      "candidateType": "topic",
+      "A_object": "Algoritma",
+      "B_perspective": "Kontrol alur",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "MIT-CT"
+      ],
+      "G_boundary": "Percabangan dan perulangan dua subtopik.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    },
+    {
+      "id": "ma-010",
+      "faculty": "matematika",
+      "originalPath": [
+        "Aqliyah–Riyadhiyah",
+        "Matematika",
+        "Pembuktian",
+        "Argumen",
+        "Contoh dan kontra-contoh"
+      ],
+      "candidateType": "method",
+      "A_object": "Argumen",
+      "B_perspective": "Bukti dan kontra-contoh",
+      "C_predicate": null,
+      "D_problem": null,
+      "E_principles": null,
+      "F_sourceCandidateIds": [
+        "MIT-OCW"
+      ],
+      "G_boundary": "Bedakan contoh pendukung dan pembuktian.",
+      "H_independence": "Not established; leaf label not evidence of independent discipline",
+      "epistemicStatus": "C",
+      "auditStatus": "PENDING",
+      "validation": "UNVALIDATED",
+      "reviewer": null
+    }
+  ]
+}
