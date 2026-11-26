@@ -1,0 +1,926 @@
+{
+  "version": "0.1.0",
+  "checkpoint": "R-131",
+  "status": "candidate-draft",
+  "sourcePolicy": "Hanya label ringkas yang diperiksa pada cuplikan korpus; B berarti rekonstruksi klasifikasi, bukan validasi ahli. C berarti usulan. Tidak ada korpus penuh.",
+  "faculties": [
+    {
+      "id": "quran",
+      "title": "Al Muddakir Fahimunal Qur’an",
+      "forge": "Qauliyah",
+      "goal": "Membaca dengan benar, memahami bahasa, memeriksa konteks dan penafsiran.",
+      "tools": [
+        "Tajwid",
+        "makharij",
+        "nahwu",
+        "sharaf",
+        "balaghah",
+        "ushul tafsir",
+        "kritik riwayat."
+      ],
+      "notes": "FAHIM 1: bacaan dan terjemah; FAHIM 2: kaidah fikih/ushul; FAHIM 3: bahasa, kisah, logika dan sains.",
+      "journey": [
+        "Baca bersama guru",
+        "Kenali struktur lafaz",
+        "Bandingkan penjelasan tafsir",
+        "Sebutkan batas pemahaman"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "lughah"
+        },
+        {
+          "type": "related-to",
+          "target": "hadis"
+        },
+        {
+          "type": "related-to",
+          "target": "peradaban"
+        }
+      ],
+      "paths": [
+        {
+          "id": "fa-001",
+          "ibu": "Ulumul Qur’an",
+          "anak": "Tajwid",
+          "cucu": "Makharij",
+          "fashl": "Pengenalan tempat keluarnya huruf",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-002",
+          "ibu": "Ulumul Qur’an",
+          "anak": "Tajwid",
+          "cucu": "Hukum bacaan",
+          "fashl": "Nun sukun dan tanwin",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-003",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Isim",
+          "fashl": "Isim mu‘rab",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-004",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Fi‘il",
+          "fashl": "Fi‘il mudhari‘",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-005",
+          "ibu": "Tafsir",
+          "anak": "Tafsir bi al-Ma’tsur",
+          "cucu": "Sumber riwayat",
+          "fashl": "Al-Qur’an dengan Al-Qur’an",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-006",
+          "ibu": "Tafsir",
+          "anak": "Tafsir bi al-Ma’tsur",
+          "cucu": "Sumber riwayat",
+          "fashl": "Al-Qur’an dengan Sunnah",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-007",
+          "ibu": "Tafsir",
+          "anak": "Tafsir bi ar-Ra’yi al-Mahmud",
+          "cucu": "Analisis konteks",
+          "fashl": "Asbab nuzul",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-008",
+          "ibu": "Tafsir",
+          "anak": "Tafsir maudhu‘i",
+          "cucu": "Pengumpulan ayat tematik",
+          "fashl": "Tema sosial",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-009",
+          "ibu": "Ushul fikih",
+          "anak": "Dalalah lafaz",
+          "cucu": "Keumuman dan kekhususan",
+          "fashl": "‘Amm dan khass",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "fa-010",
+          "ibu": "Fikih",
+          "anak": "Kaidah fikih",
+          "cucu": "Kaidah dasar",
+          "fashl": "Hubungan niat dan perbuatan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    },
+    {
+      "id": "hadis",
+      "title": "Al Muddakir Hadis",
+      "forge": "Nafsiyah / Qauliyah",
+      "goal": "Memahami teladan Nabi melalui riwayat yang diperiksa dan pembacaan yang beradab.",
+      "tools": [
+        "Takhrij",
+        "musthalah",
+        "rijal",
+        "kritik sanad dan matan",
+        "bahasa Arab",
+        "ushul fikih",
+        "sirah."
+      ],
+      "notes": "Korpus Maqra’ 100 dan 500 masih dalam audit. Tidak ada matan atau syarah yang dipublikasikan pada halaman ini.",
+      "journey": [
+        "Kenali sumber riwayat",
+        "Pelajari istilah sanad dan matan",
+        "Baca syarah bersama guru",
+        "Latih pemahaman dan penerapan"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "quran"
+        },
+        {
+          "type": "related-to",
+          "target": "lughah"
+        },
+        {
+          "type": "related-to",
+          "target": "peradaban"
+        }
+      ],
+      "paths": [
+        {
+          "id": "ha-001",
+          "ibu": "Ulumul Hadis",
+          "anak": "Riwayah",
+          "cucu": "Sanad",
+          "fashl": "Identitas perawi",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-002",
+          "ibu": "Ulumul Hadis",
+          "anak": "Dirayah",
+          "cucu": "Kualitas riwayat",
+          "fashl": "Syarat kesahihan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-003",
+          "ibu": "Ulumul Hadis",
+          "anak": "Takhrij",
+          "cucu": "Pelacakan sumber",
+          "fashl": "Identitas kitab dan nomor hadis",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-004",
+          "ibu": "Ulumul Hadis",
+          "anak": "Kritik sanad",
+          "cucu": "Rijal",
+          "fashl": "Jarh wa ta‘dil",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-005",
+          "ibu": "Ulumul Hadis",
+          "anak": "Kritik matan",
+          "cucu": "Perbandingan redaksi",
+          "fashl": "Perbedaan lafaz",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-006",
+          "ibu": "Syarah hadis",
+          "anak": "Analisis lughawi",
+          "cucu": "Sorogan",
+          "fashl": "I‘rab dan tashrif",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-007",
+          "ibu": "Syarah hadis",
+          "anak": "Pemahaman",
+          "cucu": "Konteks",
+          "fashl": "Batas istinbath",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ha-008",
+          "ibu": "Sirah dan akhlak",
+          "anak": "Keteladanan",
+          "cucu": "Adab",
+          "fashl": "Amanah dan kasih sayang",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    },
+    {
+      "id": "lughah",
+      "title": "Al Muddakir Lughah",
+      "forge": "Qauliyah / lintas Forge",
+      "goal": "Membaca dan memahami struktur bahasa Arab secara bertahap.",
+      "tools": [
+        "Nahwu",
+        "sharaf",
+        "i‘lal",
+        "balaghah",
+        "mu‘jam",
+        "sorogan."
+      ],
+      "notes": "Ilmu bahasa digunakan bersama oleh Qur’an dan Hadis; relasi uses, bukan duplikasi disiplin.",
+      "journey": [
+        "Kenali kata",
+        "Amati pola",
+        "Baca susunan kalimat",
+        "Jelaskan makna dalam konteks"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "quran"
+        },
+        {
+          "type": "related-to",
+          "target": "hadis"
+        }
+      ],
+      "paths": [
+        {
+          "id": "lu-001",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Isim",
+          "fashl": "Isim mu‘rab",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-002",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Isim",
+          "fashl": "Isim mabni",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-003",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Fi‘il",
+          "fashl": "Fi‘il madhi",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-004",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Fi‘il",
+          "fashl": "Fi‘il mudhari‘",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-005",
+          "ibu": "Bahasa Arab",
+          "anak": "Nahwu",
+          "cucu": "Huruf",
+          "fashl": "Harf jar",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-006",
+          "ibu": "Bahasa Arab",
+          "anak": "Sharaf",
+          "cucu": "Isim fa‘il",
+          "fashl": "Pola فَاعِلٌ",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-007",
+          "ibu": "Bahasa Arab",
+          "anak": "Sharaf",
+          "cucu": "Isim maf‘ul",
+          "fashl": "Pola مَفْعُولٌ",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-008",
+          "ibu": "Bahasa Arab",
+          "anak": "Balaghah",
+          "cucu": "Ma‘ani",
+          "fashl": "Kesesuaian ungkapan dengan konteks",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "lu-009",
+          "ibu": "Bahasa Arab",
+          "anak": "Balaghah",
+          "cucu": "Bayan",
+          "fashl": "Tasybih",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    },
+    {
+      "id": "alam",
+      "title": "Al Muddakir Alam",
+      "forge": "Kauniyah",
+      "goal": "Membaca fenomena alam dengan observasi, pengukuran dan penjelasan yang teruji.",
+      "tools": [
+        "Observasi",
+        "pengukuran",
+        "matematika",
+        "eksperimen aman",
+        "statistik",
+        "pemodelan."
+      ],
+      "notes": "Tiga pelajaran pilot tersedia. Peta lanjutan bukan instruksi eksperimen atau kurikulum disahkan.",
+      "journey": [
+        "Amati fenomena dekat",
+        "Catat fakta dan pertanyaan",
+        "Uji penjelasan dengan aman",
+        "Sampaikan kesimpulan beserta batasnya"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "matematika"
+        },
+        {
+          "type": "related-to",
+          "target": "quran"
+        }
+      ],
+      "paths": [
+        {
+          "id": "al-001",
+          "ibu": "Fisika",
+          "anak": "Mekanika klasik",
+          "cucu": "Kinematika",
+          "fashl": "Gerak lurus beraturan",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-002",
+          "ibu": "Fisika",
+          "anak": "Mekanika klasik",
+          "cucu": "Kinematika",
+          "fashl": "Gerak lurus berubah beraturan",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-003",
+          "ibu": "Fisika",
+          "anak": "Mekanika klasik",
+          "cucu": "Dinamika",
+          "fashl": "Hukum Newton",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-004",
+          "ibu": "Fisika",
+          "anak": "Mekanika klasik",
+          "cucu": "Statika",
+          "fashl": "Kesetimbangan translasi",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-005",
+          "ibu": "Fisika",
+          "anak": "Optika",
+          "cucu": "Cahaya",
+          "fashl": "Cahaya dan bayangan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "ALM-01"
+        },
+        {
+          "id": "al-006",
+          "ibu": "Fisika",
+          "anak": "Termodinamika",
+          "cucu": "Perubahan wujud",
+          "fashl": "Air dan perubahan wujud",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "ALM-02"
+        },
+        {
+          "id": "al-007",
+          "ibu": "Kimia",
+          "anak": "Kimia dasar",
+          "cucu": "Materi",
+          "fashl": "Unsur dan senyawa",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-008",
+          "ibu": "Kimia",
+          "anak": "Kimia analitik",
+          "cucu": "Spektroskopi",
+          "fashl": "Spektrum cahaya",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-009",
+          "ibu": "Biologi",
+          "anak": "Botani",
+          "cucu": "Jaringan tumbuhan",
+          "fashl": "Xilem dan floem",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-010",
+          "ibu": "Biologi",
+          "anak": "Botani",
+          "cucu": "Fotosintesis",
+          "fashl": "Reaksi terang",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-011",
+          "ibu": "Biologi",
+          "anak": "Botani",
+          "cucu": "Struktur tumbuhan",
+          "fashl": "Tumbuhan di sekitar",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "ALM-03"
+        },
+        {
+          "id": "al-012",
+          "ibu": "Biologi",
+          "anak": "Ekologi",
+          "cucu": "Ekosistem",
+          "fashl": "Interaksi makhluk hidup",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-013",
+          "ibu": "Astronomi",
+          "anak": "Astrometri",
+          "cucu": "Paralaks",
+          "fashl": "Jarak bintang",
+          "origin": "corpus-label",
+          "source": "Korpus Cucu dan Fashl Forge — bagian terkait",
+          "epistemicStatus": "B",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "al-014",
+          "ibu": "Geologi",
+          "anak": "Ilmu bumi",
+          "cucu": "Batuan",
+          "fashl": "Jenis batuan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    },
+    {
+      "id": "peradaban",
+      "title": "Al Muddakir Peradaban",
+      "forge": "Ijtima’iyah",
+      "goal": "Membaca manusia, sejarah, nagari dan masyarakat dari bukti serta konteks.",
+      "tools": [
+        "Kronologi",
+        "historiografi",
+        "kritik sumber",
+        "sejarah lisan",
+        "geografi",
+        "statistik sosial",
+        "analisis ekonomi."
+      ],
+      "notes": "Usrah, ‘Umran, Iqtisad dan Siyasah berasal dari RSI Master; susunan rinci berikut merupakan usulan.",
+      "journey": [
+        "Kenali peristiwa atau masalah",
+        "Telusuri sumber dan konteks",
+        "Bandingkan penjelasan",
+        "Buat usulan yang menghormati masyarakat"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "matematika"
+        },
+        {
+          "type": "related-to",
+          "target": "hadis"
+        }
+      ],
+      "paths": [
+        {
+          "id": "pr-001",
+          "ibu": "Sejarah",
+          "anak": "Historiografi",
+          "cucu": "Kronologi",
+          "fashl": "Jejak sejarah",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "PRD-01"
+        },
+        {
+          "id": "pr-002",
+          "ibu": "Sejarah",
+          "anak": "Kritik sumber",
+          "cucu": "Independensi kesaksian",
+          "fashl": "Berita dan sumber",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "PRD-03"
+        },
+        {
+          "id": "pr-003",
+          "ibu": "Usrah",
+          "anak": "Keluarga",
+          "cucu": "Relasi sosial",
+          "fashl": "Tanggung jawab antaranggota",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "pr-004",
+          "ibu": "‘Umran",
+          "anak": "Masyarakat",
+          "cucu": "Kerja sama",
+          "fashl": "Nagari dan kerja sama",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "PRD-02"
+        },
+        {
+          "id": "pr-005",
+          "ibu": "‘Umran",
+          "anak": "Kebudayaan",
+          "cucu": "Adat",
+          "fashl": "Tradisi dan perubahan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "pr-006",
+          "ibu": "Iqtisad",
+          "anak": "Ekonomi",
+          "cucu": "Kegiatan ekonomi",
+          "fashl": "Produksi dan distribusi",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "pr-007",
+          "ibu": "Siyasah",
+          "anak": "Tata masyarakat",
+          "cucu": "Musyawarah",
+          "fashl": "Pengambilan keputusan bersama",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "pr-008",
+          "ibu": "Geografi manusia",
+          "anak": "Permukiman",
+          "cucu": "Ruang dan manusia",
+          "fashl": "Peta lingkungan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    },
+    {
+      "id": "matematika",
+      "title": "Al Muddakir Matematika",
+      "forge": "Aqliyah–Riyadhiyah",
+      "goal": "Membaca pola, struktur, hubungan dan alasan matematis.",
+      "tools": [
+        "Aritmetika",
+        "geometri",
+        "aljabar",
+        "logika",
+        "pembuktian",
+        "statistik",
+        "algoritma."
+      ],
+      "notes": "Aqliyah RSI menyebut Mantiq, Kalam, Munazarah, Falsafah. Peta matematika dan komputasi ini perluasan pedagogis.",
+      "journey": [
+        "Gunakan benda konkret",
+        "Temukan aturan",
+        "Uji contoh dan kontra-contoh",
+        "Jelaskan alasan, bukan hanya jawaban"
+      ],
+      "relations": [
+        {
+          "type": "related-to",
+          "target": "alam"
+        },
+        {
+          "type": "related-to",
+          "target": "peradaban"
+        }
+      ],
+      "paths": [
+        {
+          "id": "ma-001",
+          "ibu": "Matematika",
+          "anak": "Aritmetika",
+          "cucu": "Bilangan",
+          "fashl": "Operasi hitung",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-002",
+          "ibu": "Matematika",
+          "anak": "Aljabar",
+          "cucu": "Barisan",
+          "fashl": "Pola dan generalisasi",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "MAT-01"
+        },
+        {
+          "id": "ma-003",
+          "ibu": "Matematika",
+          "anak": "Geometri",
+          "cucu": "Bangun datar",
+          "fashl": "Luas petak",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "MAT-02"
+        },
+        {
+          "id": "ma-004",
+          "ibu": "Matematika",
+          "anak": "Statistika",
+          "cucu": "Representasi data",
+          "fashl": "Data dan kesimpulan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": "MAT-03"
+        },
+        {
+          "id": "ma-005",
+          "ibu": "Matematika",
+          "anak": "Aljabar",
+          "cucu": "Persamaan",
+          "fashl": "Persamaan linear",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-006",
+          "ibu": "Matematika",
+          "anak": "Geometri",
+          "cucu": "Transformasi",
+          "fashl": "Simetri",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-007",
+          "ibu": "Mantiq",
+          "anak": "Tashawwur",
+          "cucu": "Ta‘rif",
+          "fashl": "Batas konsep",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-008",
+          "ibu": "Mantiq",
+          "anak": "Tashdiq",
+          "cucu": "Qiyas",
+          "fashl": "Validitas inferensi",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-009",
+          "ibu": "Komputasi",
+          "anak": "Algoritma",
+          "cucu": "Urutan instruksi",
+          "fashl": "Percabangan dan perulangan",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        },
+        {
+          "id": "ma-010",
+          "ibu": "Matematika",
+          "anak": "Pembuktian",
+          "cucu": "Argumen",
+          "fashl": "Contoh dan kontra-contoh",
+          "origin": "proposal",
+          "source": "Usulan pedagogis R-131; belum dicocokkan per entri dengan korpus",
+          "epistemicStatus": "C",
+          "editorialStatus": "draft",
+          "pilot": null
+        }
+      ]
+    }
+  ]
+}
