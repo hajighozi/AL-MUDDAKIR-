@@ -1,0 +1,159 @@
+{
+  "revision": "R150.8B",
+  "date": "2026-11-26",
+  "status": "C/draft",
+  "scope": "Penelusuran awal sumber digital, bukan tahqiq; bukan audit 398 kandidat asli.",
+  "counts": {
+    "index_only": 1,
+    "excerpt": 2,
+    "passage": 3,
+    "catalog_incipit": 1,
+    "catalog": 5
+  },
+  "records": [
+    {
+      "id": "F01",
+      "domain": "Fikih Hanafi",
+      "book": "Al-Hidayah — al-Marghinani",
+      "locator": "Kitab al-Taharat, Bab al-Wudu",
+      "url": "https://shamela.org/pdf/6a031ea8deb0e_8ee5fab9898f4e0d103fe2e493dbb49f",
+      "access": "index_only",
+      "limit": "Daftar bab ditemukan; PDF tidak dibuka, edisi dan hukum spesifik belum diperiksa.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "F02",
+      "domain": "Fikih Maliki",
+      "book": "Mukhtasar Khalil — Khalil ibn Ishaq",
+      "locator": "Kitab al-Taharah, pembahasan air",
+      "url": "https://thahabi.org/book/19692/read/1",
+      "access": "excerpt",
+      "limit": "Cuplikan membahas air untuk bersuci; halaman web 1 bukan halaman cetak terverifikasi.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "F03",
+      "domain": "Fikih Syafii",
+      "book": "Fath al-Qarib — Ibn Qasim al-Ghazzi",
+      "locator": "Fasl furud al-wudu",
+      "url": "https://ablibrary.net/book_content/b/18501/31",
+      "access": "excerpt",
+      "limit": "Cuplikan membahas niat saat awal membasuh wajah; akses halaman penuh 403. Metadata edisi pertama 1425/2005, Bassam Abd al-Wahhab al-Jabi, al-Jaffan wa al-Jabi / Dar Ibn Hazm: https://www.islamarchive.cc/ketab_content/4049/p-43 ; katalog https://search.worldcat.org/title/143981624 . Paginasi 31 vs 14 pada penyedia berbeda belum dikolasi.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "F04",
+      "domain": "Fikih Hanbali",
+      "book": "Al-Mughni — Ibn Qudamah",
+      "locator": "Juz 1, masalah 177, penanda halaman digital 93",
+      "url": "https://islamweb.net/ar/library/content/15/151/مسألة-الطهارة-عضوا-بعد-عضو-في-الوضوء",
+      "access": "passage",
+      "limit": "Tertib wudhu menurut Ahmad, juga riwayat alternatif dan argumen lawan. Edisi cetak belum dikunci.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "A01",
+      "domain": "Aqidah Asyari",
+      "book": "Umm al-Barahin — Muhammad ibn Yusuf al-Sanusi",
+      "locator": "Pembukaan: tiga hukum akal",
+      "url": "https://www.islam.ms/ar/عقيدة-سنوسية",
+      "access": "passage",
+      "limit": "Wajib, mustahil, jaiz dalam penalaran; kemudian sifat Allah dan rasul. Edisi dan halaman cetak tidak tersedia. Atribusi tambahan https://dar-alifta.org/ar/ourreligion/details/97/الإمام-السنوسي",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "A02",
+      "domain": "Aqidah Maturidi",
+      "book": "Al-Aqaid al-Nasafiyyah — Najm al-Din Umar al-Nasafi",
+      "locator": "Incipit; manuskrip SP 15356, Perpustakaan Nasional Tirana",
+      "url": "https://islamarchive.cc/manuscript/151265",
+      "access": "catalog_incipit",
+      "limit": "Salinan 1326 H/1908 M, 14 halaman menurut katalog. Pembukaan mengafirmasi realitas dan kemungkinan pengetahuan. Tidak membaca manuskrip penuh; katalog perantara.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "A03",
+      "domain": "Aqidah Atsari",
+      "book": "Lum'at al-I'tiqad — Ibn Qudamah",
+      "locator": "Metadata edisi keempat 1395 H, al-Maktab al-Islami",
+      "url": "https://www.islam.museum/ar/source/lumat-al-itiqad/",
+      "access": "catalog",
+      "limit": "Identitas edisi ditemukan, isi bab belum diperiksa. Tidak membandingkan doktrin dengan A01/A02 sebelum pembacaan.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "T01",
+      "domain": "Tasawuf lintas tradisi",
+      "book": "Al-Risalah al-Qushayriyyah — Abd al-Karim al-Qushayri",
+      "locator": "Juz 1, Bab al-Tawbah, sekitar penanda digital 209",
+      "url": "https://g1.islamweb.com/ar/library/content/1087/117/باب-التوبة",
+      "access": "passage",
+      "limit": "Pembahasan meninggalkan kesalahan dan mengembalikan hak pihak yang dirugikan. Tidak menerapkan seluruh uraian asketis secara literal pada anak; halaman cetak/edisi belum dikolasi.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "T02",
+      "domain": "Tasawuf Qadiri",
+      "book": "Futuh al-Ghayb — dinisbatkan kepada Abd al-Qadir al-Jilani",
+      "locator": "Metadata buku",
+      "url": "https://books.google.com/books?id=TL6NNQEACAAJ",
+      "access": "catalog",
+      "limit": "Atribusi katalog saja; matan, edisi, sanad dan praktik tarekat belum diperiksa.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "S01",
+      "domain": "Sumatera",
+      "book": "Hidayat al-Salikin — Abd al-Samad al-Palimbani",
+      "locator": "Katalog IKIM",
+      "url": "https://library.ikim.gov.my/webopac/Record/0000023096/Details",
+      "access": "catalog",
+      "limit": "Judul/pengarang pada cuplikan; akses 403. Manuskrip DREAMSEA 8181 pada hasil pencarian, akses timeout; tidak dijadikan bukti isi.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "S02",
+      "domain": "Sumatera",
+      "book": "Tasawuf Modern — Hamka",
+      "locator": "Katalog perpustakaan MKRI",
+      "url": "https://simpus.mkri.id/opac/detail/1632",
+      "access": "catalog",
+      "limit": "Metadata, bukan isi buku.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    },
+    {
+      "id": "S03",
+      "domain": "Sumatera",
+      "book": "Falsafah Hidup — Hamka",
+      "locator": "Katalog perpustakaan MKRI",
+      "url": "https://simpus.mkri.id/opac/detail/5520",
+      "access": "catalog",
+      "limit": "Metadata, bukan isi buku. Atribusi ungkapan 'hidup bukan sekadar hidup' belum terverifikasi.",
+      "validation": "UNVALIDATED",
+      "rights": "link_only_pending_review"
+    }
+  ],
+  "next": [
+    "Kunci edisi dan paginasi, bandingkan teks pada dua sumber, telaah ahli.",
+    "Cari matan dasar Maturidi dan Atsari, kitab adab ikhtilaf serta sumber tarekat lain satu per satu.",
+    "Jangan membuat klaim semua kombinasi mazhab cocok atau semua karya wajib dipelajari.",
+    "Audit 398 kandidat asli masih terpisah dan terbuka."
+  ],
+  "pedagogy": [
+    "Fikih: adab ikhtilaf melalui perbandingan alasan tanpa mencampur hukum serampangan.",
+    "Aqidah: bedakan konsep dan metode penalaran, tidak menilai iman.",
+    "Tasawuf: perbaikan tindakan dan pemulihan hak, bukan paksaan atau penilaian batin.",
+    "Sumatera: kajian warisan lokal dengan hak cipta dan atribusi terjaga."
+  ]
+}
