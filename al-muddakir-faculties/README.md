@@ -1,0 +1,2 @@
+# Tiga Fakultas — pilot 0.1
+Buka [index.html](index.html) sebagai file lokal (tanpa jaringan). Sembilan unit asli contoh, tiga per fakultas. Data induk contoh ada dalam [curriculum.json](curriculum.json) dan ditanam di HTML agar offline. Semua unit draf, sumber primer dan review belum lengkap. Jangan digunakan sebagai materi resmi sampai diperiksa guru. Jalankan `node tests.mjs` dari folder ini untuk uji struktur dan kesamaan data. Simpan progres lokal tanpa akun; penghapusan tersedia. Tidak ada AI, analitik, atau server. 

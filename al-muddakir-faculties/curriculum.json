@@ -1,0 +1,303 @@
+{
+  "version": "0.1.0",
+  "status": "pilot-draft",
+  "units": [
+    {
+      "id": "ALM-01",
+      "faculty": "alam",
+      "title": "Cahaya dan bayangan",
+      "mawdu": "Cahaya dan bayangan",
+      "jihat": "Hubungan posisi sumber cahaya, benda, dan bayangan",
+      "mahmul": "Bayangan terbentuk ketika benda menghalangi cahaya.",
+      "matan": "Bayangan terbentuk ketika benda menghalangi cahaya.",
+      "mujam": [
+        "Sumber cahaya",
+        "benda",
+        "bayangan"
+      ],
+      "syarah": "Susun benda kecil dan senter di atas meja. Ubah posisi senter; catat perubahan bayangan.",
+      "hasyiyah": "Model ini tidak menjelaskan seluruh fenomena optik. Jangan arahkan senter ke mata.",
+      "quiz": {
+        "q": "Apa yang perlu diubah satu per satu agar perbandingan adil?",
+        "options": [
+          "Posisi senter",
+          "Semua benda sekaligus",
+          "Nama benda"
+        ],
+        "answer": 0,
+        "feedback": "Mengubah satu faktor memudahkan perbandingan."
+      },
+      "khidmah": "Tulis dua hasil pengamatan dan satu pertanyaan.",
+      "sourceNeeded": "Optika dasar; telaah buku IPA dan guru.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "ALM-02",
+      "faculty": "alam",
+      "title": "Air dan perubahan wujud",
+      "mawdu": "Air",
+      "jihat": "Perubahan wujud dan suhu",
+      "mahmul": "Es dapat mencair ketika menerima energi panas dari lingkungan.",
+      "matan": "Es dapat mencair ketika menerima energi panas dari lingkungan.",
+      "mujam": [
+        "Es",
+        "cair",
+        "suhu"
+      ],
+      "syarah": "Amati es dalam wadah pada suhu ruang; gambar perubahan yang terlihat.",
+      "hasyiyah": "Tidak memakai api atau air panas. Waktu mencair bergantung kondisi.",
+      "quiz": {
+        "q": "Perubahan yang langsung terlihat adalah…",
+        "options": [
+          "Es menjadi air cair",
+          "Air selalu mendidih",
+          "Massa pasti hilang"
+        ],
+        "answer": 0,
+        "feedback": "Perubahan terlihat adalah mencair; jangan menyimpulkan massa tanpa pengukuran."
+      },
+      "khidmah": "Ceritakan hasil pengamatan kepada keluarga.",
+      "sourceNeeded": "IPA perubahan wujud; telaah guru.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "ALM-03",
+      "faculty": "alam",
+      "title": "Tumbuhan di sekitar",
+      "mawdu": "Tumbuhan",
+      "jihat": "Struktur dan fungsi",
+      "mahmul": "Daun, batang, dan akar memiliki fungsi yang berbeda.",
+      "matan": "Daun, batang, dan akar memiliki fungsi yang berbeda.",
+      "mujam": [
+        "Akar",
+        "batang",
+        "daun"
+      ],
+      "syarah": "Amati tanaman yang aman tanpa mencabutnya; gambar bagian yang terlihat.",
+      "hasyiyah": "Akar mungkin tidak terlihat; bedakan pengamatan dengan informasi dari buku.",
+      "quiz": {
+        "q": "Bagian apa yang benar-benar kamu lihat?",
+        "options": [
+          "Semua akar pasti terlihat",
+          "Bagian yang terlihat saat pengamatan",
+          "Semua fungsi sel telah terbukti"
+        ],
+        "answer": 1,
+        "feedback": "Catatan observasi hanya menyebut apa yang diamati."
+      },
+      "khidmah": "Rawat tanaman dengan panduan guru atau keluarga.",
+      "sourceNeeded": "Botani dasar; buku IPA dan guru.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "PRD-01",
+      "faculty": "peradaban",
+      "title": "Jejak sejarah",
+      "mawdu": "Peristiwa masa lalu",
+      "jihat": "Urutan dan bukti",
+      "mahmul": "Kronologi menyusun peristiwa berdasarkan urutan waktu.",
+      "matan": "Kronologi menyusun peristiwa berdasarkan urutan waktu.",
+      "mujam": [
+        "Kronologi",
+        "sumber",
+        "bukti"
+      ],
+      "syarah": "Gunakan tiga kartu peristiwa fiktif: perpustakaan dibangun (2019), dibuka (2020), diperluas (2023). Susun urutan.",
+      "hasyiyah": "Cerita ini fiktif, bukan sejarah nagari nyata.",
+      "quiz": {
+        "q": "Kartu mana yang pertama?",
+        "options": [
+          "Dibuka 2020",
+          "Diperluas 2023",
+          "Dibangun 2019"
+        ],
+        "answer": 2,
+        "feedback": "2019 mendahului 2020 dan 2023."
+      },
+      "khidmah": "Buat garis waktu kegiatan kelas tanpa data pribadi.",
+      "sourceNeeded": "Metode sejarah dasar; penelaahan guru IPS.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "PRD-02",
+      "faculty": "peradaban",
+      "title": "Nagari dan kerja sama",
+      "mawdu": "Ruang bersama",
+      "jihat": "Peran sosial",
+      "mahmul": "Kebutuhan bersama dapat ditangani melalui pembagian tanggung jawab dan musyawarah.",
+      "matan": "Kebutuhan bersama dapat ditangani melalui pembagian tanggung jawab dan musyawarah.",
+      "mujam": [
+        "Musyawarah",
+        "tanggung jawab",
+        "ruang bersama"
+      ],
+      "syarah": "Dalam skenario fiktif, taman baca berantakan. Bandingkan gagasan merapikan, menyusun buku, dan membuat jadwal.",
+      "hasyiyah": "Peran adat berbeda antarnagari; contoh ini bukan aturan adat universal.",
+      "quiz": {
+        "q": "Apa langkah awal yang menghargai semua pihak?",
+        "options": [
+          "Sepakati kebutuhan bersama",
+          "Paksa satu orang bekerja",
+          "Tuduh tanpa bukti"
+        ],
+        "answer": 0,
+        "feedback": "Musyawarah membantu memahami kebutuhan dan kemampuan anggota."
+      },
+      "khidmah": "Susun satu usulan kerja sama yang ringan dan sukarela.",
+      "sourceNeeded": "IPS/pendidikan sosial; telaah guru BAM.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "PRD-03",
+      "faculty": "peradaban",
+      "title": "Berita dan sumber",
+      "mawdu": "Berita tentang peristiwa",
+      "jihat": "Keandalan informasi",
+      "mahmul": "Pengulangan sebuah berita tidak otomatis menjadi bukti independen.",
+      "matan": "Pengulangan sebuah berita tidak otomatis menjadi bukti independen.",
+      "mujam": [
+        "Sumber awal",
+        "kesaksian",
+        "verifikasi"
+      ],
+      "syarah": "Bandingkan kartu berita fiktif yang disalin dari satu pesan dengan dua catatan pengamatan terpisah.",
+      "hasyiyah": "Bukti terpisah juga dapat salah; evaluasi kualitas masing-masing.",
+      "quiz": {
+        "q": "Tiga salinan satu pesan berarti…",
+        "options": [
+          "Tiga peristiwa berbeda",
+          "Satu sumber awal yang diulang",
+          "Pasti benar"
+        ],
+        "answer": 1,
+        "feedback": "Jumlah salinan bukan jumlah sumber independen."
+      },
+      "khidmah": "Periksa asal sebuah informasi umum bersama guru.",
+      "sourceNeeded": "Literasi informasi dan kritik sumber; telaah guru.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "MAT-01",
+      "faculty": "matematika",
+      "title": "Pola dan generalisasi",
+      "mawdu": "Barisan bilangan",
+      "jihat": "Keteraturan",
+      "mahmul": "Pola 2, 4, 6, 8 dapat dilanjutkan dengan aturan tambah 2.",
+      "matan": "Pola 2, 4, 6, 8 dapat dilanjutkan dengan aturan tambah 2.",
+      "mujam": [
+        "Pola",
+        "aturan",
+        "suku"
+      ],
+      "syarah": "Susun benda dalam kelompok dua. Jelaskan aturan yang dipilih.",
+      "hasyiyah": "Deret pendek dapat sesuai dengan lebih dari satu aturan; aturan harus dinyatakan.",
+      "quiz": {
+        "q": "Menurut aturan tambah 2, suku berikutnya adalah…",
+        "options": [
+          "9",
+          "10",
+          "12"
+        ],
+        "answer": 1,
+        "feedback": "8 + 2 = 10 menurut aturan yang diberikan."
+      },
+      "khidmah": "Buat pola sendiri dan jelaskan aturannya.",
+      "sourceNeeded": "Aritmetika dasar; penelaahan guru matematika.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "MAT-02",
+      "faculty": "matematika",
+      "title": "Luas petak",
+      "mawdu": "Persegi panjang",
+      "jihat": "Ukuran permukaan",
+      "mahmul": "Luas persegi panjang = panjang × lebar dengan satuan yang konsisten.",
+      "matan": "Luas persegi panjang = panjang × lebar dengan satuan yang konsisten.",
+      "mujam": [
+        "Panjang",
+        "lebar",
+        "luas"
+      ],
+      "syarah": "Gambar petak 4 kolom dan 3 baris, lalu hitung petak satuan.",
+      "hasyiyah": "Luas berbeda dari keliling; bentuk tidak beraturan memerlukan metode lain.",
+      "quiz": {
+        "q": "Berapa luas petak 4 × 3?",
+        "options": [
+          "7 satuan persegi",
+          "14 satuan persegi",
+          "12 satuan persegi"
+        ],
+        "answer": 2,
+        "feedback": "Empat kolom kali tiga baris menghasilkan 12 petak."
+      },
+      "khidmah": "Bantu teman membuat gambar petak dan membandingkan luas.",
+      "sourceNeeded": "Geometri dasar; penelaahan guru matematika.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    },
+    {
+      "id": "MAT-03",
+      "faculty": "matematika",
+      "title": "Data dan kesimpulan",
+      "mawdu": "Tabel hitungan fiktif",
+      "jihat": "Perbandingan kuantitas",
+      "mahmul": "Kesimpulan tentang data harus sesuai dengan kelompok yang diamati.",
+      "matan": "Kesimpulan tentang data harus sesuai dengan kelompok yang diamati.",
+      "mujam": [
+        "Data",
+        "frekuensi",
+        "kesimpulan"
+      ],
+      "syarah": "Contoh fiktif: 5 memilih membaca, 3 menggambar, 2 bermain teka-teki. Buat diagram.",
+      "hasyiyah": "Data contoh tidak mewakili semua anak atau seluruh sekolah.",
+      "quiz": {
+        "q": "Berapa jumlah pilihan dalam contoh?",
+        "options": [
+          "10",
+          "8",
+          "5"
+        ],
+        "answer": 0,
+        "feedback": "5 + 3 + 2 = 10 pilihan."
+      },
+      "khidmah": "Buat diagram dari data benda, bukan informasi pribadi.",
+      "sourceNeeded": "Statistika dasar; penelaahan guru matematika.",
+      "sourceIds": [],
+      "epistemicStatus": "C",
+      "editorialStatus": "draft",
+      "ageBand": "9–12 (usulan)",
+      "version": "0.1"
+    }
+  ]
+}
