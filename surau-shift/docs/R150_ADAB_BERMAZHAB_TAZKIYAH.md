@@ -1,0 +1,10 @@
+# R-150 addendum — Adab bermazhab sebagai bagian tazkiyah
+Status: arahan filosofis terbaru pengguna; rumusan pedagogik C/draft, bukan fatwa atau keputusan afiliasi lembaga. Melengkapi R150_ADAB_IKHTILAF_LIFE_PURPOSE.md.
+## Arah
+Seseorang boleh memilih dan mengikuti mazhab fikih, tradisi aqidah dan metode tasawuf berdasarkan ilmu yang dipelajarinya dan bimbingan ulama kompeten. Keteguhan tidak memberi hak merendahkan orang lain, mengklaim kesucian diri, atau berpura-pura memiliki kapasitas tafsir/istinbath yang belum dikuasai. Tidak menetapkan pilihan mazhab resmi lembaga tanpa keputusan pengguna. Perbedaan dapat meliputi metode dan kesimpulan; tidak semua pandangan identik atau sama kuat.
+## Prinsip pedagogik
+Bedakan keyakinan atas suatu pendapat dari klaim superioritas pribadi; bedakan membaca teks, memahami terjemah, mengkaji syarah dan melakukan istinbath. Hormati sanad dan kompetensi tanpa menganggap ulama maksum atau melarang pertanyaan jujur. Kritik pendapat dengan bukti dan adab, bukan serangan terhadap martabat pengikutnya. Murabbi membimbing peserta untuk mengenali keterbatasan, meminta penjelasan, membandingkan sumber sesuai kemampuan, dan mengakui kesalahan. Tidak memaksa afiliasi atau ritual tarekat, tidak memberi skor kesalehan, tidak mempermalukan murid. Keselamatan, privasi dan akuntabilitas tetap berlaku.
+## Sumber awal
+QS 49:11, https://quran.com/49/11 — larangan merendahkan orang lain. QS 16:43, https://quran.com/16%3A43 — bertanya kepada orang berpengetahuan, dalam konteks ayat tentang para rasul terdahulu; penerapan pedagogik lebih umum perlu telaah tafsir, bukan pemotongan konteks. QS 17:36 kandidat pendalaman tanggung jawab pengetahuan. Kandidat turats: adab al-ikhtilaf, ushul fikih, adab al-fatwa, kitab al-ilm dan pembinaan tawadhu dalam tasawuf. Tahqiq edisi/juz/halaman dan review ahli masih diperlukan.
+## Implikasi audit
+Tambahkan butir adab bermazhab, kerendahan hati epistemik dan kompetensi tafsir pada audit FAHM–TAZKIYAH. R150.7 konsistensi keputusan tetap; R150.8 audit sumber fardhu ayn dan 398 kandidat belum selesai. Tidak mengubah main atau mengesahkan kurikulum.
