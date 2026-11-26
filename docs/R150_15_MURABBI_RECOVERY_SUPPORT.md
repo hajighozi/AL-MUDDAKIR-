@@ -1,0 +1,13 @@
+# R150.15 — Pendampingan pemulihan dan peran murabbi
+Status C/draft. Kajian umum, bukan diagnosis, resep, fatwa atau layanan terapi. Tidak mencatat kasus/identitas pribadi.
+## Bukti
+- WHO/UNODC International Standards for the Treatment of Drug Use Disorders (2020), https://www.who.int/publications/i/item/international-standards-for-the-treatment-of-drug-use-disorders : halaman ringkasan resmi dibuka; pendekatan efektif, berbasis bukti, etis dan sesuai kebutuhan kelompok. Dokumen lengkap belum diperiksa.
+- NIH https://health.nih.gov/health-topics-a-z/substance-use-disorder : cuplikan hasil pencarian, kondisi dapat ditangani; pemulihan jangka panjang memungkinkan, kekambuhan dapat terjadi.
+- Meta-analisis longitudinal spiritualitas dan penggunaan zat berbahaya, PMID 41706493, https://pubmed.ncbi.nlm.nih.gov/41706493/ : cuplikan abstrak menyatakan asosiasi protektif pada 55 studi (540712 peserta); asosiasi bukan bukti kausal atau kebutuhan mursyid tertentu.
+- Meta-analisis RCT intervensi spiritual/agama 2019, PMID 31349206, https://pubmed.ncbi.nlm.nih.gov/31349206/ : cuplikan menyatakan efek terhadap kontrol tidak aktif tidak signifikan pada enam studi, ketidakpastian lebar. Pembukaan kedua halaman PubMed hanya mengembalikan footer; belum telaah artikel penuh.
+## Implikasi
+Gangguan penggunaan zat berbeda dari kebiasaan digital bermasalah; perlu asesmen sesuai jenis masalah, bukan diagnosis moral. Murabbi dapat mendukung harapan, makna, hubungan sosial, rutinitas sehat, rujukan dan pemulihan tanpa stigma. Dokter/psikolog/tenaga adiksi kompeten menangani asesmen dan terapi sesuai kewenangan; murabbi tidak meresepkan obat, menghentikan perawatan atau menjanjikan kesembuhan. Keterlibatan spiritual sukarela dan sesuai pilihan individu. Untuk anak libatkan orang dewasa tepercaya dan tenaga profesional; perlindungan, privasi, akses keluarga dan kebebasan berganti pendamping. Tidak ada hukuman, isolasi, pengakuan dosa wajib atau ketergantungan eksklusif. Kekambuhan bukan bukti lemahnya iman atau bahwa pemulihan mustahil.
+## Tahqiq al-manat
+Kecanduan memperkuat urgensi sistem bantuan berkesinambungan dan rujukan profesional, tetapi tidak membuktikan setiap orang wajib ikut tarekat tertentu atau terapi murabbi tunggal. Kewajiban mencari bantuan yang diperlukan tetap bersyarat kebutuhan dan kemampuan; telaah ulama diperlukan.
+## Implementasi usulan
+Surau Shift menjadi jejaring dukungan nonklinis dengan rujukan, bukan klinik; Murabbi Academy MB06/08 mengajarkan batas kompetensi dan dukungan pemulihan. Tidak ada protokol terapi individual, pilot, validasi klinis atau merge ke main. Audit korpus asli masih terbuka.
