@@ -48,6 +48,10 @@ Rancangan Tahun Pertama mencakup **12 siklus tematik**. Semua siklus masih perlu
 
 **Cara membaca:** mulai dari dokumen kesimpulan induk, lalu periksa sumber asli yang dirujuk sebelum menyatakan suatu klaim telah terverifikasi.
 
+## Khidmah Lingkungan
+
+[Studi kasus Padang Longang](khidmah-lingkungan/padang-longang/index.html) menghubungkan enam Al Muddakir dengan khidmah Tan Project. Peserta menilai bukti mengenai hutan pinus, air dan agroforestri kopi, lalu menyusun pertimbangan untuk musyawarah. [Usulan kebijakan](khidmah-lingkungan/padang-longang/usulan-kebijakan.md) membedakan sasaran perlindungan 75 ha dari luas penebangan yang terverifikasi.
+
 ## Status dan batas publikasi
 
 Dokumen kesimpulan telah **final secara editorial-konseptual**, **bukan** final secara operasional atau ilmiah. Audit seluruh kandidat pengetahuan, pengembangan unit ajar, penilaian ahli, perlindungan peserta didik, kesiapan lembaga, dan pengujian lapangan belum boleh diasumsikan selesai.
