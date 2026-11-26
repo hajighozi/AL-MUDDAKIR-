@@ -1,0 +1,15 @@
+# R-150 addendum — Peta keragaman jalan Tazkiyah
+Status: C/draft; kelanjutan arahan pengguna tentang hidup bersama dalam keragaman mazhab. Bukan fatwa, daftar tarekat yang disahkan, atau kurikulum resmi.
+## Register awal (kandidat kajian, tidak eksklusif)
+Fikih Sunni: Hanafi (Al-Hidayah), Maliki (Al-Muwatta', Mukhtasar Khalil), Syafi'i (Al-Umm, Fath al-Qarib), Hanbali (Al-Mughni, Zad al-Mustaqni'). 
+Tradisi teologi Sunni: Asy'ari (Al-Ibanah, Umm al-Barahin), Maturidi (Kitab al-Tawhid, Al-Aqa'id al-Nasafiyyah), Atsari (Usul al-Sunnah, Lum'at al-I'tiqad). Tidak menyamakan seluruh rumusan teologi, atau memetakan fikih dan aqidah secara satu-ke-satu.
+Tarekat: Qadiriyah, Naqsyabandiyah, Syadziliyah, Syattariyah, Sammaniyah, Rifa'iyah, Chishtiyah, Tijaniyah, Suhrawardiyah, Khalwatiyah. Pembinaan akhlak/tasawuf tanpa afiliasi tarekat juga dimungkinkan. Semua karya, atribusi, cabang, praktik dan silsilah memerlukan kajian khusus. Tidak menganggap semua kombinasi otomatis cocok.
+## Sumber penelusuran terbatas
+- Amman Message, teks tiga ketentuan: https://ammanmessage.com/text-of-the-fatwa-with-its-three-provisions-as-it-was-agreed-upon/ (hasil penelusuran; pengakuan delapan mazhab hukum dan pembatasan takfir).
+- International Islamic Fiqh Academy, resolusi 152 (1/17), 24–28 Juni 2006: https://iifa-aifi.org/en/32920.html ; dialog 2013 https://iifa-aifi.org/en/33073.html ; statuta https://iifa-aifi.org/en/statute. Ini keputusan institusional, bukan bukti seluruh ulama menyepakati semua ajaran.
+- Teologi: https://www.tandfonline.com/doi/full/10.1080/23311983.2026.2646779 (cuplikan hasil pencarian, bukan telaah penuh).
+- Tarekat: https://nefkrcenter.org/en/tarikat/ ; https://www.pewresearch.org/religion/2012/08/09/the-worlds-muslims-unity-and-diversity-glossary/ ; https://islam.museum/en/tasawwuf/ (penelusuran deskriptif).
+- Sumatera: https://ejournal.uinib.ac.id/jurnal/index.php/hadharah/article/view/1110/0 (manuskrip ijazah Naqsyabandiyah dan Syattariyah Minangkabau); https://garuda.kemdiktisaintek.go.id/documents/detail/3195825 (perbedaan historis dua tarekat); https://jurnal.radenfatah.ac.id/index.php/SH/article/view/27322 (tradisi Palembang); https://jurnal.staim-probolinggo.ac.id/Imtiyaz/article/view/653 (jejaring tarekat Minang di Medan). Metadata dan cuplikan saja, belum telaah penuh manuskrip.
+## Pedagogik usulan
+Satu landasan IQRA'–FAHM, pendalaman jalur fikih/aqidah/akhlak sesuai kebutuhan dan guru kompeten; ruang bersama berupa dialog, adab ikhtilaf, belajar dan khidmah sipil: literasi, lingkungan, dukungan sosial. Tidak mencampur praktik secara serampangan, memaksa afiliasi, menilai iman, memaksa ikrar atau mengesahkan ketaatan tanpa batas kepada pembimbing. Lindungi anak dan privasi, akuntabilitas, kebebasan bertanya. Contoh perbedaan qunut: belajar alasan masing-masing dengan guru; jaga adab berjamaah dan kerja sama tanpa memaksa perubahan mazhab. 
+Audit berikut: sumber primer per tradisi, mawdhu-jihat, edisi, lokator, dalil, perbedaan, cakupan, reviewer. Tidak ada klaim tahqiq/efektivitas. Audit asli 398 masih terbuka; tidak merge.
