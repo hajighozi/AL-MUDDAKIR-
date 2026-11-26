@@ -1,0 +1,8 @@
+# R-150 — Ukhuwah dan Khidmah Bersama
+Status: arahan filosofis pengguna; rumusan kelembagaan C/draft, bukan fatwa atau penetapan batas keimanan.
+## Arah
+Umat Islam dari beragam golongan, mazhab fikih, tradisi aqidah dan metode tasawuf dapat bersaudara, berdialog dan berkhidmah bersama bagi umat Nabi Muhammad dan seluruh ciptaan Allah, mengharap ridha Allah Rabb al-Alamin. Tujuan bukan kemenangan golongan. Tidak mensyaratkan penyeragaman afiliasi atau rumusan teologi. Manfaat bagi manusia dan alam tidak dibatasi agama penerima; kerja sama sipil dalam kebaikan dengan masyarakat lain juga dihormati.
+## Implikasi
+Al Muddakir: IQRA' dan FAHM, belajar sumber dan perbedaan dengan adab. Surau Shift: tazkiyah integral, Majelis Takjub, Sarang Lebah Baginda Nabi dan raso pareso. Tan Project: khidmah bersama dalam pendidikan, literasi, lingkungan dan dukungan masyarakat yang aman. Partisipasi sukarela, sesuai usia dan kemampuan; tidak menilai iman, memaksa afiliasi, menghakimi batin atau mengabaikan akuntabilitas. Perbedaan ilmiah dapat ditelaah tanpa penghinaan; tidak mengesahkan setiap klaim atau praktik hanya karena nama golongan.
+## Audit
+Kandidat landasan QS 49:10 (ukhuwah), QS 5:2 (tolong-menolong dalam kebajikan), QS 21:107 (rahmat bagi alam). Telaah konteks dan tafsir masih diperlukan. Rujuk feature/surau-shift R150_TAZKIYAH_DIVERSITY_ATLAS.md, R150_MAJELIS_TAKJUB_KEBERSAMAAN.md dan docs/R150_UNITY_PURPOSE_DIVERSITY_METHOD.md. Audit korpus asli belum selesai, tidak merge ke main.
