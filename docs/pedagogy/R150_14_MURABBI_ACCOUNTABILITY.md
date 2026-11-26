@@ -1,0 +1,10 @@
+# R150.14 — Akuntabilitas murabbi dan perlindungan murid
+Status C/draft, usulan desain menanggapi pertanyaan pengguna tentang murabbi bermasalah. Tidak menuduh individu atau tarekat tertentu. Tidak mengesahkan kesucian jiwa, fatwa, atau SOP legal final.
+## Prinsip
+Kebutuhan murabbi tidak menghapus risiko penyalahgunaan otoritas. Sanad, ijazah dan reputasi tidak menggantikan kompetensi, integritas teramati dan perlindungan murid. Kandidat dalil untuk tahqiq: QS 4:135 keadilan terhadap diri dan kerabat; QS 53:32 batas klaim kesucian; QS 49:6 pemeriksaan kabar. Belum dilakukan audit tafsir pada sesi ini.
+## Desain usulan
+Pisahkan pendamping keilmuan dari pengambil keputusan pengaduan. Majelis pendidik menyelenggarakan pembinaan sejawat; petugas perlindungan independen dari terlapor dan silsilah guru menerima pengaduan. Sediakan akses keluarga/wali, guru lain dan pihak eksternal yang berwenang. Murid bebas berpindah pendamping atau meninggalkan program tanpa ancaman atau penilaian iman. Tidak ada komunikasi rahasia dengan anak, isolasi, paksaan afiliasi, hukuman fisik, eksploitasi, pengakuan dosa wajib atau akses tanpa batas.
+## Penanganan
+Kesalahan pengetahuan: periksa sumber, koreksi dan supervisi. Pelanggaran profesional: dokumentasi minimal dan aman, review independen, tindakan proporsional. Dugaan kekerasan, eksploitasi atau ancaman keselamatan: utamakan perlindungan, batasi kontak sesuai risiko, rujuk ke otoritas/layanan perlindungan yang relevan tanpa menunggu musyawarah tarekat atau bukti sempurna. Jangan paksa korban berhadapan atau berdamai dengan terlapor; hindari pembalasan. Pemeriksaan adil tidak berarti menunda perlindungan sementara. Keputusan penugasan, pembatasan atau pemberhentian harus sesuai prosedur dan hukum. Tidak unggah identitas atau laporan pribadi ke GitHub publik.
+## Gate
+Review bersama ulama, pendidik, ahli perlindungan anak dan hukum setempat sebelum implementasi. Belum ada majelis aktif, pengaduan aktual, standar legal terverifikasi atau pilot. Tidak mengubah main; audit korpus asli masih terbuka.
