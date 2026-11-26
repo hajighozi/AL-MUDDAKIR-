@@ -1,0 +1,10 @@
+# R-150 addendum — IQRA' dan FAHM sebagai landasan pengamalan Tazkiyah
+Status: arahan filosofis pengguna; hipotesis pedagogik C/draft, bukan fatwa, syarat sah ibadah atau hasil uji empiris. Melengkapi R150_CONTOH_JALUR_TAZKIYAH_SYAFII_ASYARI_QADIRI.md dan R150_LIFELONG_TAZKIYAH.md.
+## Arahan pengguna
+Pengamalan fikih, aqidah dan tasawuf yang dilandasi IQRA' dan FAHM berbeda dari pengamalan yang tidak disertai pengetahuan dan kesadaran tersebut. IQRA' membaca wahyu dan penciptaan dengan ilmu alat yang sesuai; FAHM mencakup pemahaman dan kesadaran sebagai makhluk/hamba Allah; TAZKIYAH menyatukan pembinaan akal, hati, lisan dan amal; KHIDMAH mengaktualisasikan amanah dengan ikhlas dan itqan.
+## Implikasi pedagogik
+Bedakan cara (tata cara/tuntunan), makna (alasan dan konteks), orientasi (penghambaan kepada Allah), dan praktik (amal serta tanggung jawab). Contoh shalat: kaji sumber dan tuntunan bersama guru; pahami makna bacaan dan orientasi ibadah; pelajari fikih pelaksanaan, aqidah dan adab batin; terapkan tanggung jawab sosial. Contoh lingkungan: observasi tanaman, bedakan fakta dan inferensi, pahami amanah, rawat bersama secara bertanggung jawab. Jalur Syafi'i–Asy'ari–Qadiri tetap contoh, bukan afiliasi wajib.
+## Batas
+Prioritas IQRA'/FAHM adalah landasan pedagogik, bukan syarat tambahan sah ibadah atau prasyarat keras menunda amal; pembiasaan dan pengamalan juga dapat memperdalam pemahaman. Tidak menganggap orang yang belum menempuh program ini tidak ikhlas, tidak beradab atau kurang iman. Jangan menilai batin atau memaksa perasaan, ritual atau pengungkapan pribadi. Penilaian terbatas pada penjelasan, keterampilan, tindakan teramati dan perbaikan; hormati perkembangan anak, kebutuhan istirahat, privasi dan kebebasan dari kekerasan. Klaim peningkatan motivasi atau kualitas belajar perlu uji, tidak dijamin.
+## Kandidat audit
+QS 47:19, 39:9, 16:78, 29:45 dan hadis Jibril (ihsan); lokator kandidat, bukan hasil tahqiq. Telaah Ihya' Kitab al-'Ilm dan Asrar al-Salah, sumber tafsir/hadis, serta pedagogik motivasi dan transfer pembelajaran. Audit arsip asli 398 kandidat tetap terbuka; tidak mengubah main, registry, engine atau kurikulum resmi.
