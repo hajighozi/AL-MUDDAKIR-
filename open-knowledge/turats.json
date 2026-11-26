@@ -1,0 +1,499 @@
+{
+  "version": "0.1.0",
+  "checkpoint": "R-136",
+  "status": "draft",
+  "policy": "Daftar judul kandidat, bukan hasil verifikasi isi kitab; tidak ada korpus, kode upstream, API credentials atau teks kitab diimpor. KitabPedia Source internal tidak diasumsikan identik dengan layanan web.",
+  "providers": [
+    {
+      "id": "shamela",
+      "title": "Maktabah Syamilah",
+      "url": "https://shamela.ws/",
+      "access": "manual_reference",
+      "rights": "Periksa hak edisi dan aset"
+    },
+    {
+      "id": "shamela-sdk",
+      "title": "Shamela TypeScript SDK",
+      "url": "https://github.com/maktab-al-shamila/shamelah",
+      "access": "api_key_required",
+      "readmeBlob": "78f17feaed1684902fdb875be48cf7f551dbbf12",
+      "rights": "LICENSE belum ditemukan; kode belum diimpor"
+    },
+    {
+      "id": "turath",
+      "title": "Turath.io",
+      "url": "https://app.turath.io/",
+      "access": "candidate_api",
+      "rights": "Ketentuan korpus belum diverifikasi"
+    },
+    {
+      "id": "turath-mcp",
+      "title": "Turath MCP",
+      "url": "https://github.com/opin22/turath-mcp",
+      "access": "candidate_adapter",
+      "readmeBlob": "2d14935c48635eaa3b05729d88702e8a98886938",
+      "licenseBlob": "d81b2b945314d9ce1bb7b78ca931799d0b85a56d",
+      "rights": "MIT untuk kode; bukan izin korpus"
+    },
+    {
+      "id": "openiti",
+      "title": "OpenITI",
+      "url": "https://openiti.org/documentation/",
+      "access": "versioned_reference",
+      "rights": "Periksa lisensi rilis dan versi teks"
+    },
+    {
+      "id": "kitabpedia-pro",
+      "title": "KitabPedia PRO",
+      "url": "https://kitabpedia.com/",
+      "access": "manual_reference",
+      "rights": "API dan hak ekspor belum dipastikan"
+    },
+    {
+      "id": "kitabpedia-id",
+      "title": "Kitabpedia.id",
+      "url": "https://kitabpedia.id/",
+      "access": "manual_reference",
+      "rights": "Periksa ketentuan nonkomersial dan hak teks; berbeda dari KitabPedia PRO"
+    }
+  ],
+  "books": [
+    {
+      "id": "t-01",
+      "arabic": "الآجرومية",
+      "title": "Al-Ājurrūmiyyah",
+      "author": "Ibnu Ajurrum",
+      "faculties": [
+        "lughah",
+        "quran",
+        "hadis"
+      ],
+      "subject": "Nahwu",
+      "pathIds": [
+        "lu-001",
+        "lu-002",
+        "lu-003",
+        "lu-004",
+        "lu-005",
+        "fa-003",
+        "fa-004",
+        "ha-006"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-02",
+      "arabic": "شرح ابن عقيل على ألفية ابن مالك",
+      "title": "Syarah Ibn ‘Aqil",
+      "author": "Ibnu ‘Aqil",
+      "faculties": [
+        "lughah",
+        "quran",
+        "hadis"
+      ],
+      "subject": "Nahwu lanjutan",
+      "pathIds": [
+        "lu-001",
+        "lu-005",
+        "fa-003",
+        "ha-006"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-03",
+      "arabic": "شذا العرف في فن الصرف",
+      "title": "Syadza al-‘Arf",
+      "author": "Ahmad al-Hamlawi",
+      "faculties": [
+        "lughah",
+        "quran",
+        "hadis"
+      ],
+      "subject": "Sharaf",
+      "pathIds": [
+        "lu-006",
+        "lu-007",
+        "fa-004",
+        "ha-006"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-04",
+      "arabic": "البلاغة الواضحة",
+      "title": "Al-Balaghah al-Wadhihah",
+      "author": "Ali al-Jarim dan Mustafa Amin",
+      "faculties": [
+        "lughah",
+        "quran"
+      ],
+      "subject": "Balaghah",
+      "pathIds": [
+        "lu-008",
+        "lu-009"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-05",
+      "arabic": "المقدمة الجزرية",
+      "title": "Al-Muqaddimah al-Jazariyyah",
+      "author": "Ibnu al-Jazari",
+      "faculties": [
+        "quran"
+      ],
+      "subject": "Makharij dan tajwid",
+      "pathIds": [
+        "fa-001"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-06",
+      "arabic": "تحفة الأطفال",
+      "title": "Tuhfat al-Athfal",
+      "author": "Sulaiman al-Jamzuri",
+      "faculties": [
+        "quran"
+      ],
+      "subject": "Tajwid dasar",
+      "pathIds": [
+        "fa-002"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-07",
+      "arabic": "الإتقان في علوم القرآن",
+      "title": "Al-Itqan",
+      "author": "Jalaluddin al-Suyuthi",
+      "faculties": [
+        "quran"
+      ],
+      "subject": "Ulumul Qur’an",
+      "pathIds": [
+        "fa-007",
+        "fa-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-08",
+      "arabic": "جامع البيان عن تأويل آي القرآن",
+      "title": "Jami‘ al-Bayan",
+      "author": "Al-Thabari",
+      "faculties": [
+        "quran"
+      ],
+      "subject": "Tafsir dan riwayat",
+      "pathIds": [
+        "fa-005",
+        "fa-006",
+        "fa-007"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-09",
+      "arabic": "البرهان في علوم القرآن",
+      "title": "Al-Burhan",
+      "author": "Badruddin al-Zarkasyi",
+      "faculties": [
+        "quran"
+      ],
+      "subject": "Ulumul Qur’an",
+      "pathIds": [
+        "fa-005",
+        "fa-007",
+        "fa-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-10",
+      "arabic": "الورقات",
+      "title": "Al-Waraqat",
+      "author": "Al-Juwaini",
+      "faculties": [
+        "quran",
+        "hadis"
+      ],
+      "subject": "Ushul fikih",
+      "pathIds": [
+        "fa-009",
+        "ha-007"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-11",
+      "arabic": "الأشباه والنظائر",
+      "title": "Al-Asybah wa al-Nazha’ir",
+      "author": "Jalaluddin al-Suyuthi",
+      "faculties": [
+        "quran",
+        "hadis"
+      ],
+      "subject": "Kaidah fikih",
+      "pathIds": [
+        "fa-010"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-12",
+      "arabic": "نخبة الفكر",
+      "title": "Nukhbat al-Fikar",
+      "author": "Ibnu Hajar al-‘Asqalani",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Musthalah hadis",
+      "pathIds": [
+        "ha-001",
+        "ha-002",
+        "ha-004",
+        "ha-005"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-13",
+      "arabic": "نزهة النظر",
+      "title": "Nuzhat al-Nazhar",
+      "author": "Ibnu Hajar al-‘Asqalani",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Syarah musthalah",
+      "pathIds": [
+        "ha-002",
+        "ha-004",
+        "ha-005"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-14",
+      "arabic": "صحيح البخاري",
+      "title": "Shahih al-Bukhari",
+      "author": "Al-Bukhari",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Sumber riwayat",
+      "pathIds": [
+        "ha-003",
+        "ha-005",
+        "ha-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-15",
+      "arabic": "صحيح مسلم",
+      "title": "Shahih Muslim",
+      "author": "Muslim bin al-Hajjaj",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Sumber riwayat",
+      "pathIds": [
+        "ha-003",
+        "ha-005",
+        "ha-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-16",
+      "arabic": "فتح الباري",
+      "title": "Fath al-Bari",
+      "author": "Ibnu Hajar al-‘Asqalani",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Syarah Bukhari",
+      "pathIds": [
+        "ha-005",
+        "ha-007",
+        "ha-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-17",
+      "arabic": "المنهاج شرح صحيح مسلم",
+      "title": "Al-Minhaj Syarh Shahih Muslim",
+      "author": "Al-Nawawi",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Syarah Muslim",
+      "pathIds": [
+        "ha-005",
+        "ha-007",
+        "ha-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-18",
+      "arabic": "الشمائل المحمدية",
+      "title": "Al-Syama’il al-Muhammadiyyah",
+      "author": "Al-Tirmidzi",
+      "faculties": [
+        "hadis"
+      ],
+      "subject": "Syama’il dan keteladanan",
+      "pathIds": [
+        "ha-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-19",
+      "arabic": "تهذيب المنطق",
+      "title": "Tahdzib al-Mantiq",
+      "author": "Sa‘duddin al-Taftazani",
+      "faculties": [
+        "matematika"
+      ],
+      "subject": "Mantiq klasik",
+      "pathIds": [
+        "ma-007",
+        "ma-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    },
+    {
+      "id": "t-20",
+      "arabic": "السلم المرونق",
+      "title": "Al-Sullam al-Murawnaq",
+      "author": "Abdurrahman al-Akhdhari",
+      "faculties": [
+        "matematika"
+      ],
+      "subject": "Mantiq dasar",
+      "pathIds": [
+        "ma-007",
+        "ma-008"
+      ],
+      "status": "candidate",
+      "edition": null,
+      "locator": null,
+      "providerBookId": null,
+      "rights": "reference_only",
+      "validated": false
+    }
+  ],
+  "validationFields": [
+    "bookId",
+    "edition",
+    "volume",
+    "pageOrSection",
+    "sourceUrl",
+    "claim",
+    "evidenceNote",
+    "rightsDecision",
+    "reviewer",
+    "reviewDate"
+  ],
+  "approval": "manual_external_review_only"
+}
