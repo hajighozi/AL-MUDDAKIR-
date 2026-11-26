@@ -1,0 +1,1182 @@
+{
+  "version": "0.1.0",
+  "checkpoint": "R-134",
+  "status": "draft_reference_index",
+  "policy": "Reference metadata only. No external content, dataset, executable code, or full remote Git history imported. Candidate source is not verified evidence; exact edition, locator, rights and human review required.",
+  "sources": [
+    {
+      "id": "MIT-OCW",
+      "title": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu/",
+      "rightsUrl": "https://ocw.mit.edu/pages/privacy-and-terms-of-use/",
+      "rights": "CC BY-NC-SA 4.0 untuk materi terbuka; periksa pengecualian",
+      "faculty": [
+        "alam",
+        "matematika"
+      ],
+      "use": "Rujukan guru untuk urutan konsep dan pemodelan; bukan materi anak siap pakai.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "MIT-CT",
+      "title": "MIT Computational Thinking, Fall 2024",
+      "url": "https://computationalthinking.mit.edu/Fall24/",
+      "rightsUrl": "https://github.com/mitmath/computational-thinking/tree/Fall24",
+      "rights": "README ditemukan; lisensi kode spesifik belum dipastikan",
+      "faculty": [
+        "matematika",
+        "alam"
+      ],
+      "use": "Contoh pemodelan, visualisasi dan struktur komputasi; rujukan guru tingkat lanjut.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "OS",
+      "title": "OpenStax — Rice University",
+      "url": "https://openstax.org/",
+      "rightsUrl": "https://help.openstax.org/s/article/Openstax-textbook-licensing-and-customization",
+      "rights": "CC BY-NC-SA menurut informasi penerbit; periksa edisi dan materi pihak ketiga",
+      "faculty": [
+        "alam",
+        "matematika",
+        "peradaban"
+      ],
+      "use": "Tinjau definisi, contoh, dan cakupan; susun penjelasan asli sesuai usia.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "PHET",
+      "title": "PhET — University of Colorado Boulder",
+      "url": "https://phet.colorado.edu/",
+      "rightsUrl": "https://phet.colorado.edu/en/licensing",
+      "rights": "Regular HTML simulations CC BY-NC 4.0; aturan merek dan lisensi kode terpisah",
+      "faculty": [
+        "alam",
+        "matematika"
+      ],
+      "use": "Pengamatan virtual dan prediksi; guru memilih simulasi sesuai usia.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "DIG",
+      "title": "Digital Inquiry Group",
+      "url": "https://www.inquirygroup.org/history-lessons",
+      "rightsUrl": "https://www.inquirygroup.org/about/dig-faq",
+      "rights": "Hak penggunaan bahan spesifik belum diperiksa",
+      "faculty": [
+        "peradaban"
+      ],
+      "use": "Pertanyaan sejarah, konteks dan pembandingan sumber; contoh asli lokal.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "QAC",
+      "title": "Quranic Arabic Corpus — University of Leeds",
+      "url": "https://corpus.quran.com/",
+      "rightsUrl": "https://corpus.quran.com/download/",
+      "rights": "GNU public license dengan ketentuan situs; versi dataset harus diperiksa",
+      "faculty": [
+        "quran",
+        "lughah"
+      ],
+      "use": "Anotasi morfologi dan sintaksis sebagai rujukan; pemeriksaan ahli tetap wajib.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "OPENITI",
+      "title": "OpenITI",
+      "url": "https://openiti.org/documentation/",
+      "rightsUrl": "https://openiti.org/documentation/",
+      "rights": "Rilis korpus CC BY-NC-SA 4.0; cek edisi dan provenans",
+      "faculty": [
+        "quran",
+        "hadis",
+        "lughah",
+        "peradaban"
+      ],
+      "use": "Penelusuran katalog, edisi dan turats; bukan bukti otomatis kesahihan riwayat.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "LK",
+      "title": "Leeds–King Saud Hadith Corpus",
+      "url": "https://github.com/ShathaTm/LK-Hadith-Corpus",
+      "rightsUrl": "https://github.com/ShathaTm/LK-Hadith-Corpus/blob/master/README.md",
+      "rights": "Lisensi distribusi belum ditemukan; tidak mengimpor dataset",
+      "faculty": [
+        "hadis"
+      ],
+      "use": "Kandidat bantuan segmentasi sanad/matan; anotasi otomatis memerlukan pemeriksaan.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "STANZA",
+      "title": "Stanford NLP Stanza",
+      "url": "https://stanfordnlp.github.io/stanza/",
+      "rightsUrl": "https://github.com/stanfordnlp/stanza/blob/main/LICENSE",
+      "rights": "Kode Apache-2.0; lisensi model/dataset terpisah",
+      "faculty": [
+        "lughah",
+        "quran",
+        "hadis"
+      ],
+      "use": "Eksperimen analisis bahasa oleh pengembang; hasil bukan otoritas nahwu atau tafsir.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "EEF",
+      "title": "Education Endowment Foundation",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/metacognition",
+      "rightsUrl": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/metacognition",
+      "rights": "Rujukan saja; hak reproduksi belum diperiksa",
+      "faculty": [
+        "all"
+      ],
+      "use": "Pemodelan strategi, dukungan bertahap dan evaluasi belajar.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "IES",
+      "title": "IES What Works Clearinghouse",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "rightsUrl": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "rights": "Rujukan saja; periksa hak setiap aset",
+      "faculty": [
+        "all"
+      ],
+      "use": "Penataan waktu belajar, pengulangan, contoh dan latihan transfer.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    },
+    {
+      "id": "CAST",
+      "title": "CAST UDL Guidelines",
+      "url": "https://udlguidelines.cast.org/",
+      "rightsUrl": "https://udlguidelines.cast.org/",
+      "rights": "Rujukan saja; hak reproduksi belum diperiksa",
+      "faculty": [
+        "all"
+      ],
+      "use": "Pilihan representasi, aksesibilitas dan cara menunjukkan kompetensi.",
+      "importMode": "reference_only",
+      "contentImported": false,
+      "review": "candidate",
+      "checkedDate": "2026-11-26"
+    }
+  ],
+  "upstream": [
+    {
+      "repo": "mitmath/computational-thinking",
+      "ref": "Fall24",
+      "path": "README.md",
+      "sha": "a66bc2a4e52a97aa9ebda7475ccdc9a1e218ffd6",
+      "sourceId": "MIT-CT"
+    },
+    {
+      "repo": "stanfordnlp/stanza",
+      "ref": "main",
+      "path": "LICENSE",
+      "sha": "a490f12d15239f412ad69a92dd1ea01e683616db",
+      "sourceId": "STANZA"
+    },
+    {
+      "repo": "ShathaTm/LK-Hadith-Corpus",
+      "ref": "master",
+      "path": "README.md",
+      "sha": "4c8f7620aefe35eb9bbc93a344c70de425687537",
+      "sourceId": "LK"
+    },
+    {
+      "repo": "OpenITI/documentation",
+      "ref": "master",
+      "path": "index.md",
+      "sha": "a72dfa3755a155a8fc9f939a3a417538e47cb9a5",
+      "sourceId": "OPENITI"
+    }
+  ],
+  "mappings": [
+    {
+      "faculty": "quran",
+      "pathId": "fa-001",
+      "topic": "Pengenalan tempat keluarnya huruf",
+      "sourceIds": [],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "source_gap",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-002",
+      "topic": "Nun sukun dan tanwin",
+      "sourceIds": [],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "source_gap",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-003",
+      "topic": "Isim mu‘rab",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-004",
+      "topic": "Fi‘il mudhari‘",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-005",
+      "topic": "Al-Qur’an dengan Al-Qur’an",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-006",
+      "topic": "Al-Qur’an dengan Sunnah",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-007",
+      "topic": "Asbab nuzul",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-008",
+      "topic": "Tema sosial",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-009",
+      "topic": "‘Amm dan khass",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "quran",
+      "pathId": "fa-010",
+      "topic": "Hubungan niat dan perbuatan",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-001",
+      "topic": "Identitas perawi",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-002",
+      "topic": "Syarat kesahihan",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-003",
+      "topic": "Identitas kitab dan nomor hadis",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-004",
+      "topic": "Jarh wa ta‘dil",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-005",
+      "topic": "Perbedaan lafaz",
+      "sourceIds": [
+        "LK",
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-006",
+      "topic": "I‘rab dan tashrif",
+      "sourceIds": [
+        "QAC",
+        "STANZA"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-007",
+      "topic": "Batas istinbath",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "hadis",
+      "pathId": "ha-008",
+      "topic": "Amanah dan kasih sayang",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-001",
+      "topic": "Isim mu‘rab",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-002",
+      "topic": "Isim mabni",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-003",
+      "topic": "Fi‘il madhi",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-004",
+      "topic": "Fi‘il mudhari‘",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-005",
+      "topic": "Harf jar",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-006",
+      "topic": "Pola فَاعِلٌ",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-007",
+      "topic": "Pola مَفْعُولٌ",
+      "sourceIds": [
+        "QAC"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-008",
+      "topic": "Kesesuaian ungkapan dengan konteks",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "lughah",
+      "pathId": "lu-009",
+      "topic": "Tasybih",
+      "sourceIds": [
+        "OPENITI"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-001",
+      "topic": "Gerak lurus beraturan",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-002",
+      "topic": "Gerak lurus berubah beraturan",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-003",
+      "topic": "Hukum Newton",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-004",
+      "topic": "Kesetimbangan translasi",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-005",
+      "topic": "Cahaya dan bayangan",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-006",
+      "topic": "Air dan perubahan wujud",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-007",
+      "topic": "Unsur dan senyawa",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-008",
+      "topic": "Spektrum cahaya",
+      "sourceIds": [
+        "PHET",
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-009",
+      "topic": "Xilem dan floem",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-010",
+      "topic": "Reaksi terang",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-011",
+      "topic": "Tumbuhan di sekitar",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-012",
+      "topic": "Interaksi makhluk hidup",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-013",
+      "topic": "Jarak bintang",
+      "sourceIds": [
+        "OS",
+        "MIT-OCW"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "alam",
+      "pathId": "al-014",
+      "topic": "Jenis batuan",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-001",
+      "topic": "Jejak sejarah",
+      "sourceIds": [
+        "DIG"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-002",
+      "topic": "Berita dan sumber",
+      "sourceIds": [
+        "DIG"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-003",
+      "topic": "Tanggung jawab antaranggota",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-004",
+      "topic": "Nagari dan kerja sama",
+      "sourceIds": [
+        "DIG"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-005",
+      "topic": "Tradisi dan perubahan",
+      "sourceIds": [
+        "DIG",
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-006",
+      "topic": "Produksi dan distribusi",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-007",
+      "topic": "Pengambilan keputusan bersama",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "peradaban",
+      "pathId": "pr-008",
+      "topic": "Peta lingkungan",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-001",
+      "topic": "Operasi hitung",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-002",
+      "topic": "Pola dan generalisasi",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-003",
+      "topic": "Luas petak",
+      "sourceIds": [
+        "OS",
+        "PHET"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-004",
+      "topic": "Data dan kesimpulan",
+      "sourceIds": [
+        "OS",
+        "MIT-CT"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-005",
+      "topic": "Persamaan linear",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-006",
+      "topic": "Simetri",
+      "sourceIds": [
+        "OS"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-007",
+      "topic": "Batas konsep",
+      "sourceIds": [],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "source_gap",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-008",
+      "topic": "Validitas inferensi",
+      "sourceIds": [],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "source_gap",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-009",
+      "topic": "Percabangan dan perulangan",
+      "sourceIds": [
+        "MIT-CT"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    },
+    {
+      "faculty": "matematika",
+      "pathId": "ma-010",
+      "topic": "Contoh dan kontra-contoh",
+      "sourceIds": [
+        "MIT-OCW"
+      ],
+      "pedagogySourceIds": [
+        "EEF",
+        "IES",
+        "CAST"
+      ],
+      "status": "candidate_reference",
+      "evidenceStatus": "not_verified_for_claim",
+      "locator": null
+    }
+  ]
+}

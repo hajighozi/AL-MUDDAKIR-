@@ -1,0 +1,363 @@
+{
+  "version": "0.1.0",
+  "checkpoint": "R-133",
+  "status": "draft",
+  "ageBand": "9–12 pilot proposal; adapt to readiness",
+  "levels": [
+    {
+      "id": "L0",
+      "name": "Ta‘arruf",
+      "outcome": "Mengidentifikasi objek dari pengalaman atau contoh"
+    },
+    {
+      "id": "L1",
+      "name": "Taṣawwur",
+      "outcome": "Menjelaskan istilah dan membedakan contoh/noncontoh"
+    },
+    {
+      "id": "L2",
+      "name": "Fahm",
+      "outcome": "Menjelaskan relasi, alasan dan metode dengan contoh"
+    },
+    {
+      "id": "L3",
+      "name": "Taṭbīq",
+      "outcome": "Menggunakan metode pada persoalan baru"
+    },
+    {
+      "id": "L4",
+      "name": "Taḥqīq",
+      "outcome": "Memeriksa bukti, alternatif dan batas sesuai kompetensi"
+    }
+  ],
+  "faculties": [
+    {
+      "id": "quran",
+      "focus": "Ketepatan bacaan, pemahaman bahasa, konteks dan dalil",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Talaqqi dan koreksi guru"
+        },
+        {
+          "level": "L1",
+          "outcome": "Menjelaskan arti kosakata terbimbing"
+        },
+        {
+          "level": "L2",
+          "outcome": "Menghubungkan struktur kalimat dengan makna"
+        },
+        {
+          "level": "L3",
+          "outcome": "Menerapkan perangkat bahasa pada kutipan yang disahkan guru"
+        },
+        {
+          "level": "L4",
+          "outcome": "Membandingkan penafsiran sesuai kompetensi; bukan otoritas fatwa"
+        }
+      ]
+    },
+    {
+      "id": "hadis",
+      "focus": "Riwayat, makna dan keteladanan",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Mengenal sanad dan matan"
+        },
+        {
+          "level": "L1",
+          "outcome": "Menjelaskan sumber dan istilah dasar"
+        },
+        {
+          "level": "L2",
+          "outcome": "Membedakan autentisitas dan interpretasi"
+        },
+        {
+          "level": "L3",
+          "outcome": "Membandingkan redaksi dengan sumber yang sudah diaudit"
+        },
+        {
+          "level": "L4",
+          "outcome": "Menelusuri klaim ke sumber primer bersama ahli"
+        }
+      ]
+    },
+    {
+      "id": "lughah",
+      "focus": "Bahasa sebagai ilmu alat",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Mengenali kata pada kalimat sederhana"
+        },
+        {
+          "level": "L1",
+          "outcome": "Membedakan isim, fi‘il dan huruf"
+        },
+        {
+          "level": "L2",
+          "outcome": "Menjelaskan perubahan bentuk dan fungsi"
+        },
+        {
+          "level": "L3",
+          "outcome": "Menganalisis kalimat baru dengan kamus dan kaidah"
+        },
+        {
+          "level": "L4",
+          "outcome": "Memeriksa analisis alternatif dan pengecualian"
+        }
+      ]
+    },
+    {
+      "id": "alam",
+      "focus": "Observasi, pengukuran dan inferensi empiris",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Mengenali perubahan yang dapat diamati"
+        },
+        {
+          "level": "L1",
+          "outcome": "Membedakan observasi dan dugaan"
+        },
+        {
+          "level": "L2",
+          "outcome": "Menjelaskan variabel dan batas model"
+        },
+        {
+          "level": "L3",
+          "outcome": "Membuat perbandingan aman dengan satu faktor diubah"
+        },
+        {
+          "level": "L4",
+          "outcome": "Menilai kualitas pengukuran dan alternatif penjelasan"
+        }
+      ]
+    },
+    {
+      "id": "peradaban",
+      "focus": "Kronologi, sumber dan kehidupan bersama",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Mengurutkan kejadian sederhana"
+        },
+        {
+          "level": "L1",
+          "outcome": "Mengenali sumber dan konteks"
+        },
+        {
+          "level": "L2",
+          "outcome": "Membedakan kesaksian, interpretasi dan pengulangan"
+        },
+        {
+          "level": "L3",
+          "outcome": "Membandingkan sumber independen dan merumuskan simpulan terbatas"
+        },
+        {
+          "level": "L4",
+          "outcome": "Memeriksa bias, konteks, dan bukti yang bertentangan"
+        }
+      ]
+    },
+    {
+      "id": "matematika",
+      "focus": "Pola, abstraksi dan pembuktian",
+      "levels": [
+        {
+          "level": "L0",
+          "outcome": "Mengelompokkan benda dan mengamati pola"
+        },
+        {
+          "level": "L1",
+          "outcome": "Menjelaskan simbol dan definisi"
+        },
+        {
+          "level": "L2",
+          "outcome": "Menjelaskan hubungan melalui gambar dan contoh"
+        },
+        {
+          "level": "L3",
+          "outcome": "Memecahkan masalah baru dengan alasan"
+        },
+        {
+          "level": "L4",
+          "outcome": "Menguji generalisasi melalui bukti atau kontra-contoh"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": "ALM-01",
+      "path": "al-005",
+      "level": "L2",
+      "requires": [],
+      "outcome": "Membedakan pengamatan bayangan dan penjelasannya",
+      "activity": "Gambar dua posisi senter dan bayangan; jangan arahkan cahaya ke mata",
+      "evidence": "Jelaskan perubahan dan satu keterbatasan percobaan",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "ALM-02",
+      "path": "al-006",
+      "level": "L2",
+      "requires": [],
+      "outcome": "Mencatat perubahan wujud yang teramati",
+      "activity": "Amati es mencair pada suhu ruang tanpa api atau air panas",
+      "evidence": "Bedakan fakta mencair dari dugaan tentang massa",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "ALM-03",
+      "path": "al-011",
+      "level": "L1",
+      "requires": [],
+      "outcome": "Membedakan struktur tumbuhan yang terlihat dari informasi rujukan",
+      "activity": "Gambar tanaman aman yang tidak dicabut",
+      "evidence": "Tunjukkan bagian yang terlihat dan yang belum diperiksa",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "PRD-01",
+      "path": "pr-001",
+      "level": "L1",
+      "requires": [],
+      "outcome": "Mengurutkan kejadian dengan tahun yang diberikan",
+      "activity": "Susun kartu peristiwa fiktif",
+      "evidence": "Jelaskan urutan dan sumber tanggal",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "PRD-03",
+      "path": "pr-002",
+      "level": "L2",
+      "requires": [
+        "PRD-01"
+      ],
+      "outcome": "Membedakan pengulangan berita dari sumber independen",
+      "activity": "Bandingkan tiga salinan satu berita fiktif dan dua laporan berbeda",
+      "evidence": "Sebutkan sumber awal dan bukti yang masih diperlukan",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "PRD-02",
+      "path": "pr-004",
+      "level": "L3",
+      "requires": [
+        "PRD-01",
+        "PRD-03"
+      ],
+      "outcome": "Mengusulkan solusi ruang bersama yang mempertimbangkan pihak terkait",
+      "activity": "Musyawarah dalam skenario fiktif taman baca",
+      "evidence": "Jelaskan alasan dan satu usulan sukarela",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "MAT-01",
+      "path": "ma-002",
+      "level": "L2",
+      "requires": [],
+      "outcome": "Menjelaskan pola berdasarkan aturan yang dinyatakan",
+      "activity": "Susun kelompok dua dan bandingkan aturan lain",
+      "evidence": "Lanjutkan pola baru dan nyatakan aturan",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "MAT-02",
+      "path": "ma-003",
+      "level": "L2",
+      "requires": [],
+      "outcome": "Menjelaskan luas persegi panjang dengan petak satuan",
+      "activity": "Hitung petak dalam dua persegi panjang",
+      "evidence": "Bedakan luas dari keliling pada contoh baru",
+      "editorialStatus": "draft"
+    },
+    {
+      "id": "MAT-03",
+      "path": "ma-004",
+      "level": "L3",
+      "requires": [
+        "MAT-01"
+      ],
+      "outcome": "Membuat diagram dan kesimpulan terbatas pada data",
+      "activity": "Gambar diagram dari hitungan benda fiktif",
+      "evidence": "Berikan kesimpulan dan jelaskan mengapa data tidak mewakili semua orang",
+      "editorialStatus": "draft"
+    }
+  ],
+  "sources": [
+    {
+      "id": "EEF",
+      "url": "https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/metacognition",
+      "use": "Pemodelan strategi, perencanaan dan evaluasi belajar",
+      "reuse": "reference_only"
+    },
+    {
+      "id": "IES",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/1",
+      "use": "Contoh penyelesaian, latihan mengingat, jarak pengulangan",
+      "reuse": "reference_only"
+    },
+    {
+      "id": "CAST",
+      "url": "https://udlguidelines.cast.org/",
+      "use": "Akses, representasi, cara menunjukkan pemahaman",
+      "reuse": "reference_only"
+    },
+    {
+      "id": "DIG",
+      "url": "https://www.inquirygroup.org/history-lessons",
+      "use": "Pemeriksaan sumber, konteks dan pembandingan bukti",
+      "reuse": "reference_only"
+    }
+  ],
+  "lessonCycle": [
+    "experience",
+    "matan",
+    "mujam",
+    "syarah_modelled",
+    "guided_practice",
+    "hasyiyah_limits",
+    "murajaah",
+    "optional_khidmah"
+  ],
+  "assessment": {
+    "scale": [
+      {
+        "value": 0,
+        "label": "Belum menunjukkan setelah kesempatan yang sesuai"
+      },
+      {
+        "value": 1,
+        "label": "Dengan contoh langsung"
+      },
+      {
+        "value": 2,
+        "label": "Dengan petunjuk ringan"
+      },
+      {
+        "value": 3,
+        "label": "Mandiri"
+      }
+    ],
+    "unobserved": null,
+    "dimensions": [
+      "observasi_fakta",
+      "pemilihan_ilmu_alat",
+      "penggunaan_bukti",
+      "penjelasan",
+      "revisi"
+    ],
+    "noSpiritualScoring": true
+  },
+  "reviewIntervalsDays": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "reviewIntervalsStatus": "proposed and adaptive"
+}
