@@ -1,0 +1,1098 @@
+{
+  "revision": "R150.27-A",
+  "date": "2026-11-27",
+  "baseline": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+  "scope": "before R150.27 organization",
+  "branches": [
+    {
+      "branch": "feat/fahimuunal-vercel",
+      "ahead": 0,
+      "behind": 0,
+      "changed_paths": 0
+    },
+    {
+      "branch": "feature/alam",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/hadis",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/khidmah-lingkungan-padang-longang",
+      "ahead": 0,
+      "behind": 0,
+      "changed_paths": 0
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "ahead": 11,
+      "behind": 0,
+      "changed_paths": 11
+    },
+    {
+      "branch": "feature/lughah",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/matematika",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/peradaban",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/pustaka-rehat",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/quran",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "ahead": 6,
+      "behind": 0,
+      "changed_paths": 6
+    },
+    {
+      "branch": "feature/surau-shift",
+      "ahead": 20,
+      "behind": 0,
+      "changed_paths": 20
+    },
+    {
+      "branch": "feature/tan-project",
+      "ahead": 3,
+      "behind": 0,
+      "changed_paths": 3
+    },
+    {
+      "branch": "hurairah-web-stable",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "branch": "raudhah-integrated",
+      "ahead": 19,
+      "behind": 0,
+      "changed_paths": 19
+    }
+  ],
+  "main_history": [
+    {
+      "sha": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "message": "Integrasikan Khidmah Lingkungan Padang Longang ke portal\n\nKhidmah Lingkungan Al Muddakir untuk Padang Longang",
+      "date": "2026-11-26T10:44:12Z"
+    },
+    {
+      "sha": "9e6cfcac166d8bf42bfc22c64bb661971a35713f",
+      "message": "feat(khidmah): hubungkan kajian lingkungan Padang Longang ke portal",
+      "date": "2026-11-26T10:39:53Z"
+    },
+    {
+      "sha": "7e80f90ac70c4b333171be37ca4af88431e83657",
+      "message": "Merge R-136 Turats knowledge register\n\nReference-only provider catalog and draft book mapping with metadata completeness checks.",
+      "date": "2026-11-26T10:35:01Z"
+    },
+    {
+      "sha": "b085f4f64ed8decc4111dc94b3ac0442f8f013bf",
+      "message": "feat(knowledge): link turats register",
+      "date": "2026-11-26T10:34:40Z"
+    },
+    {
+      "sha": "00b4b61f47ece73c1245c05e8e4e7ede6cfda433",
+      "message": "feat(turats): add docs/R136_TURATS.md",
+      "date": "2026-11-26T10:34:37Z"
+    },
+    {
+      "sha": "dbe6a073ef8286f76c68f3dabdc211d478af3fed",
+      "message": "feat(turats): add open-knowledge/turats.js",
+      "date": "2026-11-26T10:34:35Z"
+    },
+    {
+      "sha": "708e36884f1bfbaabdd3dd7073d08c7f71fc6e9a",
+      "message": "feat(turats): add open-knowledge/turats.html",
+      "date": "2026-11-26T10:34:32Z"
+    },
+    {
+      "sha": "7210e47a6749cce8f4746dd8cd6b64ffec035500",
+      "message": "feat(turats): add open-knowledge/turats.json",
+      "date": "2026-11-26T10:34:29Z"
+    },
+    {
+      "sha": "6dd0b29b65b860cf22f484df2bad3dbf01536c7e",
+      "message": "Merge R-135 source acquisition audit\n\n59 candidate paths and seven located references, filterable draft audit UI; no source approval or full external import.",
+      "date": "2026-11-26T10:31:58Z"
+    },
+    {
+      "sha": "ab1a6443f790f21c11ab4d4f07c8c957889ea7f6",
+      "message": "feat(knowledge): link acquisition audit",
+      "date": "2026-11-26T10:31:27Z"
+    },
+    {
+      "sha": "82922041b9e4b4694717bbf5dc872444c464f6cb",
+      "message": "feat(acquisition): docs/R135_ACQUISITION.md",
+      "date": "2026-11-26T10:31:24Z"
+    },
+    {
+      "sha": "71530a6e692a1f459bfad801445d624fd50dccd5",
+      "message": "feat(acquisition): open-knowledge/acquisition.js",
+      "date": "2026-11-26T10:31:21Z"
+    },
+    {
+      "sha": "be9a3245a988f46d486acc5a0c0009eb94fbd183",
+      "message": "feat(acquisition): open-knowledge/acquisition.html",
+      "date": "2026-11-26T10:31:18Z"
+    },
+    {
+      "sha": "b4423310d9b39fd069631881c06a98d7cc592e1f",
+      "message": "feat(acquisition): open-knowledge/acquisition.json",
+      "date": "2026-11-26T10:31:15Z"
+    },
+    {
+      "sha": "c98bf0419d6f0d912fa01d77b3878e010ed155e7",
+      "message": "Merge R-133/R-134 pedagogy and knowledge reference network\n\nIntegrate draft pedagogical map and reference-only external knowledge index; no third-party content imported.",
+      "date": "2026-11-26T10:28:24Z"
+    },
+    {
+      "sha": "85b6b4fe0e4b50d65c64edd3e3ae2eb37498e77b",
+      "message": "feat(portal): link Open Knowledge Network",
+      "date": "2026-11-26T10:28:02Z"
+    },
+    {
+      "sha": "e6a79147dff8b505f5143f78b7757e0cab5518d5",
+      "message": "feat(knowledge): add audited reference index R-134",
+      "date": "2026-11-26T10:27:59Z"
+    },
+    {
+      "sha": "08dd27290942c4857eebd8e32b3ef49ad4fe89bd",
+      "message": "feat(knowledge): add audited reference index R-134",
+      "date": "2026-11-26T10:27:56Z"
+    },
+    {
+      "sha": "28089cb68ec0cee3df4991f29cb37af3b45caa9b",
+      "message": "feat(knowledge): add audited reference index R-134",
+      "date": "2026-11-26T10:27:53Z"
+    },
+    {
+      "sha": "429085868bf58ccbb308ecd3781e99d0dadef3f9",
+      "message": "feat(pedagogy): add R-133 competency and pilot learning map",
+      "date": "2026-11-26T10:19:20Z"
+    },
+    {
+      "sha": "0f1f9ddeb1fbeb1424be80d729ec63ae947e73cf",
+      "message": "feat(pedagogy): add R-133 competency and pilot learning map",
+      "date": "2026-11-26T10:19:17Z"
+    },
+    {
+      "sha": "8730530ba0e65b0a200ba3e041978e2dbc97eaf1",
+      "message": "Merge R-131 faculty knowledge maps\n\nSix faculty entry points, 59 draft paths and nine existing pilot deep links. Construction and simulated UI checks passed.",
+      "date": "2026-11-26T10:15:16Z"
+    },
+    {
+      "sha": "bc9be958263c4c6253934e2fd37cb72523d2dc52",
+      "message": "feat(learning): open selected pilot by faculty and unit",
+      "date": "2026-11-26T10:14:35Z"
+    },
+    {
+      "sha": "c406fd7aa51c7a28396eb1a59996f136439c0f9f",
+      "message": "feat(portal): link six faculty knowledge maps",
+      "date": "2026-11-26T10:14:33Z"
+    },
+    {
+      "sha": "2918d9a915e21efc07a3cd5ed6badf0bebb2d5a7",
+      "message": "feat(knowledge): add knowledge-core/README.md",
+      "date": "2026-11-26T10:14:30Z"
+    },
+    {
+      "sha": "1218a7e598612e7ca073133aff5b92ccbc51a3a4",
+      "message": "feat(knowledge): add al-muddakir-matematika/index.html",
+      "date": "2026-11-26T10:14:28Z"
+    },
+    {
+      "sha": "7437ea82fcd4be9e120b0205b7a72984947d733a",
+      "message": "feat(knowledge): add al-muddakir-peradaban/index.html",
+      "date": "2026-11-26T10:14:26Z"
+    },
+    {
+      "sha": "843176e913c5d6098c1ceaf977a3f520931920ae",
+      "message": "feat(knowledge): add al-muddakir-alam/index.html",
+      "date": "2026-11-26T10:14:23Z"
+    },
+    {
+      "sha": "075c1a61b6fac6f043542b06c609f0bfd9aecfb7",
+      "message": "feat(knowledge): add al-muddakir-lughah/index.html",
+      "date": "2026-11-26T10:14:20Z"
+    },
+    {
+      "sha": "9e9e197bd818883303f6fd8eb3f265b0f892f647",
+      "message": "feat(knowledge): add al-muddakir-hadis/index.html",
+      "date": "2026-11-26T10:14:18Z"
+    },
+    {
+      "sha": "96578c3568b20b362290d36e017f06a2f9c595c5",
+      "message": "feat(knowledge): add al-muddakir-quran/index.html",
+      "date": "2026-11-26T10:14:15Z"
+    },
+    {
+      "sha": "3048654ae45432eb0e2c7d88a6e93820232c7e27",
+      "message": "feat(knowledge): add knowledge-core/map.js",
+      "date": "2026-11-26T10:14:12Z"
+    },
+    {
+      "sha": "f7312777d3bff01f25398e8766effeabe94b44cd",
+      "message": "feat(knowledge): add knowledge-core/map.css",
+      "date": "2026-11-26T10:14:10Z"
+    },
+    {
+      "sha": "486d7e7765858581061cc9f59a0e43af7547e084",
+      "message": "feat(knowledge): add knowledge-core/registry.json",
+      "date": "2026-11-26T10:14:06Z"
+    },
+    {
+      "sha": "125240f0414aed9d9e2aea59c32a4805c2f8862e",
+      "message": "Merge static portal and Vercel deployment fix\n\nRoot homepage and zero-install static configuration; no application code modified.",
+      "date": "2026-11-26T09:14:50Z"
+    },
+    {
+      "sha": "fe45037cb75cd3fc6ee80b162704245f9280dd93",
+      "message": "fix(deploy): skip package install and build for static portal",
+      "date": "2026-11-26T09:14:27Z"
+    },
+    {
+      "sha": "e4c5f4559f0d860d3e6cbba1c5763bc0290c82c4",
+      "message": "feat(portal): add mobile-friendly academy homepage",
+      "date": "2026-11-26T09:14:24Z"
+    },
+    {
+      "sha": "c531d8e3a1ce632d4e86c1f1e0d7317d41e326aa",
+      "message": "Merge R-129.1 — Raudhah’s Dome integrated baseline\n\nPreserve prior history; integrate tested prototypes and module branch governance. Curriculum stays draft.",
+      "date": "2026-11-26T03:22:42Z"
+    },
+    {
+      "sha": "50603076d5670d578e68d43a3124a8e930405999",
+      "message": "docs(hurairah): reconcile 0.9.2 features and regression counts",
+      "date": "2026-11-26T03:22:23Z"
+    },
+    {
+      "sha": "1ac8d92fd9fb0b4fcf96663f8e0c01e8fba04194",
+      "message": "docs(repo): clarify main, staging and faculty navigation",
+      "date": "2026-11-26T03:22:21Z"
+    },
+    {
+      "sha": "a0b6ce43c4674d479f1c62d77e602902b727a22a",
+      "message": "docs(repo): define module branches and integration gates",
+      "date": "2026-11-26T03:22:18Z"
+    },
+    {
+      "sha": "80660f2f60d7632c6bb755e8b083c73ca0cbe089",
+      "message": "R-129 checkpoint: consolidate Al Muddakir and add three faculty offline pilots",
+      "date": "2026-11-26T03:19:32Z"
+    },
+    {
+      "sha": "06214231cc3010b105e6dc92254089aaa393a20f",
+      "message": "Synchronize offline cache and document companion behavior",
+      "date": "2026-11-25T16:31:40Z"
+    },
+    {
+      "sha": "ee21c09eab50a60cb90f2ba16ab99fc22e015356",
+      "message": "Synchronize offline cache and document companion behavior",
+      "date": "2026-11-25T16:31:37Z"
+    },
+    {
+      "sha": "0e916678d709c4df0cee0e4281229931948edb3e",
+      "message": "Add five Living Hurairah UI regression tests",
+      "date": "2026-11-25T16:31:25Z"
+    },
+    {
+      "sha": "5e374d8c644122af2ee514c2e76c6b5451061027",
+      "message": "Preserve explanation while companion approaches and update mood immediately",
+      "date": "2026-11-25T16:31:22Z"
+    },
+    {
+      "sha": "a3b1304280aec203ddda73ac3e2d07904fca8802",
+      "message": "Add Living Hurairah state machine, sit and observation commands, facing and pose rendering",
+      "date": "2026-11-25T16:31:01Z"
+    },
+    {
+      "sha": "4995fb8c08ec9476ad1fc4178a08acf289764ec7",
+      "message": "Document layered construction and synchronize cache 0.9.1",
+      "date": "2026-11-25T07:32:22Z"
+    },
+    {
+      "sha": "7953d2733ca9bd2935e62fc024f2dc4f98f7ced2",
+      "message": "Document layered construction and synchronize cache 0.9.1",
+      "date": "2026-11-25T07:32:19Z"
+    },
+    {
+      "sha": "2bf6ccf277f21f9e95cdd041a11bbf2b2e93e727",
+      "message": "Regression-test independent voxel levels, roof clearance and cross-region persistence",
+      "date": "2026-11-25T07:32:10Z"
+    },
+    {
+      "sha": "f0d29234f207fc651123a971a95423a910b0e6c7",
+      "message": "Respect layered collision on region arrival and synchronize target label",
+      "date": "2026-11-25T07:31:59Z"
+    },
+    {
+      "sha": "9a1dcd4e22040c5a146041a791654fe95615462c",
+      "message": "Add layered voxel construction, overhead clearance, collision and region-persistent blocks",
+      "date": "2026-11-25T07:31:37Z"
+    },
+    {
+      "sha": "214853434ce943603b89969a94727d436a562bfd",
+      "message": "Add cross-region travel, edit persistence and atlas reset regression tests",
+      "date": "2026-11-25T07:23:50Z"
+    },
+    {
+      "sha": "22a55d7e9062c61004080d48ba1e50e66989fd3b",
+      "message": "Document bounded procedural atlas and save migration",
+      "date": "2026-11-25T07:23:33Z"
+    },
+    {
+      "sha": "9dcfdde98072adf6aa311264b50ec035c4713b39",
+      "message": "Synchronize offline cache for world version 0.9.0",
+      "date": "2026-11-25T07:23:30Z"
+    },
+    {
+      "sha": "6692997b4f627fff4874029b13c4226ea1e0c2cf",
+      "message": "Add deterministic 81-region atlas with persistent region edits and gated travel",
+      "date": "2026-11-25T07:23:11Z"
+    },
+    {
+      "sha": "eea31d40a1bf09293d4c9bb3f54760e77db9dcf8",
+      "message": "Document reproducible regression checks and browser recovery",
+      "date": "2026-11-25T07:20:03Z"
+    },
+    {
+      "sha": "ce9eb4537af927b78b8d36a1150d58472f3bfb62",
+      "message": "Add reproducible regression suite for all five quests, navigation and 2D fallback",
+      "date": "2026-11-25T07:19:50Z"
+    },
+    {
+      "sha": "f82b2de8a0294c253c84242ee5304a6f9b020826",
+      "message": "Scope offline fallback to game home and refresh versioned asset cache",
+      "date": "2026-11-25T07:19:32Z"
+    },
+    {
+      "sha": "4a30ab80ff34e35e3c968eee963fdb119b61a84b",
+      "message": "Fix renderer retry and reset/import quest state; clarify offline status",
+      "date": "2026-11-25T07:19:23Z"
+    },
+    {
+      "sha": "ce2c4869d8b7102cb6f8c4732cb64cb71528f356",
+      "message": "Correct IQRA library journal classification and remove unused state",
+      "date": "2026-11-25T07:16:00Z"
+    },
+    {
+      "sha": "0dead30abc77b5923a0188cf8a9feafc136fa1cb",
+      "message": "Add Hurairah World offline release support",
+      "date": "2026-11-25T07:15:34Z"
+    },
+    {
+      "sha": "2511d69181aa3115859cb281775bfa66d0718463",
+      "message": "Add Hurairah World offline release support",
+      "date": "2026-11-25T07:15:32Z"
+    },
+    {
+      "sha": "e0aa4259368d5916809629bf749dec5789933a52",
+      "message": "Add Hurairah World offline release support",
+      "date": "2026-11-25T07:15:29Z"
+    },
+    {
+      "sha": "d4b5573af6c6be144988f729429f37c83dfe999b",
+      "message": "Add Hurairah World offline release support",
+      "date": "2026-11-25T07:15:27Z"
+    },
+    {
+      "sha": "0e5a791ec216928cb68943e5304508ab61666987",
+      "message": "Integrate shared 3D/2D views, discovery journal, optional learning quests and offline registration",
+      "date": "2026-11-25T07:14:56Z"
+    },
+    {
+      "sha": "2d6ac88532054e869eded13c4b7551bc005e47a2",
+      "message": "Add offline backup restore and in-game diagnostics to Hurairah World 0.7.3",
+      "date": "2026-11-25T07:11:41Z"
+    },
+    {
+      "sha": "3a811172ac2df3c0252deb22512ab6e5dcabe480",
+      "message": "Fix standalone startup error reporting",
+      "date": "2026-11-25T05:33:07Z"
+    },
+    {
+      "sha": "9a54a51903cd8e698423ad1e78d9a2b0c70b1af3",
+      "message": "Add standalone Hurairah World stable 2D web fallback",
+      "date": "2026-11-25T05:32:45Z"
+    },
+    {
+      "sha": "da1dfb45e2d3d62c0811b28c68ca3e32a5bd4132",
+      "message": "docs: make README project entry point for Raudhah's Dome Sumatera",
+      "date": "2026-11-23T05:11:49Z"
+    },
+    {
+      "sha": "fab1fcff4938267d1fbb524783807ffa6a56656b",
+      "message": "docs: remove ambiguous testing phrasing in final conclusion",
+      "date": "2026-11-23T05:03:26Z"
+    },
+    {
+      "sha": "149ce2aeb89aa7760331c8f208a4cb79331a3309",
+      "message": "docs: finalize source-audited Throwbadly concept with 12 full cycles and open-issue register",
+      "date": "2026-11-23T05:03:03Z"
+    },
+    {
+      "sha": "c0cafa284b912c97aebb1289f30fad242b363f31",
+      "message": "docs: correct Suarau Shift spelling to Surau Shift",
+      "date": "2026-11-23T04:38:48Z"
+    },
+    {
+      "sha": "47740eda9a3f96c85c82fd5abdb4f5af55fad5ca",
+      "message": "docs: add Throwbadly Project Raudhah's Dome Sumatera conclusion",
+      "date": "2026-11-23T04:31:50Z"
+    },
+    {
+      "sha": "8f951d688fb556d4c24b30eb606d5fa8717bc99d",
+      "message": "Hubungkan Al Muddakir dengan peta pendidikan Raudhah’s Dome",
+      "date": "2026-11-21T12:05:02Z"
+    },
+    {
+      "sha": "220cc12da0b35e386278bda8a757a7654b7e9345",
+      "message": "Initial commit",
+      "date": "2026-11-03T09:21:53Z"
+    }
+  ],
+  "unmerged_paths": [
+    {
+      "branch": "feature/alam",
+      "path": "al-muddakir-alam/docs/R145_ALAM_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/hadis",
+      "path": "al-muddakir-hadis/docs/R142_MAQRA_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R144_EPISTEMIC_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_2_PROVENANCE_REGISTER.json",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_3_GLOSSARY_ONTOLOGY_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_4_TAXONOMY_ANNOTATIONS.json",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_CORPUS_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_FAHM_CONSCIOUSNESS_DECISION.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_FAHM_DEPTH_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_FAHM_KALAM_INTEGRAL.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_FOUR_DNA_FARD_AYN.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/README.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "tools/audit/archive_inventory.py",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/lughah",
+      "path": "al-muddakir-lughah/docs/R143_LUGHAH_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/matematika",
+      "path": "al-muddakir-matematika/docs/R147_MATEMATIKA_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/peradaban",
+      "path": "al-muddakir-peradaban/docs/R146_PERADABAN_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/pustaka-rehat",
+      "path": "pustaka-rehat/docs/R140_READING_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/quran",
+      "path": "al-muddakir-quran/docs/R141_FAHIM_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R137_INSTITUTE_EXPERIENCE.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_10_MURABBI_READINESS_STANDARD.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_11_MURABBI_CURRICULUM.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_14_MURABBI_ACCOUNTABILITY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_MURABBI_CONTINUITY_AND_READINESS.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_MURABBI_HUMAN_LAYER.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R138_SARANG_LEBAH_RASO_PARESO.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_16_INDIVIDUAL_TARBIYAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_18_TAREKAT_HISTORICAL_REGISTER.json",
+      "change": "added",
+      "reported_commit_sha": "e2e5fe0a47d47cf78f5440eb33abc7a02e7393a7",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_19_TAREKAT_DEFINITION_EVIDENCE.md",
+      "change": "added",
+      "reported_commit_sha": "ef3ffc32bba7ce6bd11d6de552028cc1974d4227",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_20_TAREKAT_MABADI_ASYARAH.md",
+      "change": "added",
+      "reported_commit_sha": "62895d3f0e5d02d1dfd9eff5064aba418f89943f",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_21_GHAZALI_HUMAN_SELF_ONTOLOGY.md",
+      "change": "added",
+      "reported_commit_sha": "53ed1b67a85c5d8cd58ff81f4ce5fb5ea15e88df",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_BERMAZHAB_TAZKIYAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_IKHTILAF_LIFE_PURPOSE.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_CONTOH_JALUR_TAZKIYAH_SYAFII_ASYARI_QADIRI.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FAHM_TAZKIYAH_NONCOERCIVE_ADAB.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FARD_AYN_KHIDMAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_INTEGRITY_MURAQABAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_IQRA_FAHM_FOUNDATION_TAZKIYAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_LIFELONG_TAZKIYAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_MAJELIS_TAKJUB_KEBERSAMAAN.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAREKAT_TRANSMISSION_RESEARCH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DEPTH_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DIVERSITY_ATLAS.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_INTEGRAL.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/README.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/tan-project",
+      "path": "tan-project/docs/R139_KHIDMAH_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "feature/tan-project",
+      "path": "tan-project/docs/R150_22A_KHIDMAH_ARCHIVE_INTAKE.md",
+      "change": "added",
+      "reported_commit_sha": "26ca983e13ee83223952d187a0ca11410aabe3b9",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "feature/tan-project",
+      "path": "tan-project/docs/R150_22_KHIDMAH_SERVICE_LEARNING_SOURCES.md",
+      "change": "added",
+      "reported_commit_sha": "622d46da12f3f177d458ec5dc64a442b87311154",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "hurairah-web-stable",
+      "path": "hurairah-world/R148_GAME_PEDAGOGY.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_1_SPECIAL_REQUESTS.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_PEDAGOGY_INTEGRATION_BACKLOG.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_12_MURABBI_DIGITAL_AGE_TAHQIQ_MANAT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_13_MURABBI_RAHMAH_ECOLOGY_EVIDENCE.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_15_MURABBI_RECOVERY_SUPPORT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_23_MERGE_CORPUS_EVIDENCE_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": "657814022ad29eadf8374cea7f814bdf9cbe549b",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_24_MASTER_EVIDENCE_REGISTER.json",
+      "change": "added",
+      "reported_commit_sha": "9070c6ad327cab3f969f82d3d1c461cc444b9d64",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_25_RSI_CONCEPT_GENEALOGY.md",
+      "change": "added",
+      "reported_commit_sha": "40a6a3994fa1ec72da32d35fcbca152c6563cab6",
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_6_AUTOPILOT_AUDIT_GATE.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_7_DECISION_CONSISTENCY_AUDIT.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_8A_SOURCE_PACKET.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_8B_TURATS_SOURCE_REGISTER.json",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_9_BRANCH_COORDINATION.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_FOUR_DNA_CONSTITUTION_ADDENDUM.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_IKRAR_KEHIDUPAN.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_MURABBI_INTEGRATION_GATE.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_MURABBI_WAJIB_SUNNAH.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_UKHUWAH_KHIDMAH_BERSAMA.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_UNITY_PURPOSE_DIVERSITY_METHOD.md",
+      "change": "added",
+      "reported_commit_sha": null,
+      "state": "committed_diff_verified",
+      "review": "pending",
+      "sha_status": "historical_sha_pending"
+    }
+  ],
+  "checks": {
+    "branch_count": 16,
+    "sum_ahead": 67,
+    "changed_paths": 67,
+    "unique_paths": 67,
+    "overlap_count": 0,
+    "main_history_returned": 76,
+    "checkpoint_sha_reported": 9
+  },
+  "limits": [
+    "Main history from search commits; feature compare returns changed files and counts, not complete individual commit histories. Do not equate file paths with exact commit identity.",
+    "Previous checkpoint SHA is not independent reverification. All draft files require content review; no tests, merge or deployment."
+  ]
+}
