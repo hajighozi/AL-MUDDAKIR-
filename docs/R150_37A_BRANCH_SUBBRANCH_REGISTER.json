@@ -1,0 +1,639 @@
+{
+  "schema": "throwbadly-branch-register-v1",
+  "checkpoint": "R150.37A",
+  "snapshot_note": "Before R150.37A commit; all 20 comparisons checked separately in this session against pinned main. Logical parents are editorial grouping only, not Git ancestry or newly created refs. Subtopic statuses are provisional and not validation.",
+  "main_sha": "04b422b3862b369f2a84c0ddd3bf7f4a43998068",
+  "staging_sha": "fcb8e0d9d4e78d682316865e708bfede778cdcdb",
+  "virtual_groups": [
+    {
+      "id": "ROOT",
+      "name": "Throwbadly / Raudhah's Dome Sumatera",
+      "parent": null
+    },
+    {
+      "id": "J01",
+      "name": "Al Muddakir — IQRA' & FAHM",
+      "parent": "ROOT"
+    },
+    {
+      "id": "J02",
+      "name": "Surau Shift — TAZKIYAH",
+      "parent": "ROOT"
+    },
+    {
+      "id": "J03",
+      "name": "Tan Project — KHIDMAH",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X01",
+      "name": "Pedagogik lintas jalur",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X02",
+      "name": "Fasilitas dan teknologi lintas jalur",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X03",
+      "name": "Riset lintas jalur",
+      "parent": "ROOT"
+    }
+  ],
+  "branches": [
+    {
+      "id": "B00",
+      "ref": "main",
+      "logical_parent": "ROOT",
+      "mandate": "Baseline integrasi",
+      "head": "04b422b3862b369f2a84c0ddd3bf7f4a43998068",
+      "ahead_of_main": 0,
+      "behind_main": 0,
+      "comparison_merge_base": "04b422b3862b369f2a84c0ddd3bf7f4a43998068",
+      "subtopics": []
+    },
+    {
+      "id": "B01",
+      "ref": "raudhah-integrated",
+      "logical_parent": "B00",
+      "mandate": "Staging lintas jalur",
+      "head": "fcb8e0d9d4e78d682316865e708bfede778cdcdb",
+      "ahead_of_main": 44,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B01.1",
+          "title": "Audit korpus, evidensi, provenance",
+          "source": "R150.23–28; R150.36",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B01.2",
+          "title": "Integrasi keputusan dan koordinasi",
+          "source": "R150.6–9; R150.31",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B01.3",
+          "title": "Codex / Vercel",
+          "source": "SP07, SP12; R155–157",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "ref": "feature/kitab-iqra",
+      "logical_parent": "B00",
+      "mandate": "Fondasi Kitab IQRA'",
+      "head": "7badef5f46ae4b14327972dc729222b1b5487b0e",
+      "ahead_of_main": 13,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B02.1",
+          "title": "Epistemologi dan FAHM",
+          "source": "R144; R150 FAHM",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B02.2",
+          "title": "Kamus, ontologi, Forge–Ibu–Anak–Cucu–Fashl",
+          "source": "R150.3–4; R150.28C/E",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B02.3",
+          "title": "Korpus dan provenance",
+          "source": "R150.2; R150.28C-1/2; SP11",
+          "status": "partial",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "ref": "feature/quran",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Qur'an",
+      "head": "e3716fe1e026f398e0d72155cf93bdba6f5d52f2",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B03.1",
+          "title": "FAHIM 1: bacaan, bahasa dasar",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B03.2",
+          "title": "FAHIM 2: fikih dan ushul",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B03.3",
+          "title": "FAHIM 3: bahasa, sejarah, penalaran dan sains",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "ref": "feature/hadis",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Hadis / KitabPedia",
+      "head": "351153898d268c73dc5f91324e07845dc065ebee",
+      "ahead_of_main": 8,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B04.1",
+          "title": "Maqra 500",
+          "source": "maqra500/catalog.json; units 001–005",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B04.2",
+          "title": "Maqra 100",
+          "source": "R153C; source audit",
+          "status": "planned",
+          "git_ref": null
+        },
+        {
+          "id": "B04.3",
+          "title": "Takhrij, syarah, sorogan dan pembelajaran",
+          "source": "R142; R153C",
+          "status": "partial",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "ref": "feature/lughah",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Lughah",
+      "head": "79b695c4d519a13c1fcd4fa9442aa534329e8f54",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B05.1",
+          "title": "Nahwu",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B05.2",
+          "title": "Sharaf",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B05.3",
+          "title": "Balaghah",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B06",
+      "ref": "feature/alam",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Alam",
+      "head": "5aa28123816dae37654702d7dc93bd1a90fb2e87",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B06.1",
+          "title": "Unit ALM dan observasi",
+          "source": "R145",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B06.2",
+          "title": "Scanner tumbuhan Sumatera",
+          "source": "SP01; R154C",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "ref": "feature/peradaban",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Peradaban",
+      "head": "fa5fb90f7adc96578776ab8d205469486b3fcf5b",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B07.1",
+          "title": "Sumber, kronologi, interpretasi",
+          "source": "R146",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "ref": "feature/matematika",
+      "logical_parent": "J01",
+      "mandate": "Al Muddakir Matematika",
+      "head": "3b759c2a5b878cdedb36f9e58149c710bbe70405",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B08.1",
+          "title": "Unit MAT, representasi dan bukti",
+          "source": "R147",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "ref": "feat/fahimuunal-vercel",
+      "logical_parent": "B03",
+      "mandate": "Fahimuunal Qur'an: aplikasi",
+      "head": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "ahead_of_main": 0,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B09.1",
+          "title": "Pemulihan kode asli, demo, jadwal pengulangan",
+          "source": "SP05; R153A/B",
+          "status": "blocked",
+          "git_ref": null
+        },
+        {
+          "id": "B09.2",
+          "title": "Preview dan pengujian Vercel",
+          "source": "SP05; SP12",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "ref": "feature/surau-shift",
+      "logical_parent": "J02",
+      "mandate": "Surau Shift",
+      "head": "45704a3685f6b0f6d68aa693c97dfc349251c30a",
+      "ahead_of_main": 31,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B10.1",
+          "title": "Tazkiyah, adab, Raso Pareso",
+          "source": "README A–B; R138",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B10.2",
+          "title": "Sarang Lebah Baginda Nabi Minangkaba",
+          "source": "main README; R138",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B10.3",
+          "title": "Tarbiyah individual dan tahqiq tarekat",
+          "source": "README D; R150.16–21",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B10.4",
+          "title": "Ikhwan, Badunsanak, keluarga, dukungan sosial",
+          "source": "README E; R150.30A–I",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "ref": "feature/tan-project",
+      "logical_parent": "J03",
+      "mandate": "Tan Project",
+      "head": "26ca983e13ee83223952d187a0ca11410aabe3b9",
+      "ahead_of_main": 3,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B11.1",
+          "title": "Service learning, khidmah sipil",
+          "source": "R139; R150.22/22A",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "ref": "feature/khidmah-lingkungan-padang-longang",
+      "logical_parent": "B11",
+      "mandate": "Khidmah lingkungan Padang Longang",
+      "head": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "ahead_of_main": 0,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B12.1",
+          "title": "Konservasi, kajian air dan agroforestri sipil",
+          "source": "main README; khidmah-lingkungan/padang-longang/",
+          "status": "baseline-study",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "ref": "feature/raudhah-pedagogy",
+      "logical_parent": "X01",
+      "mandate": "Pedagogik lintas jalur",
+      "head": "e53e3dac8864eb12a95e7aaf87f430be5560c083",
+      "ahead_of_main": 8,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B13.1",
+          "title": "Pengalaman institut dan Master Plan",
+          "source": "R137; SP09",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B13.2",
+          "title": "Kesiapan, kurikulum, akuntabilitas Murabbi",
+          "source": "R150.10/11/14",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B13.3",
+          "title": "Fiqh Dakwah capstone",
+          "source": "R150.30J/K; FD02/03",
+          "status": "partial",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B14",
+      "ref": "feature/pustaka-rehat",
+      "logical_parent": "X02",
+      "mandate": "Pustaka Rehat",
+      "head": "43c1efda551dc7bef15cdabe3472e8340e1eb0e1",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B14.1",
+          "title": "Pedagogik membaca dan akses offline",
+          "source": "R140; SP02",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "ref": "feature/iqra-go",
+      "logical_parent": "X02",
+      "mandate": "IQRA' GO",
+      "head": "829edec8882fba28d24f654fb487ff75af185d22",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B15.1",
+          "title": "Rencana aplikasi",
+          "source": "SP03; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "ref": "feature/offline-android",
+      "logical_parent": "X02",
+      "mandate": "Android offline",
+      "head": "c8dadd3feaa99ecd378c0fb42203dc380e263b0a",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B16.1",
+          "title": "APK dan debug",
+          "source": "SP06; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "ref": "feature/raudhah-media",
+      "logical_parent": "X02",
+      "mandate": "Media Raudhah",
+      "head": "c2bb690f8866877d13d96a9c2d6d915b7f058930",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B17.1",
+          "title": "Rencana media dan hak publikasi",
+          "source": "SP08; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "ref": "hurairah-web-stable",
+      "logical_parent": "X02",
+      "mandate": "Hurairah World",
+      "head": "e7f0b813db1bc26e1af56af2015cea39480eec4c",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B18.1",
+          "title": "Pedagogik game web",
+          "source": "R148; baseline v0.9.2",
+          "status": "draft",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B19",
+      "ref": "feature/roblox-learning",
+      "logical_parent": "X02",
+      "mandate": "Roblox pendidikan",
+      "head": "22de9a9e13e03cbbb087745a807aa9d3d0436598",
+      "ahead_of_main": 3,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B19.1",
+          "title": "Dunia belajar dan Nagari Ilmu",
+          "source": "R150.29; RBX01/02",
+          "status": "prototype-unverified",
+          "git_ref": null
+        },
+        {
+          "id": "B19.2",
+          "title": "Backlog pengembangan",
+          "source": "RBX03–10",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    },
+    {
+      "id": "B20",
+      "ref": "feature/riset-malaka",
+      "logical_parent": "X03",
+      "mandate": "Riset Malaka lintas jalur",
+      "head": "473114721841ecf3ee8f8b4878e7cda49d26fceb",
+      "ahead_of_main": 1,
+      "behind_main": 3,
+      "comparison_merge_base": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "subtopics": [
+        {
+          "id": "B20.1",
+          "title": "Madilog, tasawuf, sejarah dan sumber",
+          "source": "SP10; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ]
+    }
+  ],
+  "cross_links": [
+    [
+      "B02",
+      "J01",
+      "ilmu alat"
+    ],
+    [
+      "B02",
+      "J02",
+      "FAHM dan tazkiyah"
+    ],
+    [
+      "B13",
+      "J01",
+      "pedagogik"
+    ],
+    [
+      "B13",
+      "J02",
+      "murabbi dan ikhwan"
+    ],
+    [
+      "B13",
+      "J03",
+      "capstone dan khidmah"
+    ],
+    [
+      "B10",
+      "B11",
+      "ukhuwah dan khidmah"
+    ],
+    [
+      "B06",
+      "B12",
+      "kajian lingkungan sipil"
+    ],
+    [
+      "B18",
+      "B19",
+      "media permainan, implementasi terpisah"
+    ],
+    [
+      "B20",
+      "B02",
+      "epistemologi"
+    ],
+    [
+      "B20",
+      "B07",
+      "sejarah"
+    ],
+    [
+      "B20",
+      "B10",
+      "tasawuf"
+    ]
+  ],
+  "retention": [
+    "R150.27D",
+    "R150.31",
+    "R150.36A/B/C",
+    "SP01–12",
+    "RBX01–10",
+    "27 historical SHA mappings pending",
+    "R150.28C-3",
+    "FD02",
+    "R151–157"
+  ],
+  "counts": {
+    "refs": 21,
+    "feature_refs": 19,
+    "staging_refs": 1,
+    "subtopics": 38,
+    "summed_ahead": 121
+  },
+  "constraints": "No new Git refs, rename, history rewrite, merge, deployment, private data, or runtime-test claim. Existing R129.1 workflow retained."
+}
