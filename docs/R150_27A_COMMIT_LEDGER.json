@@ -554,7 +554,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "168fa7eb499c6ee1c2cc3a8eee442d5a4434c1bf",
+      "verified_commit_message": "docs(fahm): record user direction on awareness and adab",
+      "verified_commit_date": "2026-11-26T15:31:42Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -563,7 +566,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "a37ac76c420e5effd57e4f6141a444e7ccd042db",
+      "verified_commit_message": "docs(iqra): register FAHM depth audit and source questions",
+      "verified_commit_date": "2026-11-26T15:28:54Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -572,7 +578,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "55c3de86b0b41d569b01ef529e6452dd1c1a82bd",
+      "verified_commit_message": "docs(iqra): register integral FAHM and intellectual purification",
+      "verified_commit_date": "2026-11-26T15:34:53Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -581,7 +590,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "b5c1143d5900095a619a7ef8d0a9b7ec50fc3392",
+      "verified_commit_message": "docs(iqra): register four DNA as a unified path of worship",
+      "verified_commit_date": "2026-11-26T15:41:08Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -749,7 +761,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "a846b22ff3f997038a5f2d88713a2d43e21b43ed",
+      "verified_commit_message": "docs(surau): audit Ghazali on individualized spiritual education",
+      "verified_commit_date": "2026-11-26T17:43:14Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -1025,7 +1040,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "67050f97da245c1b9be03b359f09ff197fdc399f",
+      "verified_commit_message": "docs(integration): distinguish spiritual recovery support from clinical treatment",
+      "verified_commit_date": "2026-11-26T17:41:57Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1058,7 +1076,10 @@
       "reported_commit_sha": "40a6a3994fa1ec72da32d35fcbca152c6563cab6",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "40a6a3994fa1ec72da32d35fcbca152c6563cab6",
+      "verified_commit_message": "audit(integration): trace six RSI pedagogical concepts and reconcile with four DNA",
+      "verified_commit_date": "2026-11-27T02:24:30Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1163,7 +1184,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "50ab481a6c7dc071c3483457bfe79aff1ef60276",
+      "verified_commit_message": "docs(integration): record cross-tradition fellowship and shared khidmah",
+      "verified_commit_date": "2026-11-26T15:59:19Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1183,13 +1207,14 @@
     "overlap_count": 0,
     "main_history_returned": 76,
     "checkpoint_sha_reported": 9,
-    "paths_with_verified_commit_sha": 31,
+    "paths_with_verified_commit_sha": 39,
     "lookup_failed": [
       "1ca4dadc865081ce89e15e4b3792c635427bafb2"
     ]
   },
   "limits": [
     "Main history from search commits; feature compare returns changed files and counts, not complete individual commit histories. Do not equate file paths with exact commit identity.",
-    "Previous checkpoint SHA is not independent reverification. All draft files require content review; no tests, merge or deployment."
+    "Previous checkpoint SHA is not independent reverification. All draft files require content review; no tests, merge or deployment.",
+    "Exact commit and changed file verified for subset; ancestry not independently enumerated. Snapshot deliberately excludes R150.27 organization commits."
   ]
 }
