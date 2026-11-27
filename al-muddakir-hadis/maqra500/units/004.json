@@ -1,0 +1,34 @@
+{
+  "collectionId": "MQ500",
+  "number": 4,
+  "title": "Pertanyaan istri Rifa‘ah setelah perceraian",
+  "sourceId": "MQ500-STQHN-2023",
+  "sourceSha256": "eb51817774e98e539c63e418d9224f93da56f7a6b022426b973e2a5afacec3ae",
+  "pdfPages": [1],
+  "collection": "Sahih al-Bukhari",
+  "book": "كِتَابُ الطَّلَاقِ",
+  "chapter": "بَابُ مَنْ أَجَازَ طَلَاقَ الثَّلَاثِ",
+  "reference": {
+    "hadithNumber": 5260,
+    "bookNumber": 68,
+    "numberInBook": 10,
+    "url": "https://raw.githubusercontent.com/fawazahmed0/hadith-api/1/editions/ara-bukhari/5260.json",
+    "checkedAgainst": "Urutan perawi dan matan cocok dengan salinan digital al-Bukhari 5260. Judul bab dibaca pada halaman 1 PDF."
+  },
+  "arabic": {
+    "method": "visual_transcription_from_primary_pdf",
+    "sanadLines": [
+      "حَدَّثَنَا سَعِيدُ بْنُ عُفَيْرٍ قَالَ حَدَّثَنِي اللَّيْثُ قَالَ حَدَّثَنِي عُقَيْلٌ عَنْ ابْنِ شِهَابٍ قَالَ أَخْبَرَنِي عُرْوَةُ بْنُ الزُّبَيْرِ ...",
+      "... أَنَّ عَائِشَةَ أَخْبَرَتْهُ"
+    ],
+    "matn": "أَنَّ امْرَأَةَ رِفَاعَةَ الْقُرَظِيِّ جَاءَتْ إِلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَتْ يَا رَسُولَ اللَّهِ إِنَّ رِفَاعَةَ طَلَّقَنِي فَبَتَّ طَلَاقِي وَإِنِّي نَكَحْتُ بَعْدَهُ عَبْدَ الرَّحْمَنِ بْنَ الزَّبِيرِ الْقُرَظِيَّ وَإِنَّمَا مَعَهُ مِثْلُ الْهُدْبَةِ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ لَعَلَّكِ تُرِيدِينَ أَنْ تَرْجِعِي إِلَى رِفَاعَةَ لَا حَتَّى يَذُوقَ عُسَيْلَتَكِ وَتَذُوقِي عُسَيْلَتَهُ"
+  },
+  "translation": {
+    "status": "editorial_draft",
+    "language": "id",
+    "text": "Sa‘id bin ‘Ufair menyampaikan kepada kami. Ia berkata, al-Laits menyampaikan kepadaku. Al-Laits berkata, ‘Uqail menyampaikan kepadaku, dari Ibnu Syihab. Ibnu Syihab berkata, ‘Urwah bin az-Zubair mengabarkan kepadaku bahwa Aisyah memberitahunya tentang istri Rifa‘ah al-Qurazhi yang datang kepada Rasulullah ﷺ. Ia berkata, “Wahai Rasulullah, Rifa‘ah telah menceraikanku dan perceraian itu sudah final. Sesudah itu aku menikah dengan ‘Abdurrahman bin az-Zabir al-Qurazhi. Yang ada padanya hanya seperti rumbai kain.” Rasulullah ﷺ bersabda, “Barangkali engkau ingin kembali kepada Rifa‘ah? Tidak, hingga ia merasakan manismu dan engkau merasakan manisnya.”"
+  },
+  "sharh": null,
+  "sharhStatus": "awaiting_kitabpedia_excerpt",
+  "scientificApproval": false
+}
