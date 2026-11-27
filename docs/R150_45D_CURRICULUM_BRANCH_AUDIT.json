@@ -1,0 +1,278 @@
+{
+  "revision": "R150.45D",
+  "date": "2026-11-27",
+  "scope": "representative document audit, not full code or source validation",
+  "decision": "RSI contextual name in Indonesia; shared IQRA/FAHM TAZKIYAH KHIDMAH; Sumatera operational scope; cultural names vary",
+  "criteria": [
+    "purpose",
+    "worldview",
+    "four DNA",
+    "source evidence",
+    "learning design",
+    "cultural context",
+    "implementation evidence",
+    "human oversight and safety"
+  ],
+  "rows": [
+    {
+      "id": "B00",
+      "ref": "main",
+      "path": "README.md",
+      "blob": "f45341b3bf02899f4403f34a378d0e27b7998822",
+      "status": "induk",
+      "finding": "RSI contextual name missing; four DNA, three paths and scope present",
+      "head_at_final_listing": "04b422b3862b369f2a84c0ddd3bf7f4a43998068",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B01",
+      "ref": "raudhah-integrated",
+      "path": "docs/R150_45C_CULTURAL_IDENTITY_AND_CURRICULUM_SCOPE.md",
+      "blob": "82656b51a6aac01504c583ff196b60efc6aea896",
+      "status": "induk",
+      "finding": "latest decision recorded; pending integration",
+      "head_at_final_listing": "947f142f2c3d6df8e8274020105842c4aaef9795",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B02",
+      "ref": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_FOUR_DNA_FARD_AYN.md",
+      "blob": "283c88c820e0757a96c427bce9a16e531499fe34",
+      "status": "fondasi",
+      "finding": "four DNA, lifelong education; primary source review and ontology pending",
+      "head_at_final_listing": "7badef5f46ae4b14327972dc729222b1b5487b0e",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B03",
+      "ref": "feature/quran",
+      "path": "al-muddakir-quran/docs/R141_FAHIM_PEDAGOGY.md",
+      "blob": "6eec6547845e333c365f4401cdae768fd5db5418",
+      "status": "draf pedagogik",
+      "finding": "FAHIM1–3; FHM01 source and KU pending",
+      "head_at_final_listing": "e3716fe1e026f398e0d72155cf93bdba6f5d52f2",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B04",
+      "ref": "feature/hadis",
+      "path": "al-muddakir-hadis/docs/R142_MAQRA_PEDAGOGY.md",
+      "blob": "e424d438eaecf37d24fa871d69e3cd54435a321d",
+      "status": "draf + artefak",
+      "finding": "Maqra catalog five units only; source hash recorded not independently checked; teacher review",
+      "head_at_final_listing": "0ba342d01452946731381086682def50d562221c",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B05",
+      "ref": "feature/lughah",
+      "path": "al-muddakir-lughah/docs/R143_LUGHAH_PEDAGOGY.md",
+      "blob": "409c4188eab368dda99fe8ccae399eca36356c31",
+      "status": "draf pedagogik",
+      "finding": "original grammar example, classical source review pending",
+      "head_at_final_listing": "79b695c4d519a13c1fcd4fa9442aa534329e8f54",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B06",
+      "ref": "feature/alam",
+      "path": "al-muddakir-alam/docs/R145_ALAM_PEDAGOGY.md",
+      "blob": "1ccc9713330c393841b77e0415c7f848bb8f8750",
+      "status": "draf pedagogik",
+      "finding": "observation and alternative explanations; KU/Fashl pending",
+      "head_at_final_listing": "5aa28123816dae37654702d7dc93bd1a90fb2e87",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B07",
+      "ref": "feature/peradaban",
+      "path": "al-muddakir-peradaban/docs/R146_PERADABAN_PEDAGOGY.md",
+      "blob": "590686fbcc479f6afe7d1a8059d496acdfaf2638",
+      "status": "draf pedagogik",
+      "finding": "historical sources; culture/economy extension pending",
+      "head_at_final_listing": "fa5fb90f7adc96578776ab8d205469486b3fcf5b",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B08",
+      "ref": "feature/matematika",
+      "path": "al-muddakir-matematika/docs/R147_MATEMATIKA_PEDAGOGY.md",
+      "blob": "60aa2e615af2fb3a1ee2b2d203143e2e8391cc60",
+      "status": "draf pedagogik",
+      "finding": "counterexample and transfer; Fashl and rubrics pending",
+      "head_at_final_listing": "3b759c2a5b878cdedb36f9e58149c710bbe70405",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B09",
+      "ref": "feat/fahimuunal-vercel",
+      "path": "al-muddakir-quran/index.html",
+      "blob": "7d3e16e4ad927e2f9d6cd3046c45f63543b785f7",
+      "status": "baseline",
+      "finding": "candidate map exists, not recovered full application; same HEAD as B12",
+      "head_at_final_listing": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B10",
+      "ref": "feature/surau-shift",
+      "path": "surau-shift/docs/README.md",
+      "blob": "fac21ae5b156f447272ca4bb2a39578f5f196f01",
+      "status": "draf pedagogik",
+      "finding": "integral tazkiyah, family and ikhwan; review and implementation pending",
+      "head_at_final_listing": "45704a3685f6b0f6d68aa693c97dfc349251c30a",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B11",
+      "ref": "feature/tan-project",
+      "path": "tan-project/docs/R139_KHIDMAH_PEDAGOGY.md",
+      "blob": "aacf2660f2e3a9ce41093cefc2a3e3739db3a615",
+      "status": "draf pedagogik",
+      "finding": "safe civil service learning, feedback and revision; pilot not verified",
+      "head_at_final_listing": "26ca983e13ee83223952d187a0ca11410aabe3b9",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B12",
+      "ref": "feature/khidmah-lingkungan-padang-longang",
+      "path": "README.md",
+      "blob": "c65db619cd1c7b7a90303455cf5ca52cada88208",
+      "status": "baseline",
+      "finding": "civil case files present inherited baseline; no distinct head; scope conservation only",
+      "head_at_final_listing": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B13",
+      "ref": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R150_11_MURABBI_CURRICULUM.md",
+      "blob": "d0c4471ed1669088e2c2e1fecb110bfa04554849",
+      "status": "draf pedagogik",
+      "finding": "MB01–08 adult educators; competence/review gates",
+      "head_at_final_listing": "e53e3dac8864eb12a95e7aaf87f430be5560c083",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B14",
+      "ref": "feature/pustaka-rehat",
+      "path": "pustaka-rehat/docs/R140_READING_PEDAGOGY.md",
+      "blob": "5e75028b97d7e37379c948bfdf1a855c336b448a",
+      "status": "draf pedagogik",
+      "finding": "voluntary reading; rights and accessibility",
+      "head_at_final_listing": "43c1efda551dc7bef15cdabe3472e8340e1eb0e1",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B15",
+      "ref": "feature/iqra-go",
+      "path": "docs/iqra-go/WORK_PLAN.md",
+      "blob": "29bcf51a93d3f3734248c05bdc318b63efe8887b",
+      "status": "rencana",
+      "finding": "original product scope recovery",
+      "head_at_final_listing": "829edec8882fba28d24f654fb487ff75af185d22",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B16",
+      "ref": "feature/offline-android",
+      "path": "docs/offline-android/WORK_PLAN.md",
+      "blob": "01e9fe22d41554b85edcd556b23190d4fec9aad1",
+      "status": "rencana",
+      "finding": "APK build and physical tests pending",
+      "head_at_final_listing": "c8dadd3feaa99ecd378c0fb42203dc380e263b0a",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B17",
+      "ref": "feature/raudhah-media",
+      "path": "docs/raudhah-media/R150_43_BUDAYA_SENI_MEDIA.md",
+      "blob": "9e967c3008e820c25d6e8e8f6936b5bba8c6381a",
+      "status": "draf mandat",
+      "finding": "media cross-path; cultural branch now distinct; retain original SP08",
+      "head_at_final_listing": "c90cf836c31f8c3c00e25368f582405f9e4d11c8",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B18",
+      "ref": "hurairah-web-stable",
+      "path": "hurairah-world/README.md",
+      "blob": "31d3a0b1c5e556f02c4b824607f87934334942f6",
+      "status": "prototipe terdokumentasi",
+      "finding": "five IQRA filters, optional stories; historical DOM tests, physical tests pending",
+      "head_at_final_listing": "e7f0b813db1bc26e1af56af2015cea39480eec4c",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B19",
+      "ref": "feature/roblox-learning",
+      "path": "docs/roblox-learning/R150_29_ORIGINAL_LEARNING_WORLD.md",
+      "blob": "7e1116b898f2987ab27cb007897d9a955187d8ef",
+      "status": "draf + artefak",
+      "finding": "RBX02 Lua scaffold exists; Studio run and content not verified",
+      "head_at_final_listing": "22de9a9e13e03cbbb087745a807aa9d3d0436598",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B20",
+      "ref": "feature/riset-malaka",
+      "path": "docs/riset-malaka/WORK_PLAN.md",
+      "blob": "91e16804c8e7016bf792e061618f607aedd277dd",
+      "status": "rencana",
+      "finding": "source recovery Madilog/tasawuf and historical claims",
+      "head_at_final_listing": "473114721841ecf3ee8f8b4878e7cda49d26fceb",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B21",
+      "ref": "feature/se-school",
+      "path": "se-school/README.md",
+      "blob": "cacb9d61af1cd411c240fee33671e6b1d076a243",
+      "status": "prototipe terdokumentasi",
+      "finding": "13 quests read in JSON; link labels not primary sources; Node/browser tests pending",
+      "head_at_final_listing": "97103358e6bda32dea4e732c6d759b412c9242da",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B22",
+      "ref": "feature/raudhah-culture-arts",
+      "path": "docs/raudhah-culture-arts/README.md",
+      "blob": "2486f6f44f2d6ab2365619d66a81564bfc76e1bd",
+      "status": "draf mandat",
+      "finding": "two contexts, MED-C01–07; original settlement source pending",
+      "head_at_final_listing": "a6254a52daa27d58c95eecb080b05398dd43dbfb",
+      "validation": "NOT_CERTIFIED"
+    }
+  ],
+  "limitations": [
+    "B21 and B22 additive audit IDs, pending master registry reconciliation",
+    "one representative file per branch, additional selected artifact reads; not exhaustive",
+    "head listing and file reads not atomic; no claim pinned all reads",
+    "B04 head changed since prior audit; do not reuse old state",
+    "no tests run or primary-source revalidation",
+    "no new branch, no merge, no main change",
+    "no private corpus copied"
+  ],
+  "extra_evidence": [
+    {
+      "id": "B04",
+      "path": "al-muddakir-hadis/maqra500/catalog.json",
+      "blob": "d6a7f5a37b050ead95bf2116c7bf8f2d910e4212",
+      "finding": "five catalog entries, source metadata recorded only"
+    },
+    {
+      "id": "B21",
+      "path": "se-school/curriculum.json",
+      "blob": "c6b169a271cf0994f79373b4262ebe573bcd015b",
+      "finding": "13 quests, v0.2, draft"
+    },
+    {
+      "id": "B19",
+      "path": "roblox-learning/studio/RBX02_NagariIlmu.command.lua",
+      "blob": "fd713b12740a5fd3a86e8fa323a71598eee9c85b",
+      "finding": "graybox scaffold, excerpt inspected, not executed"
+    }
+  ],
+  "next": "R150.45E missing concepts register: audit existing owners, original sources, distinct deliverables, and acceptance gates before proposed branch creation; retain R150.39 and all backlog. No civil-to-military transfer or surveillance."
+}
