@@ -1,0 +1,185 @@
+{
+  "revision": "R150.28B-6A",
+  "date": "2026-11-27",
+  "status": "COMMITTED_METADATA_RECONCILIATION_ONLY",
+  "baseline": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+  "crosswalk": {
+    "path": "docs/R150_28B_6_MANDATE_SOURCE_BRANCH_CROSSWALK.json",
+    "verified_head": "14e47dcb524261772a046c74184512afd8e4da9f",
+    "note": "Existing crosswalk found on staging; do not overwrite. The actual RBX list has 10 entries despite stale checks.roblox=1."
+  },
+  "branches": [
+    {
+      "name": "feat/fahimuunal-vercel",
+      "ahead": 0,
+      "behind": 0,
+      "changed_paths": 0
+    },
+    {
+      "name": "feature/alam",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/hadis",
+      "ahead": 7,
+      "behind": 0,
+      "changed_paths": 16
+    },
+    {
+      "name": "feature/iqra-go",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/khidmah-lingkungan-padang-longang",
+      "ahead": 0,
+      "behind": 0,
+      "changed_paths": 0
+    },
+    {
+      "name": "feature/kitab-iqra",
+      "ahead": 11,
+      "behind": 0,
+      "changed_paths": 11
+    },
+    {
+      "name": "feature/lughah",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/matematika",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/offline-android",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/peradaban",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/pustaka-rehat",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/quran",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/raudhah-media",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/raudhah-pedagogy",
+      "ahead": 6,
+      "behind": 0,
+      "changed_paths": 6
+    },
+    {
+      "name": "feature/riset-malaka",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "feature/roblox-learning",
+      "ahead": 3,
+      "behind": 0,
+      "changed_paths": 3
+    },
+    {
+      "name": "feature/surau-shift",
+      "ahead": 20,
+      "behind": 0,
+      "changed_paths": 20
+    },
+    {
+      "name": "feature/tan-project",
+      "ahead": 3,
+      "behind": 0,
+      "changed_paths": 3
+    },
+    {
+      "name": "hurairah-web-stable",
+      "ahead": 1,
+      "behind": 0,
+      "changed_paths": 1
+    },
+    {
+      "name": "raudhah-integrated",
+      "ahead": 35,
+      "behind": 0,
+      "changed_paths": 31
+    }
+  ],
+  "checks": {
+    "source_count": 71,
+    "missing_source_ids": [],
+    "extra_source_ids": [],
+    "duplicate_source_ids": 0,
+    "candidate_count": 34,
+    "missing_candidate_ids": [],
+    "extra_candidate_ids": [],
+    "special_count": 12,
+    "roadmap_count": 25,
+    "roblox_actual_count": 10,
+    "roblox_missing": [],
+    "roblox_stale_summary_count": 10,
+    "branch_count": 21,
+    "ahead_sum": 96,
+    "changed_path_count_sum": 101
+  },
+  "parallel_hadis": {
+    "branch": "feature/hadis",
+    "head_sha": "a2317e5dd83f0214c59efdb5c83830592e88be8d",
+    "head_message": "feat(hadis): open Maqra 500 study drafts from the Hadis portal\n\nRender four source-matched drafts with Arabic, translation, and study notes. Verified all four numbers and unavailable-number handling in desktop and mobile Chromium.",
+    "catalog_path": "al-muddakir-hadis/maqra500/catalog.json",
+    "unit_numbers": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source_metadata_reported": {
+      "id": "MQ500-STQHN-2023",
+      "fileName": "MAQRA' 500 HADIS STQHN 2023 (EDISI TERBARU).pdf",
+      "sha256": "eb51817774e98e539c63e418d9224f93da56f7a6b022426b973e2a5afacec3ae",
+      "bytes": 2611543,
+      "pageCount": 127
+    },
+    "verified": "catalog and head inspected; original PDF bytes, SHA, official sequence, rights and runtime not verified here",
+    "roadmap_parent": "R153C",
+    "remaining": "preserve parallel commits; audit 4 units and compare with source; do not overwrite; Maqra100 SRC-018 is a different source and not a substitute for Maqra500"
+  },
+  "next": {
+    "id": "R150.28C",
+    "branch": "feature/kitab-iqra",
+    "gate": "Recover exact original 398 candidate list from corpus or archived exports; compare to registry and A-H; if unavailable document gap and audit only recoverable candidates without fabricating 398."
+  },
+  "retained_gates": [
+    "R150.28A ZIP inventory blocked; fallback only",
+    "R150.28B source segmentation partial, not full reading; MG02 and other duplicates still candidate",
+    "27 historical SHAs from R150.27A remain unresolved; no ancestry enumeration from available fetch_commit payload",
+    "RBX03–10 planned; Studio execution and publication pending",
+    "R150.28D/E and R151–157 retain gates",
+    "No main merge, no application change, no private source content copied. Branch comparisons before this commit, sums are per-branch totals, not independently deduplicated unique commit count."
+  ]
+}
