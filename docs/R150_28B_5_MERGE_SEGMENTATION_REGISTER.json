@@ -1,0 +1,1314 @@
+{
+  "revision": "R150.28B-5",
+  "date": "2026-11-27",
+  "status": "PARTIAL_COMMITTED",
+  "supersedes_register": "R150_28B_4_MERGE_SEGMENTATION_REGISTER.json (preserved)",
+  "archives": [
+    {
+      "id": "MG-01",
+      "pages": 541
+    },
+    {
+      "id": "MG-02",
+      "pages": 541,
+      "duplicate_candidate": "MG-01",
+      "checked": "text samples 270,541 from prior session; 147–154 exact match this session; 426–450 headings match; no hash"
+    },
+    {
+      "id": "MG-03",
+      "pages": 1296
+    },
+    {
+      "id": "MG-04",
+      "pages": 1018
+    }
+  ],
+  "units": [
+    {
+      "id": "SRC-001",
+      "archive": "MG-01",
+      "start_page": 1,
+      "end_page": 9,
+      "title": "Implementasi Literasi Pemanfaatan Artificial Intelligence (AI) untuk Peningkatan Kompetensi Guru di SMK Negeri 2 Surakarta",
+      "author": "Yudhanto dkk.",
+      "year": 2025,
+      "kind": "community_service_report",
+      "inspection": "sampled",
+      "limits": "42 guru; pre/post 21→38 jawaban tepat; kepuasan 83.34%; tidak mengukur hasil belajar siswa",
+      "target": "pedagogy; digital literacy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-002",
+      "archive": "MG-01",
+      "start_page": 10,
+      "end_page": 146,
+      "title": "Panduan Mata Pelajaran IPS Fase D dan E",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "hlm cetak 29–30,45–48,59–60: memahami, mengaplikasi, merefleksi; bukan uji kausal",
+      "target": "Tan Project; Alam; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-003",
+      "archive": "MG-01",
+      "start_page": 147,
+      "end_page": 154,
+      "title": "Pendampingan Belajar Mufrodat dengan Permainan Acak Huruf Hijaiyyah Berbantuan Papan Scrabble pada Santri TPQ Lathiful Amien Kedungrejo",
+      "author": "Asni Furoidah; Illiawati",
+      "year": 2023,
+      "kind": "community_service_PAR",
+      "inspection": "text_read",
+      "limits": "An-Nuqthah 3(2),85–92, online 30 Nov; 13 santri, tema Al-Madrasah; dua kelompok skor 90 dan 80; bukan rerata individu, tidak membuktikan efek kausal; sumber sendiri mengakui sampel kecil",
+      "target": "Lughah; Quran; Khidmah Tarbawiyah",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-004",
+      "archive": "MG-01",
+      "start_page": 155,
+      "end_page": 275,
+      "title": "Panduan Mata Pelajaran Seni Rupa Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "PDF 270/cetak 110: asesmen unjuk kerja ecoprint; adaptasi aman sesuai usia",
+      "target": "Tan Project; Alam; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-005",
+      "archive": "MG-01",
+      "start_page": 276,
+      "end_page": 446,
+      "title": "Panduan Mata Pelajaran Seni Musik Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "PDF 408–414,423–425: demonstrasi, latihan, refleksi, diferensiasi dan asesmen; adaptasi materi sesuai kebijakan dan keragaman pandangan",
+      "target": "pedagogy; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-006",
+      "archive": "MG-01",
+      "start_page": 447,
+      "end_page": 449,
+      "title": "Panduan Mata Pelajaran Pendidikan Pancasila Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance_fragment",
+      "inspection": "incomplete",
+      "limits": "Tahun terkonfirmasi dari halaman 449; hanya sampul dan kredit, isi belum ada; jangan petakan CP",
+      "target": "hold",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-001",
+      "archive": "MG-01",
+      "start_page": 450,
+      "end_page": 460,
+      "title": "Fragmen jadwal pembelajaran individual",
+      "author": null,
+      "year": null,
+      "kind": "restricted_administrative",
+      "inspection": "excluded",
+      "limits": "Bagian akhir dokumen 42 halaman; identitas dan catatan individual tidak disalin; bukan bukti efektivitas",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-007",
+      "archive": "MG-01",
+      "start_page": 461,
+      "end_page": 541,
+      "title": "Terjemah Maulid al-Imam al-Barzanji",
+      "author": "Ja'far bin Hasan al-Barzanji; terjemah Tim Majalah ALKISAH, penyunting Nanal Ainal Fauz",
+      "year": 2019,
+      "kind": "religious_literature_translation",
+      "inspection": "boundary_and_metadata",
+      "limits": "Edisi pertama Zawiyah Huffadh & PP Manba'us Sa'adah; PDF 463 metadata; teks Arab rusak dalam ekstraksi; perlu edisi primer dan takhrij; jangan salin terjemah berhak cipta",
+      "target": "KitabPedia; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-001",
+      "archive": "MG-03",
+      "start_page": 1,
+      "end_page": 43,
+      "title": "Sistem Permainan Qur'an RSI — Sintesis Jami Mani",
+      "author": null,
+      "year": null,
+      "kind": "internal_draft",
+      "inspection": "text_read_and_duplicate_compared",
+      "limits": "PDF 1–3 dibuka ulang; empat metode dan enam komponen awal; bukan penelitian implementasi; boundary confirmed by PDF 44 change to event guide; second copy PDF 46–88 exact extracted text",
+      "target": "Quran; pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-008",
+      "archive": "MG-04",
+      "start_page": 4,
+      "end_page": 10,
+      "title": "Game Edukasi Marbel Tajwid",
+      "author": "Ahmad Zaky Yamani; Cep Adiwihardja; Nicodias Palasara",
+      "year": 2019,
+      "kind": "software_development_report",
+      "inspection": "text_read",
+      "limits": "SATIN 5(2), PDF 4–10; waterfall, white-box/black-box, kuesioner 20 murid; usability bukan ketepatan tajwid atau transfer; tidak adopsi mekanik kekerasan",
+      "target": "Quran; Hurairah World",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-002",
+      "archive": "MG-03",
+      "start_page": 44,
+      "end_page": 45,
+      "title": "Panduan presenter/MC Makrab Asrama 2026 versi Minang",
+      "kind": "event_draft",
+      "inspection": "targeted",
+      "limits": "Boundary confirmed; event guide not proof of event held; no private details copied",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-001",
+      "archive": "MG-03",
+      "start_page": 46,
+      "end_page": 88,
+      "title": "Sistem Permainan Qur'an RSI — salinan DRAFT-001",
+      "kind": "duplicate_text_confirmed",
+      "inspection": "targeted",
+      "limits": "43 corresponding pages matched exactly after removal of PDF page markers; binary/image identity unverified",
+      "target": "feature/quran",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-003",
+      "archive": "MG-03",
+      "start_page": 397,
+      "end_page": 512,
+      "title": "Jalur Pembinaan Rumah Syariah Indonesia",
+      "kind": "internal_draft",
+      "inspection": "boundary_and_samples",
+      "limits": "Range 397–512 (internal pages 1–116); title restarts at 513 and 629. Five four-page batches compared across three copies, all text identical. Full comparison pending. Seven proposed graduate profiles, age matrix, colonies; historical conversational draft, not validated or confirmed final decision.",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-004",
+      "archive": "MG-03",
+      "start_page": 1013,
+      "end_page": 1020,
+      "title": "Blueprint OSIS RSI / Sarang Lebah",
+      "kind": "internal_draft",
+      "inspection": "boundary_and_samples",
+      "limits": "Observed title at 1013, continuation through 1020, next title 1021. Candidate OSIS service, literacy, arts, culture and ecology; no disciplinary or security duties for pupils.",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-002",
+      "archive": "MG-04",
+      "start_page": 1,
+      "end_page": 3,
+      "title": "Dokumen akademik individual",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Exclude all identifying and academic information; not scientific source",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-001",
+      "archive": "MG-04",
+      "start_page": 11,
+      "end_page": 38,
+      "title": "Materi visual pendidikan kelas",
+      "kind": "internal_media",
+      "inspection": "targeted",
+      "limits": "Four recurring seven-page groups, text variants, image and rights unverified; no reuse or names; evaluate inclusive pedagogy before adoption",
+      "target": "feature/raudhah-media",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "TRANS-001",
+      "archive": "MG-04",
+      "start_page": 39,
+      "end_page": 61,
+      "title": "Transkrip kajian akhlak: muqaddimah dan basmalah",
+      "kind": "transcript",
+      "inspection": "targeted",
+      "limits": "Start observed; end unknown; check original audio, edition and references; not primary textual evidence; last readable sample 61, 62–70 unreadable, end provisional",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-005",
+      "archive": "MG-04",
+      "start_page": 651,
+      "end_page": 651,
+      "title": "Pengembangan Kurikulum dan Sistem Operasional Surau Shift",
+      "kind": "internal_draft",
+      "inspection": "targeted",
+      "limits": "Single textual page, following 652 scan marker; claims of efficacy and historical facts unverified",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-009",
+      "archive": "MG-04",
+      "start_page": 653,
+      "end_page": 742,
+      "title": "Minangkabau (Adat, Bahasa, Sastra dan Bentuk Penerapan)",
+      "kind": "book",
+      "inspection": "targeted",
+      "limits": "Wahyudi Rahmat and Maryelliwati; preface Aug 2018; inspected 653–657; edition/end unknown; boundary confirmed by printed page 90 on PDF742 and different document at 743; edition metadata still incomplete",
+      "target": "feature/peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-010",
+      "archive": "MG-04",
+      "start_page": 833,
+      "end_page": 841,
+      "title": "Penggunaan Permainan Scrabble untuk Meningkatkan Penguasaan Kosakata Bahasa Arab Siswa Kelas VII MTsN",
+      "kind": "classroom_action_research",
+      "inspection": "targeted",
+      "limits": "Zahiroh & Mahliatussikah 2024, JLLA 4(6) 567–575, DOI 10.17977/um064v4i62024p567-575. Inconsistent totals 37/36/38; see R150.26",
+      "target": "feature/lughah",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-006",
+      "archive": "MG-04",
+      "start_page": 842,
+      "end_page": 848,
+      "title": "Dekonstruksi Sosiologis Pergeseran Moral Bangsa Indonesia",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Observed text through references page 848; boundary provisional because 849 not readable in request; no causal inference or punitive policy",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-007",
+      "archive": "MG-04",
+      "start_page": 901,
+      "end_page": 905,
+      "title": "Rekonstruksi Paradigma Kurikulum Nasional — Etika Kepedulian",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Title and references inspected; keep distinct from DRAFT-008",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-008",
+      "archive": "MG-04",
+      "start_page": 906,
+      "end_page": 911,
+      "title": "Rekonstruksi Paradigma Kurikulum Nasional — Worldview Integratif",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Observed 906–911; following 912–924 request returned no readable content; end provisional",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-011",
+      "archive": "MG-04",
+      "start_page": 925,
+      "end_page": 933,
+      "title": "Strategi Peningkatan Literasi AI di Kalangan Mahasiswa Indonesia: Kajian Kebijakan dan Implementasi",
+      "kind": "survey_and_literature",
+      "inspection": "targeted",
+      "limits": "Sitepu et al 2025 JLEB 3(1) pp332–340; PDF930 reports 34 respondents; not representative of all Indonesia or children; no independent causal result",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-009",
+      "archive": "MG-04",
+      "start_page": 934,
+      "end_page": 937,
+      "title": "Strategi Pendanaan Pendidikan Adab di Sekolah Islam Terpadu melalui Wakaf Produktif",
+      "kind": "unverified_research_draft",
+      "inspection": "targeted",
+      "limits": "Method and attributed interview statements written; no confirmed participants, fieldwork provenance, or financial feasibility. Preserve as candidate research, not user mandate, not implemented; if approved isolate finance research branch",
+      "target": "raudhah-integrated",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-002",
+      "archive": "MG-04",
+      "start_page": 938,
+      "end_page": 1018,
+      "title": "Terjemah Maulid al-Imam al-Barzanji — kandidat salinan SRC-007",
+      "kind": "duplicate_candidate",
+      "inspection": "targeted",
+      "limits": "Same edition metadata and text at end (last 3 extracted pages compared earlier; final page confirmed individually). Batch comparison incomplete due unreadable pages; no full duplication claim or page deduction",
+      "target": "feature/peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-002",
+      "archive": "MG-03",
+      "start_page": 141,
+      "end_page": 166,
+      "title": "Meningkatkan Kompetensi Siswa dalam Literasi, Numerasi, Sains dan Teknologi di Abad 21",
+      "kind": "training_slides",
+      "inspection": "targeted",
+      "limits": "141 and 166 boundaries observed, all intervening pages read; inquiry/PBL, teacher facilitation, theme water, age phases A–C; author and date not locked",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-010",
+      "archive": "MG-03",
+      "start_page": 167,
+      "end_page": 174,
+      "title": "Arsitektur Kontrol Kualitas Epistemik: Analisis Mendalam dan Pemetaan Presisi RSI Unified System Map",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "4-Tools core Maudhu, Amil, Mahmul, Validation; Mantiq/Data/Authority; five-step debugging and final consistency. Not empirical validation; conventional mantiq terminology and sources require tahqiq. Do not replace A–H ontology or 398 audit.",
+      "target": "feature/kitab-iqra",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-011",
+      "archive": "MG-03",
+      "start_page": 175,
+      "end_page": 196,
+      "title": "Anugerah Pendidikan Sebenarnya — versi A",
+      "kind": "restricted_mixed_draft",
+      "inspection": "targeted",
+      "limits": "Start 175; 180 and 190–196 sampled; next title 197. Contains personal history and spiritual practices; no names, biographical data or practice schedules copied. Public historical claims not verified. End provisional.",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-012",
+      "archive": "MG-03",
+      "start_page": 197,
+      "end_page": null,
+      "title": "Anugerah Pendidikan Sebenarnya — versi B dan kemungkinan versi berikutnya",
+      "kind": "restricted_mixed_draft",
+      "inspection": "targeted",
+      "limits": "Start 197; samples 198–200, 210, 240. Do not assign same version beyond verified boundary. Keep as private; historical claims need independent evidence. No spiritual regimen or personal details copied.",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-013",
+      "archive": "MG-03",
+      "start_page": null,
+      "end_page": null,
+      "title": "Panduan permainan digital — fragmen",
+      "kind": "unrelated_or_reference_draft",
+      "inspection": "targeted",
+      "limits": "Samples at 270 and 290–292, boundaries unknown; keep provenance only, not core curriculum or actual-world tactics. No content imported.",
+      "target": "hurairah-web-stable",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-014",
+      "archive": "MG-03",
+      "start_page": 293,
+      "end_page": 308,
+      "title": "Pusat Hiburan Nagari / Baliak Ko Lopou",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Observed 293–308 across batches; missing 298–299 in extraction. Proposal using existing lapau, storytelling, discussion and cultural arts. Not medical evidence for brain damage, not universal legal duty. Candidate safe, family-inclusive learning space with voluntary participation; source authorship unresolved.",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-003",
+      "archive": "MG-03",
+      "start_page": 309,
+      "end_page": 314,
+      "title": "Penghargaan individual sekolah",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Private; no names, ratings or images copied, no inference of achievement or program efficacy.",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-015",
+      "archive": "MG-03",
+      "start_page": 315,
+      "end_page": 318,
+      "title": "Cetak Biru Syaamil dan Mani' Rumah Syariah Indonesia (RSI) — Kelas 350",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Full observed range; philosophical, cultural, digital, green economy themes and fictional projections; not verified program or current geographic scope. Preserve older national ambition as historical, current scope Sumatera.",
+      "target": "raudhah-integrated",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-003",
+      "archive": "MG-03",
+      "start_page": 319,
+      "end_page": 349,
+      "title": "Cetak Biru Peradaban Rumah Syariah Indonesia",
+      "kind": "presentation_draft",
+      "inspection": "targeted",
+      "limits": "Title 319, slides through 348 and image sources 349; some pages unreadable. Three books operational/thought/narrative, 1-3-2, RSI-X, seven profiles, four curriculum dimensions, From Talent to Service, Sarang Tempua. Claims of empirical effectiveness in slide 28 not verified. Rights unreviewed. Do not adopt military-style roles or coercive gender discipline.",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-016",
+      "archive": "MG-03",
+      "start_page": null,
+      "end_page": 392,
+      "title": "Perencanaan acara keakraban — versi lain",
+      "kind": "restricted_event_draft",
+      "inspection": "targeted",
+      "limits": "389–392 sampled; start unknown. No names, personal or hazardous implementation detail copied. Not proof event took place.",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-017",
+      "archive": "MG-03",
+      "start_page": 393,
+      "end_page": 396,
+      "title": "Dokumen Perencanaan Acara Malam Keakraban Asrama 2026",
+      "kind": "event_draft",
+      "inspection": "targeted",
+      "limits": "Observed range; 397 starts Jalur Pembinaan RSI. Family-like cooperation and gratitude are candidate themes; no forced disclosure, no dangerous tasks, no personal data. Event not verified as implemented.",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-003",
+      "archive": "MG-03",
+      "start_page": 513,
+      "end_page": 628,
+      "title": "Jalur Pembinaan RSI — kandidat salinan B",
+      "kind": "duplicate_candidate",
+      "inspection": "targeted",
+      "limits": "20 corresponding pages matched DRAFT-003, not full text or binary identity",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-004",
+      "archive": "MG-03",
+      "start_page": 629,
+      "end_page": 744,
+      "title": "Jalur Pembinaan RSI — kandidat salinan C",
+      "kind": "duplicate_candidate",
+      "inspection": "targeted",
+      "limits": "20 corresponding pages matched DRAFT-003 and DUP-003; rest unverified",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-018",
+      "archive": "MG-03",
+      "start_page": 745,
+      "end_page": 762,
+      "title": "Sintesis Akhir Epistemologi, Arsitektur Kurikulum, dan Rekonstruksi Ekosistem Asrama RSI — versi A",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Samples 745–750,755–762. Model 1–3–2–4; five faculties including Aqliyah, Ijtimaiyah, Nafsiyah; terminology variants, seven profiles, From Talent to Service, RSI Prevent, organization and local adaptation. Historical scope broader than current Sumatera. No score of iman or clinical claims adopted; no disciplinary policing, coercion, or risky student roles. Boundary observed at 763.",
+      "target": "raudhah-integrated",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-019",
+      "archive": "MG-03",
+      "start_page": 763,
+      "end_page": 774,
+      "title": "Sintesis Akhir Epistemologi, Arsitektur Kurikulum, dan Rekonstruksi Ekosistem Asrama RSI — versi B",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "Same title but extracted first two pages not exactly equal to version A; keep separately until comparison. End references 774, next unit 775.",
+      "target": "raudhah-integrated",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-020",
+      "archive": "MG-03",
+      "start_page": 775,
+      "end_page": 779,
+      "title": "Lampiran teknis permainan digital dan evaluasi tim",
+      "kind": "reference_draft",
+      "inspection": "targeted",
+      "limits": "Game appendix only; not evidence of educational effects. No game mechanics copied or real-world operational adaptation.",
+      "target": "hurairah-web-stable",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-012",
+      "archive": "MG-03",
+      "start_page": 780,
+      "end_page": 971,
+      "title": "Madarijus Su'ud — terjemah/syarah Maulid al-Barzanji",
+      "kind": "religious_literature_translation",
+      "inspection": "targeted",
+      "limits": "Title attributes Nawawi al-Bantani; pages 781–784 and 800 inspected; original Arabic edition, translator, publisher, full title and end unknown. No quotation or claim of hadith authenticity. Citation anomaly at PDF 800: Ibrahim [52]:9; standard surah numbering Ibrahim 14; verify against source image and original edition. Distinguish narrative, commentary and authenticated report.; text continues through 971, 972 unreadable; end provisional",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-013",
+      "archive": "MG-03",
+      "start_page": 973,
+      "end_page": 997,
+      "title": "Unidentified Arabic document with Dawat-e-Islami watermark",
+      "kind": "unidentified_scan",
+      "inspection": "targeted",
+      "limits": "Only domain text extractable; title, author and actual contents unknown; no attribution or tahqiq",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-004",
+      "archive": "MG-03",
+      "start_page": 1000,
+      "end_page": 1002,
+      "title": "Naskah Drama Sarang Lebah — dialek Mudiak",
+      "kind": "script_draft",
+      "inspection": "targeted",
+      "limits": "Observed title and text through 1002; theatrical educational material, rights and safety review needed; no copied text",
+      "target": "feature/raudhah-media",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-005",
+      "archive": "MG-03",
+      "start_page": 1003,
+      "end_page": 1004,
+      "title": "Naskah MC",
+      "kind": "restricted_event_draft",
+      "inspection": "targeted",
+      "limits": "Draft event script; no names or private reflections copied",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-004",
+      "archive": "MG-03",
+      "start_page": 1005,
+      "end_page": 1012,
+      "title": "Catatan rapat internal",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Contains internal personnel, financial and school operations; do not disclose or infer public institutional facts",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-021",
+      "archive": "MG-03",
+      "start_page": 1021,
+      "end_page": 1027,
+      "title": "Panduan permainan digital — another fragment",
+      "kind": "reference_draft",
+      "inspection": "targeted",
+      "limits": "Observed start and end; not educational efficacy or original software; no mechanics copied or operational real-world adaptation",
+      "target": "hurairah-web-stable",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-022",
+      "archive": "MG-03",
+      "start_page": 1028,
+      "end_page": 1038,
+      "title": "Analisis Kritis dan Perancangan Strategi RSI Melalui Manhaj Sarang Lebah",
+      "kind": "conceptual_draft",
+      "inspection": "targeted",
+      "limits": "References Al-Azhar/Dar al-Ifta, local culture, organizational design and social service; no verified partnership or historical facts. No political mobilization or compulsory affiliation; current geography Sumatera",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-005",
+      "archive": "MG-03",
+      "start_page": 1039,
+      "end_page": 1041,
+      "title": "Rancangan hadiah perpisahan",
+      "kind": "restricted_event_draft",
+      "inspection": "targeted",
+      "limits": "No private details or budgets copied; 1042–1043 unreadable; end provisional",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-014",
+      "archive": "MG-03",
+      "start_page": 1044,
+      "end_page": 1118,
+      "title": "Laporan dampak industri nikel Weda Bay — title page not recovered",
+      "kind": "research_report_fragment",
+      "inspection": "targeted",
+      "limits": "Acknowledgments 1044, TOC 1045, findings 1048–1050, discussion, references 1112–1118; full bibliographic metadata and methodology pending. Use for civil environmental literacy and source criticism, no direct extrapolation to Sumatera or medical advice; no unsafe field sampling",
+      "target": "feature/alam",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-023",
+      "archive": "MG-03",
+      "start_page": 1122,
+      "end_page": 1143,
+      "title": "Sistem Permainan Kartu Qur'an RSI",
+      "kind": "internal_curriculum_draft",
+      "inspection": "targeted",
+      "limits": "Six series A Makhraj, B Harakat, C Domino Ayat, D Tajwid, E Hafalan, F Ustad Cilik. Separate namespace from components A–L at 1–43. Proposed 400 pupils/16 classes/one Quran specialist is not demonstrated capacity. Citation Yanni & Wirman year/metrics require original verification; p reported as 0.000 should not mean exact zero; percentage gain ratio not causal efficacy. Adult teacher validates reading/qualification. Peer help voluntary and supervised, no student records public.",
+      "target": "feat/fahimuunal-vercel",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-006",
+      "archive": "MG-03",
+      "start_page": 1144,
+      "end_page": 1161,
+      "title": "Private event visual material — provisional range",
+      "kind": "restricted_media",
+      "inspection": "targeted",
+      "limits": "Repeated pages observed; do not publish names, images, quotes or infer permission; 1162 unreadable",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-024",
+      "archive": "MG-03",
+      "start_page": 1163,
+      "end_page": 1171,
+      "title": "Masaarang Lebah Baginda Nabi — Kurikulum An Nahl",
+      "kind": "internal_notes",
+      "inspection": "targeted",
+      "limits": "Extracted text across all nine pages; notes rather than approved curriculum; vision includes love of knowledge, independence and benefit to others",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-005",
+      "archive": "MG-03",
+      "start_page": 1173,
+      "end_page": 1181,
+      "title": "Kurikulum An Nahl — text duplicate B",
+      "kind": "duplicate_text_confirmed",
+      "inspection": "targeted",
+      "limits": "Nine extracted pages identical to 1163–1171 after removing page markers; separator 1172 unreadable",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-006",
+      "archive": "MG-03",
+      "start_page": 1183,
+      "end_page": 1191,
+      "title": "Kurikulum An Nahl — text duplicate C",
+      "kind": "duplicate_text_confirmed",
+      "inspection": "targeted",
+      "limits": "Nine extracted pages identical to 1163–1171; separator 1182 unreadable; no binary match",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-015",
+      "archive": "MG-03",
+      "start_page": null,
+      "end_page": 1231,
+      "title": "Arabic-Malay maulid and prayer text — unidentified edition",
+      "kind": "religious_literature_fragment",
+      "inspection": "targeted",
+      "limits": "Samples 1200,1215–1225,1230–1231; start/title/author/edition unknown, corrupted Arabic extraction; do not identify by guess or reproduce modern translation",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-006",
+      "archive": "MG-03",
+      "start_page": 1232,
+      "end_page": 1234,
+      "title": "Rekap penilaian individual — provisional end",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Exclude identifying details and results; 1235 unreadable",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-007",
+      "archive": "MG-03",
+      "start_page": 1236,
+      "end_page": 1240,
+      "title": "Buku Carito Sarang Lebah: Seso di Surau, Janji di Ranah",
+      "kind": "narrative_draft",
+      "inspection": "targeted",
+      "limits": "Title and sections observed; not automatically public or factually autobiographical; permissions and editorial review needed",
+      "target": "feature/raudhah-media",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-016",
+      "archive": "MG-03",
+      "start_page": 1243,
+      "end_page": 1296,
+      "title": "Arabic supplication collection — unidentified",
+      "kind": "religious_literature_fragment",
+      "inspection": "targeted",
+      "limits": "Samples 1243–1255,1270,1290,1296; title/author/edition unconfirmed; no claim of lineage or prescribed practice; no transcription from damaged Arabic",
+      "target": "feature/surau-shift",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-017",
+      "archive": "MG-04",
+      "start_page": 81,
+      "end_page": 257,
+      "title": "Cerita Rakyat Daerah Sumatra Barat",
+      "kind": "folklore_research_report",
+      "inspection": "targeted",
+      "limits": "Title page 82, government cultural documentation project, preface describes 1976/77 project start and limited documentation rather than deep study; final bibliography 256, back matter 257, new document 258. Year of publication not established here. PDF249 reports 20 selected stories. Folklore not established history; omit informant identifying details; adapt age-appropriately only after rights review.",
+      "target": "feature/peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-007",
+      "archive": "MG-04",
+      "start_page": 258,
+      "end_page": null,
+      "title": "Penghargaan individual sekolah — fragmen",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Sample 258,260; end not determined; no identifying details copied",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-025",
+      "archive": "MG-04",
+      "start_page": null,
+      "end_page": null,
+      "title": "Bank soal keagamaan — fragmen",
+      "kind": "learning_material",
+      "inspection": "targeted",
+      "limits": "Sample 300; unknown boundaries and source; no answer keys adopted",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DUP-007",
+      "archive": "MG-04",
+      "start_page": 394,
+      "end_page": 585,
+      "title": "Madārij al-Ṣu‘ūd — candidate parallel edition of SRC-012",
+      "kind": "duplicate_candidate",
+      "inspection": "targeted",
+      "limits": "Title 394, printed pp1–191 on PDF395–585, next title 586. Similar excerpts to MG03 780–971 but no systematic normalization or full equality test. Numbered edition improves locator, not verification of Arabic original.",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-018",
+      "archive": "MG-04",
+      "start_page": 586,
+      "end_page": 647,
+      "title": "Terjemahan Maqra’ 100 Hadits Dengan Sanad STQHN 2023",
+      "kind": "translated_hadith_collection",
+      "inspection": "targeted",
+      "limits": "Febri Wardani, M.Ag. as printed; PDF586 printed1 to PDF647 printed62, next 648–650 unreadable; end provisional. Direct source for comparison, not established official original order or completeness. No modern translation copied; original Maqra and primary hadith source verification required.",
+      "target": "feature/hadis",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "MEDIA-008",
+      "archive": "MG-04",
+      "start_page": 743,
+      "end_page": 744,
+      "title": "Naskah MC — candidate parallel to MEDIA-005",
+      "kind": "duplicate_candidate",
+      "inspection": "targeted",
+      "limits": "Title and end correspond to MG03 1003–1004; no full comparison; private names excluded",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-019",
+      "archive": "MG-04",
+      "start_page": 745,
+      "end_page": 823,
+      "title": "At Tamrinat Kelas 2 Semester 2 — An Nahl 2026",
+      "kind": "learning_material",
+      "inspection": "targeted",
+      "limits": "PDF745 chapter5; pages 745–749,760,800,820–823 sampled; PDF824 starts journal. Local material, not independent evidence of efficacy; source check Quran, translation, learning objectives; rights review. Do not reproduce worksheets or names.",
+      "target": "feature/quran",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-020",
+      "archive": "MG-04",
+      "start_page": 824,
+      "end_page": 832,
+      "title": "Pengaruh Permainan Kartu Ngaji Asyik Terhadap Kemampuan Mengenal Huruf Hijaiyah Anak",
+      "kind": "quasi_experimental_article",
+      "inspection": "targeted",
+      "limits": "Rizka Putri Yanni & Asdi Wirman; JFE 3(4),459–467, DOI10.24036/jfe.v3i4.137. First page year2024, running header2023. 19 TK children (10 intervention,9 control), intact classes; PDF828 Table1 control Shapiro-Wilk .049/.033, narrative incorrectly all above .05; Kolmogorov-Smirnov control .044/.039. PDF829 t=5.472 df17 difference5.722; p displayed .000 not exact zero; table 99% CI, narrative critical t inconsistent. No proof of whole six-card model, 400 pupils capacity, retention or tajwid mastery. Independent statistical review and publisher year pending.",
+      "target": "feature/quran",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-008",
+      "archive": "MG-04",
+      "start_page": null,
+      "end_page": 866,
+      "title": "Jadwal piket asrama — fragmen",
+      "kind": "restricted_administrative",
+      "inspection": "targeted",
+      "limits": "Observed 863–866, start unknown, exclude names and room details",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-021",
+      "archive": "MG-04",
+      "start_page": 867,
+      "end_page": 877,
+      "title": "Profesor Mahmud Ahmad Khafaji, al-Shahrastani dan Heresiografi; Sebuah Obituari",
+      "kind": "essay_obituary",
+      "inspection": "targeted",
+      "limits": "Muhammad Jihan Muqodas, printed pp1–11; historical and disciplinary claims need corroboration; candidate comparative religious studies bibliography; not evidence of affiliation",
+      "target": "feature/kitab-iqra",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-022",
+      "archive": "MG-04",
+      "start_page": 878,
+      "end_page": 900,
+      "title": "Panduan Pendaftaran Beasiswa Indonesia Bangkit — Beasiswa Unggulan Keagamaan 2026",
+      "kind": "administrative_guide",
+      "inspection": "targeted",
+      "limits": "Kemenag-LPDP heading; first revision 1 April 2026 per 879/900; archival not current eligibility advice; no participant data; next draft901",
+      "target": "feature/raudhah-pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    }
+  ],
+  "duplicate_checks": {
+    "MG03": {
+      "a": [
+        1,
+        43
+      ],
+      "b": [
+        46,
+        88
+      ],
+      "method": "six batches of extracted text excluding page markers",
+      "matched_pages": 43,
+      "binary_verified": false
+    },
+    "barzanji": {
+      "a": [
+        "MG-01",
+        461,
+        541
+      ],
+      "b": [
+        "MG-04",
+        938,
+        1018
+      ],
+      "status": "candidate; missing pages in extraction",
+      "matched_end_sample": true
+    },
+    "MG02": {
+      "status": "candidate; not fully verified"
+    },
+    "MG03_profiles": {
+      "ranges": [
+        [
+          397,
+          512
+        ],
+        [
+          513,
+          628
+        ],
+        [
+          629,
+          744
+        ]
+      ],
+      "samples": [
+        [
+          397,
+          400
+        ],
+        [
+          420,
+          423
+        ],
+        [
+          450,
+          453
+        ],
+        [
+          480,
+          483
+        ],
+        [
+          509,
+          512
+        ]
+      ],
+      "matched_sample_pages_per_copy": 20,
+      "confirmed_redundant_sample_pages": 40,
+      "potential_redundant_pages": 232,
+      "status": "sample_match_only",
+      "binary_verified": false
+    },
+    "MG03_synthesis": {
+      "ranges": [
+        [
+          745,
+          762
+        ],
+        [
+          763,
+          774
+        ]
+      ],
+      "first_two_pages_exact_match": false,
+      "status": "distinct_variants_pending_comparison"
+    },
+    "MG03_curriculum_notes": {
+      "ranges": [
+        [
+          1163,
+          1171
+        ],
+        [
+          1173,
+          1181
+        ],
+        [
+          1183,
+          1191
+        ]
+      ],
+      "matched_pages_per_copy": 9,
+      "confirmed_redundant_text_pages": 18,
+      "binary_verified": false
+    }
+  },
+  "checks": {
+    "unit_count": 71,
+    "unique_ids": true,
+    "confirmed_redundant_text_pages": 101,
+    "raw_pages": 3396,
+    "new_units": 11,
+    "confirmed_full_range_redundant_pages": 61,
+    "confirmed_sample_only_redundant_pages": 40,
+    "recovery_candidates": 26
+  },
+  "open_ranges": [
+    "MG03 targeted scan covers intervals through 1296, but many gaps remain: 89–140, 175–292, 350–388, complete deduplication 397–744, variants 745–774, missing transitions and unreadable scans in latter portion",
+    "MG04 gaps and MG02 full comparison",
+    "two ZIP inventory, historical attribution and 398 audit",
+    "MG04 62–80, 258–393, 648–650, 849–862, 912–924 and other unsampled pages; unidentified boundaries and scans",
+    "MG04 numbered Madarij parallel edition full comparison, MG01/MG02 full comparison"
+  ],
+  "limits": [
+    "No deletion or extraction of originals; no private personal data, audio or copyrighted content copied. No new user mandate inferred from drafts. No application code changed or main merge.",
+    "Page boundaries may be provisional. A matched extracted text is not a matched PDF binary or image. Do not subtract candidates from totals. R150.28B remains open; R150.28A remains blocked.",
+    "R150.28B-2 targeted inspection, not all 89–396 pages read. Draft titles are historical references, not independently confirmed user mandates. No personal material, unverified scientific claims or hazardous operational detail copied.",
+    "R150.28B-3 uses targeted samples only; no claim full 397–800 inspection. Retain variants and avoid subtracting candidate pages. No reproduction of translations or private files. New codes are candidate research tasks, not confirmed user instructions. No merge or application changes.",
+    "R150.28B-4 is targeted source inventory only, not full reading or full segmentation. No private data or copyrighted text reproduced. Unreadable scans retained; page boundary estimates labeled. RBX-01 and RBX-02 remain separate; RBX-03 pending. No merge or application change.",
+    "MG04 targeted sampling only; no verification of complete Maqra 100 sequence. No private material, copyrighted translations or worksheets copied. No merge. RBX-03 remains pending."
+  ],
+  "recovery_candidates": [
+    {
+      "id": "EP-01",
+      "title": "RSI Unified System Map",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 167–174",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "EP-02",
+      "title": "RSI Debugging Engine",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 169–170",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "EP-03",
+      "title": "Verification Pipeline",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 170–174",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "EP-04",
+      "title": "RSI-X and 1–3–2–4 reconciliation",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 323–324,745–746",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BL-01",
+      "title": "Baliak Ko Lopou",
+      "target": "feature/surau-shift",
+      "locator": "MG-03 PDF 293–308",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BL-02",
+      "title": "Sarang Tempua",
+      "target": "feature/surau-shift",
+      "locator": "MG-03 PDF 342",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BL-03",
+      "title": "Seni tutur Minangkabau",
+      "target": "feature/peradaban",
+      "locator": "MG-03 PDF 293–308",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BK-01",
+      "title": "Kitab Pemikiran",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 322",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BK-02",
+      "title": "Kitab Operasional",
+      "target": "feature/raudhah-pedagogy",
+      "locator": "MG-03 PDF 322",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "BK-03",
+      "title": "Kitab Narasi / Film Sarang Lebah",
+      "target": "feature/raudhah-media",
+      "locator": "MG-03 PDF 322",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "PR-01",
+      "title": "Seven-profile cross-age matrix",
+      "target": "feature/raudhah-pedagogy",
+      "locator": "MG-03 PDF 406–410,509–511",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "PR-02",
+      "title": "Discover Develop Serve / amanah to khidmah",
+      "target": "feature/tan-project",
+      "locator": "MG-03 PDF 337,450–454",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "PR-03",
+      "title": "Reconcile faculty-name variants and 1–3–2–4",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-03 PDF 398,745–746,760",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "PR-04",
+      "title": "Tahqiq Madarijus Su'ud references and edition",
+      "target": "feature/hadis",
+      "locator": "MG-03 PDF 780–800",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Reconcile with existing mandate and source; explicit user decision or expert review where needed; separate implementation commit; no duplicate work."
+    },
+    {
+      "id": "QR-01",
+      "title": "Six card series vs components A–L reconciliation",
+      "target": "feat/fahimuunal-vercel",
+      "locator": "MG-03 PDF 1122–1143 and 1–43",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "QR-02",
+      "title": "Quran specialist capacity and supervised peer practice pilot",
+      "target": "feature/quran",
+      "locator": "MG-03 PDF 1133–1143",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "NR-01",
+      "title": "Original drama and book carito adaptation with rights review",
+      "target": "feature/raudhah-media",
+      "locator": "MG-03 PDF 1000–1002,1236–1240",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "EN-01",
+      "title": "Civil environmental report provenance and comparative literacy unit",
+      "target": "feature/alam",
+      "locator": "MG-03 PDF 1044–1118",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "TR-01",
+      "title": "Identify unreadable turats and prayer fragments before tahqiq",
+      "target": "feature/hadis",
+      "locator": "MG-03 PDF 973–997,1200–1231,1243–1296",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "PG-01",
+      "title": "Reconcile early An Nahl curriculum notes with current M3",
+      "target": "feature/raudhah-pedagogy",
+      "locator": "MG-03 PDF 1163–1171",
+      "status": "candidate_recovered_from_draft",
+      "acceptance": "Confirm scope, evidence and rights; preserve existing mandates; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "HD-01",
+      "title": "Collate Maqra 100 STQHN translation with official sequence and primary hadith",
+      "target": "feature/hadis",
+      "locator": "MG-04 PDF 586–647",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "QR-03",
+      "title": "Reassess original Ngaji Asyik study and reconcile card evidence",
+      "target": "feature/quran",
+      "locator": "MG-04 PDF 824–832",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "PG-02",
+      "title": "Audit At Tamrinat class 2 and source-aligned learning units",
+      "target": "feature/raudhah-pedagogy",
+      "locator": "MG-04 PDF 745–823",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "BL-04",
+      "title": "Folklore source catalog and age-appropriate original narrative",
+      "target": "feature/peradaban",
+      "locator": "MG-04 PDF 81–257,653–742",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "TR-02",
+      "title": "Compare numbered Madarij edition and verify Arabic original",
+      "target": "feature/hadis",
+      "locator": "MG-04 PDF 394–585",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    },
+    {
+      "id": "EP-05",
+      "title": "Heresiography as comparative discipline candidate, verify sources",
+      "target": "feature/kitab-iqra",
+      "locator": "MG-04 PDF 867–877",
+      "status": "candidate_recovered_from_source",
+      "acceptance": "Reconcile with existing mandates, verify primary source, rights, scope; separate logical commit; no automatic adoption."
+    }
+  ]
+}
