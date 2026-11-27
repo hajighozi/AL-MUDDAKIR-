@@ -1,0 +1,34 @@
+{
+  "collectionId": "MQ500",
+  "number": 2,
+  "title": "Permohonan khulu’ istri Tsabit bin Qais",
+  "sourceId": "MQ500-STQHN-2023",
+  "sourceSha256": "eb51817774e98e539c63e418d9224f93da56f7a6b022426b973e2a5afacec3ae",
+  "pdfPages": [1],
+  "collection": "Sahih al-Bukhari",
+  "book": "كِتَابُ الطَّلَاقِ",
+  "chapter": "بَابُ الْخُلْعِ وَكَيْفَ الطَّلَاقُ فِيهِ",
+  "reference": {
+    "hadithNumber": 5273,
+    "bookNumber": 68,
+    "numberInBook": 22,
+    "url": "https://raw.githubusercontent.com/fawazahmed0/hadith-api/1/editions/ara-bukhari/5273.json",
+    "checkedAgainst": "Sanad dan dialog sesuai hingga تَطْلِيقَةً. Entri digital memuat catatan Abu Abdillah setelah batas teks Maqra’. Judul bab dibaca pada PDF halaman 1."
+  },
+  "arabic": {
+    "method": "visual_transcription_from_primary_pdf",
+    "sanadLines": [
+      "حَدَّثَنَا أَزْهَرُ بْنُ جَمِيلٍ حَدَّثَنَا عَبْدُ الْوَهَّابِ الثَّقَفِيُّ حَدَّثَنَا خَالِدٌ عَنْ عِكْرِمَةَ ....",
+      "... عَنْ ابْنِ عَبَّاسٍ"
+    ],
+    "matn": "أَنَّ امْرَأَةَ ثَابِتِ بْنِ قَيْسٍ أَتَتْ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ فَقَالَتْ يَا رَسُولَ اللَّهِ ثَابِتُ بْنُ قَيْسٍ مَا أَعْتِبُ عَلَيْهِ فِي خُلُقٍ وَلَا دِينٍ وَلَكِنِّي أَكْرَهُ الْكُفْرَ فِي الْإِسْلَامِ فَقَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ أَتَرُدِّينَ عَلَيْهِ حَدِيقَتَهُ قَالَتْ نَعَمْ قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ اقْبَلْ الْحَدِيقَةَ وَطَلِّقْهَا تَطْلِيقَةً"
+  },
+  "translation": {
+    "status": "editorial_draft",
+    "language": "id",
+    "text": "Azhar bin Jamil menyampaikan kepada kami, Abdul Wahhab ats-Tsaqafi menyampaikan kepada kami, Khalid menyampaikan kepada kami, dari Ikrimah, dari Ibnu Abbas, bahwa istri Tsabit bin Qais datang kepada Nabi ﷺ dan berkata, “Wahai Rasulullah, aku tidak mencela Tsabit bin Qais dalam akhlak maupun agamanya, tetapi aku tidak ingin jatuh pada kekufuran dalam Islam.” Rasulullah ﷺ bertanya, “Maukah engkau mengembalikan kebunnya kepadanya?” Ia menjawab, “Ya.” Rasulullah ﷺ bersabda, “Terimalah kebun itu dan ceraikanlah dia dengan satu kali talak.”"
+  },
+  "sharh": null,
+  "sharhStatus": "awaiting_kitabpedia_excerpt",
+  "scientificApproval": false
+}
