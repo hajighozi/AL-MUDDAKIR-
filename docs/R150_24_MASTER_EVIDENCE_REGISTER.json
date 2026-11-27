@@ -1,0 +1,187 @@
+{
+  "revision": "R150.24",
+  "date": "2026-11-27",
+  "status": "C/draft",
+  "archives": [
+    {
+      "id": "MG-01",
+      "pages": 541
+    },
+    {
+      "id": "MG-02",
+      "pages": 541,
+      "duplicate_candidate": "MG-01",
+      "checked": "text samples 270,541 from prior session; 147–154 exact match this session; 426–450 headings match; no hash"
+    },
+    {
+      "id": "MG-03",
+      "pages": 1296
+    },
+    {
+      "id": "MG-04",
+      "pages": 1018
+    }
+  ],
+  "units": [
+    {
+      "id": "SRC-001",
+      "archive": "MG-01",
+      "start_page": 1,
+      "end_page": 9,
+      "title": "Implementasi Literasi Pemanfaatan Artificial Intelligence (AI) untuk Peningkatan Kompetensi Guru di SMK Negeri 2 Surakarta",
+      "author": "Yudhanto dkk.",
+      "year": 2025,
+      "kind": "community_service_report",
+      "inspection": "sampled",
+      "limits": "42 guru; pre/post 21→38 jawaban tepat; kepuasan 83.34%; tidak mengukur hasil belajar siswa",
+      "target": "pedagogy; digital literacy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-002",
+      "archive": "MG-01",
+      "start_page": 10,
+      "end_page": 146,
+      "title": "Panduan Mata Pelajaran IPS Fase D dan E",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "hlm cetak 29–30,45–48,59–60: memahami, mengaplikasi, merefleksi; bukan uji kausal",
+      "target": "Tan Project; Alam; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-003",
+      "archive": "MG-01",
+      "start_page": 147,
+      "end_page": 154,
+      "title": "Pendampingan Belajar Mufrodat dengan Permainan Acak Huruf Hijaiyyah Berbantuan Papan Scrabble pada Santri TPQ Lathiful Amien Kedungrejo",
+      "author": "Asni Furoidah; Illiawati",
+      "year": 2023,
+      "kind": "community_service_PAR",
+      "inspection": "text_read",
+      "limits": "An-Nuqthah 3(2),85–92, online 30 Nov; 13 santri, tema Al-Madrasah; dua kelompok skor 90 dan 80; bukan rerata individu, tidak membuktikan efek kausal; sumber sendiri mengakui sampel kecil",
+      "target": "Lughah; Quran; Khidmah Tarbawiyah",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-004",
+      "archive": "MG-01",
+      "start_page": 155,
+      "end_page": 275,
+      "title": "Panduan Mata Pelajaran Seni Rupa Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "PDF 270/cetak 110: asesmen unjuk kerja ecoprint; adaptasi aman sesuai usia",
+      "target": "Tan Project; Alam; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-005",
+      "archive": "MG-01",
+      "start_page": 276,
+      "end_page": 446,
+      "title": "Panduan Mata Pelajaran Seni Musik Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance",
+      "inspection": "boundary_and_sections",
+      "limits": "PDF 408–414,423–425: demonstrasi, latihan, refleksi, diferensiasi dan asesmen; adaptasi materi sesuai kebijakan dan keragaman pandangan",
+      "target": "pedagogy; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-006",
+      "archive": "MG-01",
+      "start_page": 447,
+      "end_page": 449,
+      "title": "Panduan Mata Pelajaran Pendidikan Pancasila Fase A-F",
+      "author": "BSKAP Kemendikdasmen",
+      "year": 2025,
+      "kind": "official_guidance_fragment",
+      "inspection": "incomplete",
+      "limits": "Tahun terkonfirmasi dari halaman 449; hanya sampul dan kredit, isi belum ada; jangan petakan CP",
+      "target": "hold",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "ADM-001",
+      "archive": "MG-01",
+      "start_page": 450,
+      "end_page": 460,
+      "title": "Fragmen jadwal pembelajaran individual",
+      "author": null,
+      "year": null,
+      "kind": "restricted_administrative",
+      "inspection": "excluded",
+      "limits": "Bagian akhir dokumen 42 halaman; identitas dan catatan individual tidak disalin; bukan bukti efektivitas",
+      "target": "private_only",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-007",
+      "archive": "MG-01",
+      "start_page": 461,
+      "end_page": 541,
+      "title": "Terjemah Maulid al-Imam al-Barzanji",
+      "author": "Ja'far bin Hasan al-Barzanji; terjemah Tim Majalah ALKISAH, penyunting Nanal Ainal Fauz",
+      "year": 2019,
+      "kind": "religious_literature_translation",
+      "inspection": "boundary_and_metadata",
+      "limits": "Edisi pertama Zawiyah Huffadh & PP Manba'us Sa'adah; PDF 463 metadata; teks Arab rusak dalam ekstraksi; perlu edisi primer dan takhrij; jangan salin terjemah berhak cipta",
+      "target": "KitabPedia; Peradaban",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "DRAFT-001",
+      "archive": "MG-03",
+      "start_page": 1,
+      "end_page": null,
+      "title": "Sistem Permainan Qur'an RSI — Sintesis Jami Mani",
+      "author": null,
+      "year": null,
+      "kind": "internal_draft",
+      "inspection": "start_confirmed_end_unknown",
+      "limits": "PDF 1–3 dibuka ulang; empat metode dan enam komponen awal; bukan penelitian implementasi",
+      "target": "Quran; pedagogy",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    },
+    {
+      "id": "SRC-008",
+      "archive": "MG-04",
+      "start_page": 4,
+      "end_page": 10,
+      "title": "Game Edukasi Marbel Tajwid",
+      "author": "Ahmad Zaky Yamani; Cep Adiwihardja; Nicodias Palasara",
+      "year": 2019,
+      "kind": "software_development_report",
+      "inspection": "text_read",
+      "limits": "SATIN 5(2), PDF 4–10; waterfall, white-box/black-box, kuesioner 20 murid; usability bukan ketepatan tajwid atau transfer; tidak adopsi mekanik kekerasan",
+      "target": "Quran; Hurairah World",
+      "rights": "not_reviewed_metadata_only",
+      "validation": "pending"
+    }
+  ],
+  "checks": {
+    "mg01_ranges_contiguous": true,
+    "mg01_pages_mapped": 541,
+    "unique_ids": true
+  },
+  "limits": [
+    "MG01 boundary mapping based on sampled transitions; not full reading or guarantee no embedded units.",
+    "MG03 and MG04 segmentation incomplete; personal documents excluded.",
+    "Container access failed; no hashes or full corpus extraction. No copyrighted content or personal data copied. No curriculum adoption, merge to main, or closure of original 398 audit."
+  ]
+}
