@@ -1,0 +1,164 @@
+{
+  "revision": "R150.28C-2",
+  "date": "2026-11-27",
+  "status": "PILOT_INTERNAL_RECONCILIATION_ONLY",
+  "parent": "R150_28C_1_RECOVERED_ANAK_HEADINGS.json",
+  "protocol": "M7-F pp125–132; A–H pp116–118; M7-AA/AB pp482–486",
+  "rows": [
+    {
+      "id": "REC398-QAULIYAH-I01-A01",
+      "historicalLabel": "Ilmu Nahwu",
+      "canonicalCandidate": "Nahwu",
+      "sourceLocators": [
+        "Cucu dan fashl Forge .pdf p1",
+        "M1 - M7 BZ(1).pdf pp127–128,129–130,486"
+      ],
+      "A": "Susunan lafaz Arab",
+      "B": "Relasi sintaksis dan keadaan akhir kata",
+      "C": "Kaidah sintaksis",
+      "D": null,
+      "E": null,
+      "F": {
+        "internalDraft": "M7-F pilot",
+        "primaryLiterature": [],
+        "status": "PENDING"
+      },
+      "G": "Bedakan sintaksis dari morfologi; isu lintas batas dicatat",
+      "H": "Kandidat ilmu/cabang; belum keputusan final",
+      "internalStructure": [
+        {
+          "label": "Isim",
+          "relation": "has-topic"
+        },
+        {
+          "label": "Fi'il",
+          "relation": "has-topic"
+        },
+        {
+          "label": "Huruf",
+          "relation": "has-topic"
+        }
+      ],
+      "conflict": "PDF p1 menyebut ketiganya Cucu; M7-F pp129–130 mengoreksi sebagai topik, bukan disiplin independen.",
+      "fashlRefs": [
+        "fa-003",
+        "fa-004",
+        "lu-001",
+        "lu-002",
+        "lu-003",
+        "lu-004",
+        "lu-005"
+      ],
+      "epistemicStatus": "B_INTERNAL_RECONSTRUCTION",
+      "validation": "UNVALIDATED",
+      "decision": "REVIEW_KEEP_ID",
+      "madarik": null,
+      "reviewer": null
+    },
+    {
+      "id": "REC398-QAULIYAH-I01-A02",
+      "historicalLabel": "Ilmu Shorof",
+      "canonicalCandidate": "Sharaf",
+      "sourceLocators": [
+        "Cucu dan fashl Forge .pdf pp1–2",
+        "M1 - M7 BZ(1).pdf pp128–129"
+      ],
+      "A": "Bentuk kata",
+      "B": "Perubahan bentuk/morfologi",
+      "C": "Kaidah perubahan bentuk kata",
+      "D": null,
+      "E": null,
+      "F": {
+        "internalDraft": "M7-F pilot",
+        "primaryLiterature": [],
+        "status": "PENDING"
+      },
+      "G": "Bedakan perubahan struktur kata dari i'rab sintaktis; klasifikasi kasus lintas disiplin perlu telaah",
+      "H": "Kandidat ilmu/cabang",
+      "internalStructure": [
+        {
+          "label": "Isim fa'il",
+          "relation": "has-topic-candidate"
+        },
+        {
+          "label": "Isim maf'ul",
+          "relation": "has-topic-candidate"
+        }
+      ],
+      "conflict": "PDF p1 menempatkan rafa', nashab dan jazm di bawah Sharaf; perlu periksa batas sintaksis/morfologi. Tidak menetapkan contoh sebagai kaidah final.",
+      "fashlRefs": [
+        "lu-006",
+        "lu-007"
+      ],
+      "epistemicStatus": "B_INTERNAL_RECONSTRUCTION",
+      "validation": "UNVALIDATED",
+      "decision": "REVIEW_KEEP_ID",
+      "madarik": null,
+      "reviewer": null
+    },
+    {
+      "id": "REC398-QAULIYAH-I01-A03",
+      "historicalLabel": "Ilmu Balaghah",
+      "canonicalCandidate": "Balaghah",
+      "sourceLocators": [
+        "Cucu dan fashl Forge .pdf p2",
+        "M1 - M7 BZ(1).pdf pp127,129"
+      ],
+      "A": "Ungkapan dalam penyampaian makna",
+      "B": "Kesesuaian konteks, kejelasan dan estetika",
+      "C": "Kaidah retorika bahasa",
+      "D": null,
+      "E": null,
+      "F": {
+        "internalDraft": "M7-F pilot",
+        "primaryLiterature": [],
+        "status": "PENDING"
+      },
+      "G": "Batas dengan nahwu, semantik dan stilistika perlu telaah",
+      "H": "Kandidat ilmu/cabang; pembagian internal perlu tahqiq",
+      "internalStructure": [
+        {
+          "label": "Ma'ani",
+          "relation": "candidate-subbranch"
+        },
+        {
+          "label": "Bayan",
+          "relation": "candidate-subbranch"
+        },
+        {
+          "label": "Badi'",
+          "relation": "candidate-subbranch"
+        }
+      ],
+      "conflict": "M7-F menyebut dukungan historis tetapi edisi dan halaman turats primer belum diverifikasi.",
+      "fashlRefs": [
+        "lu-008",
+        "lu-009"
+      ],
+      "epistemicStatus": "B_INTERNAL_RECONSTRUCTION",
+      "validation": "UNVALIDATED",
+      "decision": "REVIEW_KEEP_ID",
+      "madarik": null,
+      "reviewer": null
+    }
+  ],
+  "checks": {
+    "pilotAnak": 3,
+    "linkedFashl": 11,
+    "uniqueFashl": 11,
+    "validated": 0
+  },
+  "countDiscrepancy": {
+    "forge": "Kauniyah",
+    "claimed": 91,
+    "declaredIbuCountsSum": 90,
+    "extracted": 87,
+    "explicitNumberGaps": 3,
+    "unexplainedCountDifference": 1,
+    "note": "Audit arithmetic and original source further; do not invent fourth missing candidate."
+  },
+  "limits": [
+    "Draft crosswalk, not proof of independent disciplines or historical author intent. No original corpus full 398; 181 headings extracted. No primary literature verified; D/E/Madarik deliberately null. No registry changes or deletion of Fashl IDs. Labels in old source not equivalent to independent disciplines. Preserve all branches, R150.28A/B gaps, RBX and Maqra parallel work."
+  ],
+  "next": "Continue recovery of missing headings from archived sources and audit remaining Bahasa Arab candidates. Verify primary sources before raising status."
+}
