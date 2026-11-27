@@ -590,7 +590,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "1eb1fc54c6234987b2e1dec675692b45b52f0e0a",
+      "verified_commit_message": "docs(iqra): index corpus audit and FAHM decisions",
+      "verified_commit_date": "2026-11-26T16:28:43Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -599,7 +602,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "2f9ec815cd5dd47faa454fdae43b2f9b5ea8ce96",
+      "verified_commit_message": "chore(audit): R-150.5 add private read-only ZIP inventory helper",
+      "verified_commit_date": "2026-11-26T15:27:31Z"
     },
     {
       "branch": "feature/lughah",
@@ -677,7 +683,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "0d5c6980c281d13f441f2df786d8146d01426ce1",
+      "verified_commit_message": "docs(pedagogy): draft six-stage murabbi readiness and evidence criteria",
+      "verified_commit_date": "2026-11-26T17:30:48Z"
     },
     {
       "branch": "feature/raudhah-pedagogy",
@@ -686,7 +695,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "cd453755685588bad4ca03414861b0e7eb93c87b",
+      "verified_commit_message": "docs(pedagogy): audit classical sources and draft eight murabbi curriculum modules",
+      "verified_commit_date": "2026-11-26T17:32:25Z"
     },
     {
       "branch": "feature/raudhah-pedagogy",
@@ -695,7 +707,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "2c2ccbcaa54a7036b9ae82153ad2770a558b0b7c",
+      "verified_commit_message": "docs(pedagogy): draft murabbi accountability and independent safeguarding",
+      "verified_commit_date": "2026-11-26T17:39:08Z"
     },
     {
       "branch": "feature/raudhah-pedagogy",
@@ -704,7 +719,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "f1d7e4f459b8094c380cd9212eea70c74d4e23fa",
+      "verified_commit_message": "docs(pedagogy): clarify sustained mentorship and accountable murabbi readiness",
+      "verified_commit_date": "2026-11-26T17:19:41Z"
     },
     {
       "branch": "feature/raudhah-pedagogy",
@@ -869,7 +887,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "af44d21170a98524ee51dcb0a40a3aae5c97dea9",
+      "verified_commit_message": "docs(surau): distinguish tarekat transmission from general educator qualifications",
+      "verified_commit_date": "2026-11-26T17:23:06Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -905,7 +926,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "c245566f85c74361f01b2e2582c405dcd7ec7c14",
+      "verified_commit_message": "docs(surau): organize tazkiyah study and fellowship index",
+      "verified_commit_date": "2026-11-26T16:28:45Z"
     },
     {
       "branch": "feature/tan-project",
@@ -977,7 +1001,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "8db600207cd0e64c92558fded6dc3c2da8d24dbe",
+      "verified_commit_message": "docs(integration): evaluate digital-age murabbi need and limits of universal obligation",
+      "verified_commit_date": "2026-11-26T17:33:25Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -986,7 +1013,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "4fdb555fe9ca5db561e2c624f5a7e95f149f2d1e",
+      "verified_commit_message": "docs(integration): register ecological rahmah and mentoring evidence with inference limits",
+      "verified_commit_date": "2026-11-26T17:37:53Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1055,7 +1085,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "e5a86093f8e839b37f3ac17b17fde532fff0372b",
+      "verified_commit_message": "audit(integration): R150.8A register ten source passages and inference limits",
+      "verified_commit_date": "2026-11-26T16:01:22Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1064,7 +1097,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "beb095f319aad05bc370e8fba8faac4b16d24382",
+      "verified_commit_message": "audit(integration): register 12 turats sources with explicit access levels",
+      "verified_commit_date": "2026-11-26T16:03:25Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1073,7 +1109,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "b1f059a1767ae3edf48b8447e27b08d91c7e30b2",
+      "verified_commit_message": "chore(integration): consolidate branch manifest and preserve audit gates",
+      "verified_commit_date": "2026-11-26T16:29:09Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1100,7 +1139,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "fdcabdcc4b7dcfb0ab6d99f46546e3ecaa97ff11",
+      "verified_commit_message": "docs(integration): register murabbi readiness gate across four DNA",
+      "verified_commit_date": "2026-11-26T17:18:02Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1109,7 +1151,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "dbc646ef6b01969e2525f689941199e7a8f69c77",
+      "verified_commit_message": "docs(integration): record conditional wajib sunnah and murabbi institutional standard",
+      "verified_commit_date": "2026-11-26T17:28:37Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1138,8 +1183,10 @@
     "overlap_count": 0,
     "main_history_returned": 76,
     "checkpoint_sha_reported": 9,
-    "paths_with_verified_commit_sha": 16,
-    "lookup_failed": []
+    "paths_with_verified_commit_sha": 31,
+    "lookup_failed": [
+      "1ca4dadc865081ce89e15e4b3792c635427bafb2"
+    ]
   },
   "limits": [
     "Main history from search commits; feature compare returns changed files and counts, not complete individual commit histories. Do not equate file paths with exact commit identity.",
