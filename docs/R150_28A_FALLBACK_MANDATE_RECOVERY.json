@@ -1,0 +1,102 @@
+{
+  "revision": "R150.28A-FALLBACK",
+  "date": "2026-11-27",
+  "status": "PARTIAL_COMMITTED; ZIP audit BLOCKED",
+  "archive_status": [
+    {
+      "name": "audit-ekspor.zip",
+      "reported_bytes": 192112941
+    },
+    {
+      "name": "audit-ekspor-02.zip",
+      "reported_bytes": 391783432
+    }
+  ],
+  "attempts": [
+    "Container returned ClientError; not evidence of corrupt ZIP.",
+    "Search scoped to both ZIP IDs returned zero results; not evidence of absent content.",
+    "Prior local inventory script fetched from feature/kitab-iqra/tools/audit/archive_inventory.py: archive SHA256, member metadata, CRC, path check; no extraction/member hashes/semantic audit. Not executed.",
+    "Fallback via accessible MERGE excerpts, prior conversations and GitHub."
+  ],
+  "existing_mandates": "Preserve SP01–12 in R149.1 and R150.27D. Do not replace or renumber prior roadmap; these are candidate subrequirements, not confirmed new user mandates.",
+  "items": [
+    {
+      "id": "REC-01",
+      "title": "Murabbi Handbook harian",
+      "source": "MG04 PDF 651",
+      "branch": "feature/raudhah-pedagogy",
+      "parent": "R151B",
+      "state": "draft_recovered",
+      "acceptance": "Guide interactions, lesson support, conflicts, adult safeguarding and professional development; no inner-faith score."
+    },
+    {
+      "id": "REC-02",
+      "title": "Bank materi Qishoh, BAM, PAI",
+      "source": "MG04 PDF 651",
+      "branch": "feature/surau-shift",
+      "parent": "R154B",
+      "state": "draft_recovered",
+      "acceptance": "Source and rights register, educator review, age-appropriate learning; public metadata only."
+    },
+    {
+      "id": "REC-03",
+      "title": "Portofolio Adab–Akal–Amal dan komunikasi keluarga",
+      "source": "MG04 PDF 651",
+      "branch": "feature/raudhah-pedagogy",
+      "parent": "R152B/R151B",
+      "state": "privacy_gate",
+      "acceptance": "Prototype using synthetic records only, authorized access; no monitoring private worship or thoughts; no real student records in public repo."
+    },
+    {
+      "id": "REC-04",
+      "title": "Wali Lebah",
+      "source": "MG03 PDF 1019",
+      "branch": "feature/surau-shift",
+      "parent": "R154B",
+      "state": "draft_recovered",
+      "acceptance": "Voluntary family contribution according to competence, adult supervision and review."
+    },
+    {
+      "id": "REC-05",
+      "title": "Anthene Bee dan Dancing Bee",
+      "source": "MG03 PDF 1019–1020",
+      "branch": "feature/surau-shift",
+      "parent": "R154B",
+      "state": "draft_recovered",
+      "acceptance": "Revisable interests and transparent voluntary communication, no surveillance or fixed labeling."
+    },
+    {
+      "id": "REC-06",
+      "title": "Satu Koloni Satu Manfaat",
+      "source": "MG03 PDF 1019",
+      "branch": "feature/tan-project",
+      "parent": "R154A",
+      "state": "draft_recovered",
+      "acceptance": "Partner-defined safe service-learning, choice of task, feedback, no compelled labor."
+    },
+    {
+      "id": "REC-07",
+      "title": "Festival Sarang dan Festival Kampuang",
+      "source": "MG03 PDF 1019",
+      "branch": "feature/peradaban",
+      "parent": "R154D",
+      "state": "draft_recovered",
+      "acceptance": "Consent, culturally relevant work, learning evidence, no compulsory exposure."
+    },
+    {
+      "id": "REC-08",
+      "title": "Khidmah lintas usia dan profesi",
+      "source": "MG03 excerpt printed pp.63–70; PDF offset not rechecked",
+      "branch": "feature/tan-project",
+      "parent": "R154H",
+      "state": "draft_recovered",
+      "acceptance": "Age-appropriate voluntary service from childhood; professional service as adults with qualifications; no claims all graduates must become mentors."
+    }
+  ],
+  "local_recovery": {
+    "script": "feature/kitab-iqra:tools/audit/archive_inventory.py",
+    "procedure": "Run read-only locally against original ZIPs; output outside git. Keep inventory private. If possible create redacted list of source types and candidate mandate IDs, then export small text/PDF batches. Never upload raw ZIP or personal records to public GitHub.",
+    "completion": "Archive hashes and member lists required; subsequent content parsing, duplicate reconciliation and attribution to original user message with date required separately."
+  },
+  "limits": "No full ZIP contents, no SHA256, no completeness claim; REC items are internal draft features, not verified direct user commands. Existing branches used; no implementation or merge. R150.28A remains BLOCKED for original corpus, R150.28B may proceed via accessible PDFs."
+}
