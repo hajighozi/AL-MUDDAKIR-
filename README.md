@@ -74,3 +74,8 @@ Baca [tata kelola branch dan alur merge](docs/BRANCH_WORKFLOW.md) sebelum mengem
 - [Hurairah World v0.9.2](hurairah-world/index.html)
 
 Semua pelajaran baru berstatus draf; korpus privat tidak dimigrasikan ke repo publik.
+
+## Indeks pemeliharaan riwayat
+
+- [R150.31A — Indeks kronologis main](docs/R150_31A_MAIN_COMMIT_INDEX.md): 76 commit historis sebelum indeks, dari initial commit hingga Khidmah Lingkungan. Riwayat tidak ditulis ulang.
+- Keputusan dan pekerjaan modul yang belum terintegrasi tetap dicatat di cabang terkait; lihat tata kelola branch. Dokumen indeks bukan persetujuan merge atau sertifikasi aplikasi.
