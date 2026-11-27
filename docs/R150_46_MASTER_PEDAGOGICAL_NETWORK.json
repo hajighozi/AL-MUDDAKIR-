@@ -1,0 +1,975 @@
+{
+  "revision": "R150.46",
+  "date": "2026-11-28",
+  "status": "proposed pedagogical master network; not approved curriculum or new Git refs",
+  "scope": "civil education and service in Sumatera; local identities differ; RSI Indonesian contextual name",
+  "constitution": {
+    "orientation": "Tauhid, itqan, seeking Allah's pleasure",
+    "worldview": "Kitab IQRA",
+    "curriculum": "integral curriculum with four interwoven DNA",
+    "dna": [
+      "IQRA",
+      "FAHM",
+      "TAZKIYAH",
+      "KHIDMAH"
+    ],
+    "paths": [
+      "J01",
+      "J02",
+      "J03"
+    ],
+    "domain_variants": "Master Plan p2 Qauliyah Quran; Nafsiyah Nabi via hadis/sirah; Kauniyah nature; Ijtima society/history; Nizhamiyah/Aqliyah patterns/systems (open nomenclature); historical variants in RSIC-06 preserved. Lughah cross-domain tool and discipline; not sixth domain."
+  },
+  "groups": [
+    {
+      "id": "ROOT",
+      "name": "Throwbadly / Raudhah's Dome Sumatera",
+      "parent": null
+    },
+    {
+      "id": "J01",
+      "name": "Al Muddakir — IQRA' & FAHM",
+      "parent": "ROOT"
+    },
+    {
+      "id": "J02",
+      "name": "Surau Shift — TAZKIYAH",
+      "parent": "ROOT"
+    },
+    {
+      "id": "J03",
+      "name": "Tan Project — KHIDMAH",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X01",
+      "name": "Pedagogik lintas jalur",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X02",
+      "name": "Fasilitas dan teknologi lintas jalur",
+      "parent": "ROOT"
+    },
+    {
+      "id": "X03",
+      "name": "Riset lintas jalur",
+      "parent": "ROOT"
+    }
+  ],
+  "branches": [
+    {
+      "id": "B00",
+      "ref": "main",
+      "logical_parent": "ROOT",
+      "head": "04b422b3862b369f2a84c0ddd3bf7f4a43998068",
+      "mandate": "Baseline integrasi",
+      "prior_subtopics": [],
+      "proposed_additional_topics": [],
+      "audit_status": "induk",
+      "source_path": "README.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B01",
+      "ref": "raudhah-integrated",
+      "logical_parent": "B00",
+      "head": "5aeb164b949ee9a7192777fd343fd7b0ab190ef7",
+      "mandate": "Staging lintas jalur",
+      "prior_subtopics": [
+        {
+          "id": "B01.1",
+          "title": "Audit korpus, evidensi, provenance",
+          "source": "R150.23–28; R150.36",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B01.2",
+          "title": "Integrasi keputusan dan koordinasi",
+          "source": "R150.6–9; R150.31",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B01.3",
+          "title": "Codex / Vercel",
+          "source": "SP07, SP12; R155–157",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "induk",
+      "source_path": "docs/R150_45C_CULTURAL_IDENTITY_AND_CURRICULUM_SCOPE.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B02",
+      "ref": "feature/kitab-iqra",
+      "logical_parent": "B00",
+      "head": "7badef5f46ae4b14327972dc729222b1b5487b0e",
+      "mandate": "Fondasi Kitab IQRA'",
+      "prior_subtopics": [
+        {
+          "id": "B02.1",
+          "title": "Epistemologi dan FAHM",
+          "source": "R144; R150 FAHM",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B02.2",
+          "title": "Kamus, ontologi, Forge–Ibu–Anak–Cucu–Fashl",
+          "source": "R150.3–4; R150.28C/E",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B02.3",
+          "title": "Korpus dan provenance",
+          "source": "R150.2; R150.28C-1/2; SP11",
+          "status": "partial",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Kitab IQRA Jilid 0–VI and BF01–03",
+        "Mawdu–Jihat–Mahmul; Madarik; RSIC-01–08",
+        "Matan–Mu'jam–Syarah–Hasyiyah; BF08–09"
+      ],
+      "audit_status": "fondasi",
+      "source_path": "docs/kitab-iqra/R150_FOUR_DNA_FARD_AYN.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B03",
+      "ref": "feature/quran",
+      "logical_parent": "J01",
+      "head": "e3716fe1e026f398e0d72155cf93bdba6f5d52f2",
+      "mandate": "Al Muddakir Qur'an",
+      "prior_subtopics": [
+        {
+          "id": "B03.1",
+          "title": "FAHIM 1: bacaan, bahasa dasar",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B03.2",
+          "title": "FAHIM 2: fikih dan ushul",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B03.3",
+          "title": "FAHIM 3: bahasa, sejarah, penalaran dan sains",
+          "source": "R141",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "draf pedagogik",
+      "source_path": "al-muddakir-quran/docs/R141_FAHIM_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B04",
+      "ref": "feature/hadis",
+      "logical_parent": "J01",
+      "head": "0ba342d01452946731381086682def50d562221c",
+      "mandate": "Al Muddakir Hadis / KitabPedia",
+      "prior_subtopics": [
+        {
+          "id": "B04.1",
+          "title": "Maqra 500",
+          "source": "maqra500/catalog.json; units 001–005",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B04.2",
+          "title": "Maqra 100",
+          "source": "R153C; source audit",
+          "status": "planned",
+          "git_ref": null
+        },
+        {
+          "id": "B04.3",
+          "title": "Takhrij, syarah, sorogan dan pembelajaran",
+          "source": "R142; R153C",
+          "status": "partial",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "draf + artefak",
+      "source_path": "al-muddakir-hadis/docs/R142_MAQRA_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B05",
+      "ref": "feature/lughah",
+      "logical_parent": "J01",
+      "head": "79b695c4d519a13c1fcd4fa9442aa534329e8f54",
+      "mandate": "Al Muddakir Lughah",
+      "prior_subtopics": [
+        {
+          "id": "B05.1",
+          "title": "Nahwu",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B05.2",
+          "title": "Sharaf",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B05.3",
+          "title": "Balaghah",
+          "source": "R143",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "draf pedagogik",
+      "source_path": "al-muddakir-lughah/docs/R143_LUGHAH_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B06",
+      "ref": "feature/alam",
+      "logical_parent": "J01",
+      "head": "5aa28123816dae37654702d7dc93bd1a90fb2e87",
+      "mandate": "Al Muddakir Alam",
+      "prior_subtopics": [
+        {
+          "id": "B06.1",
+          "title": "Unit ALM dan observasi",
+          "source": "R145",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B06.2",
+          "title": "Scanner tumbuhan Sumatera",
+          "source": "SP01; R154C",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Biology, ecology, physics and safe observation; Sumatera atlas (proposed)"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "al-muddakir-alam/docs/R145_ALAM_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B07",
+      "ref": "feature/peradaban",
+      "logical_parent": "J01",
+      "head": "fa5fb90f7adc96578776ab8d205469486b3fcf5b",
+      "mandate": "Al Muddakir Peradaban",
+      "prior_subtopics": [
+        {
+          "id": "B07.1",
+          "title": "Sumber, kronologi, interpretasi",
+          "source": "R146",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Culture Atlas; local history, economy and civic life (proposed)"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "al-muddakir-peradaban/docs/R146_PERADABAN_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B08",
+      "ref": "feature/matematika",
+      "logical_parent": "J01",
+      "head": "3b759c2a5b878cdedb36f9e58149c710bbe70405",
+      "mandate": "Al Muddakir Matematika",
+      "prior_subtopics": [
+        {
+          "id": "B08.1",
+          "title": "Unit MAT, representasi dan bukti",
+          "source": "R147",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Arithmetic, geometry, statistics, logic, algorithms and AI literacy (proposed)"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "al-muddakir-matematika/docs/R147_MATEMATIKA_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B09",
+      "ref": "feat/fahimuunal-vercel",
+      "logical_parent": "B03",
+      "head": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "mandate": "Fahimuunal Qur'an: aplikasi",
+      "prior_subtopics": [
+        {
+          "id": "B09.1",
+          "title": "Pemulihan kode asli, demo, jadwal pengulangan",
+          "source": "SP05; R153A/B",
+          "status": "blocked",
+          "git_ref": null
+        },
+        {
+          "id": "B09.2",
+          "title": "Preview dan pengujian Vercel",
+          "source": "SP05; SP12",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "baseline",
+      "source_path": "al-muddakir-quran/index.html",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B10",
+      "ref": "feature/surau-shift",
+      "logical_parent": "J02",
+      "head": "45704a3685f6b0f6d68aa693c97dfc349251c30a",
+      "mandate": "Surau Shift",
+      "prior_subtopics": [
+        {
+          "id": "B10.1",
+          "title": "Tazkiyah, adab, Raso Pareso",
+          "source": "README A–B; R138",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B10.2",
+          "title": "Sarang Lebah Baginda Nabi Minangkaba",
+          "source": "main README; R138",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B10.3",
+          "title": "Tarbiyah individual dan tahqiq tarekat",
+          "source": "README D; R150.16–21",
+          "status": "partial",
+          "git_ref": null
+        },
+        {
+          "id": "B10.4",
+          "title": "Ikhwan, Badunsanak, keluarga, dukungan sosial",
+          "source": "README E; R150.30A–I",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Adab bermazhab, al-Ghazali studies, family-first, Ikhwan/Badunsanak, weekly voluntary suhbah; BF04–06",
+        "P01 Sarang Lebah; P06/P08; P09 historical research only"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "surau-shift/docs/README.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B11",
+      "ref": "feature/tan-project",
+      "logical_parent": "J03",
+      "head": "26ca983e13ee83223952d187a0ca11410aabe3b9",
+      "mandate": "Tan Project",
+      "prior_subtopics": [
+        {
+          "id": "B11.1",
+          "title": "Service learning, khidmah sipil",
+          "source": "R139; R150.22/22A",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Six Khidmah fields: tarbawiyah, iqtishadiyah, bi'iyah, ijtima'iyah, tsaqafiyah, technology",
+        "P07 economy and professions; P02 civil heritage collaboration"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "tan-project/docs/R139_KHIDMAH_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B12",
+      "ref": "feature/khidmah-lingkungan-padang-longang",
+      "logical_parent": "B11",
+      "head": "6d37763c8cb63f70db5bef951a0050b2a3692e93",
+      "mandate": "Khidmah lingkungan Padang Longang",
+      "prior_subtopics": [
+        {
+          "id": "B12.1",
+          "title": "Konservasi, kajian air dan agroforestri sipil",
+          "source": "main README; khidmah-lingkungan/padang-longang/",
+          "status": "baseline-study",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "baseline",
+      "source_path": "README.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B13",
+      "ref": "feature/raudhah-pedagogy",
+      "logical_parent": "X01",
+      "head": "e53e3dac8864eb12a95e7aaf87f430be5560c083",
+      "mandate": "Pedagogik lintas jalur",
+      "prior_subtopics": [
+        {
+          "id": "B13.1",
+          "title": "Pengalaman institut dan Master Plan",
+          "source": "R137; SP09",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B13.2",
+          "title": "Kesiapan, kurikulum, akuntabilitas Murabbi",
+          "source": "R150.10/11/14",
+          "status": "draft",
+          "git_ref": null
+        },
+        {
+          "id": "B13.3",
+          "title": "Fiqh Dakwah capstone",
+          "source": "R150.30J/K; FD02/03",
+          "status": "partial",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Fatma Khatun Institute; Najmuddin Yusuf Institute (historical Ayyub variant; formal name unconfirmed)",
+        "MB01–08 adult educator readiness and accountability",
+        "Kurikulum 0–15; twelve Year 1 cycles; M3 learning units; independent assessment and safeguarding",
+        "P04 Sutan Narrative cross-path method"
+      ],
+      "audit_status": "draf pedagogik",
+      "source_path": "docs/pedagogy/R150_11_MURABBI_CURRICULUM.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B14",
+      "ref": "feature/pustaka-rehat",
+      "logical_parent": "X02",
+      "head": "43c1efda551dc7bef15cdabe3472e8340e1eb0e1",
+      "mandate": "Pustaka Rehat",
+      "prior_subtopics": [
+        {
+          "id": "B14.1",
+          "title": "Pedagogik membaca dan akses offline",
+          "source": "R140; SP02",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "draf pedagogik",
+      "source_path": "pustaka-rehat/docs/R140_READING_PEDAGOGY.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B15",
+      "ref": "feature/iqra-go",
+      "logical_parent": "X02",
+      "head": "829edec8882fba28d24f654fb487ff75af185d22",
+      "mandate": "IQRA' GO",
+      "prior_subtopics": [
+        {
+          "id": "B15.1",
+          "title": "Rencana aplikasi",
+          "source": "SP03; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "rencana",
+      "source_path": "docs/iqra-go/WORK_PLAN.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B16",
+      "ref": "feature/offline-android",
+      "logical_parent": "X02",
+      "head": "c8dadd3feaa99ecd378c0fb42203dc380e263b0a",
+      "mandate": "Android offline",
+      "prior_subtopics": [
+        {
+          "id": "B16.1",
+          "title": "APK dan debug",
+          "source": "SP06; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "rencana",
+      "source_path": "docs/offline-android/WORK_PLAN.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B17",
+      "ref": "feature/raudhah-media",
+      "logical_parent": "X02",
+      "head": "c90cf836c31f8c3c00e25368f582405f9e4d11c8",
+      "mandate": "Media Raudhah",
+      "prior_subtopics": [
+        {
+          "id": "B17.1",
+          "title": "Rencana media dan hak publikasi",
+          "source": "SP08; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [
+        "Books, articles, film, visual, audio, storytelling, timeline, interactive learning; P15 Ruang Lebah"
+      ],
+      "audit_status": "draf mandat",
+      "source_path": "docs/raudhah-media/R150_43_BUDAYA_SENI_MEDIA.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B18",
+      "ref": "hurairah-web-stable",
+      "logical_parent": "X02",
+      "head": "e7f0b813db1bc26e1af56af2015cea39480eec4c",
+      "mandate": "Hurairah World",
+      "prior_subtopics": [
+        {
+          "id": "B18.1",
+          "title": "Pedagogik game web",
+          "source": "R148; baseline v0.9.2",
+          "status": "draft",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "prototipe terdokumentasi",
+      "source_path": "hurairah-world/README.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B19",
+      "ref": "feature/roblox-learning",
+      "logical_parent": "X02",
+      "head": "22de9a9e13e03cbbb087745a807aa9d3d0436598",
+      "mandate": "Roblox pendidikan",
+      "prior_subtopics": [
+        {
+          "id": "B19.1",
+          "title": "Dunia belajar dan Nagari Ilmu",
+          "source": "R150.29; RBX01/02",
+          "status": "prototype-unverified",
+          "git_ref": null
+        },
+        {
+          "id": "B19.2",
+          "title": "Backlog pengembangan",
+          "source": "RBX03–10",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "draf + artefak",
+      "source_path": "docs/roblox-learning/R150_29_ORIGINAL_LEARNING_WORLD.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B20",
+      "ref": "feature/riset-malaka",
+      "logical_parent": "X03",
+      "head": "473114721841ecf3ee8f8b4878e7cda49d26fceb",
+      "mandate": "Riset Malaka lintas jalur",
+      "prior_subtopics": [
+        {
+          "id": "B20.1",
+          "title": "Madilog, tasawuf, sejarah dan sumber",
+          "source": "SP10; WORK_PLAN",
+          "status": "planned",
+          "git_ref": null
+        }
+      ],
+      "proposed_additional_topics": [],
+      "audit_status": "rencana",
+      "source_path": "docs/riset-malaka/WORK_PLAN.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B21",
+      "ref": "feature/se-school",
+      "logical_parent": "X01",
+      "head": "97103358e6bda32dea4e732c6d759b412c9242da",
+      "mandate": "SE learning prototype",
+      "prior_subtopics": [],
+      "proposed_additional_topics": [
+        "SE 13 draft journeys, five tracks, six locations; skills and interests exploration; no mental-health claims"
+      ],
+      "audit_status": "prototipe terdokumentasi",
+      "source_path": "se-school/README.md",
+      "validation": "NOT_CERTIFIED"
+    },
+    {
+      "id": "B22",
+      "ref": "feature/raudhah-culture-arts",
+      "logical_parent": "X02",
+      "head": "a6254a52daa27d58c95eecb080b05398dd43dbfb",
+      "mandate": "Culture and Arts",
+      "prior_subtopics": [],
+      "proposed_additional_topics": [
+        "MED-C01–07: source/rights; kaba/performance; architecture/crafts; games; creative economy/food/ecology; adaptation; local pilot",
+        "P02 Rumah Godang source gap; P03 Sarang Tempua; BF06"
+      ],
+      "audit_status": "draf mandat",
+      "source_path": "docs/raudhah-culture-arts/README.md",
+      "validation": "NOT_CERTIFIED"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "P01",
+      "name": "Sarang Lebah",
+      "proposed_ref": "feature/sarang-lebah",
+      "owner": "B10",
+      "links": "B13/B22",
+      "deliverable": "local curriculum integration",
+      "status": "PENDING_USER_APPROVAL"
+    },
+    {
+      "id": "P03",
+      "name": "Sarang Tempua",
+      "proposed_ref": "feature/sarang-tempua",
+      "owner": "B14/B22",
+      "links": "B10/B17",
+      "deliverable": "civil reading and cultural space",
+      "status": "PENDING_USER_APPROVAL"
+    },
+    {
+      "id": "P04",
+      "name": "Sutan Narrative",
+      "proposed_ref": "feature/sutan-narrative",
+      "owner": "B13",
+      "links": "B17/B22/B07/B20/B21",
+      "deliverable": "source-grounded narrative method",
+      "status": "PENDING_USER_APPROVAL"
+    },
+    {
+      "id": "P07",
+      "name": "Ekonomi Peradaban",
+      "proposed_ref": "feature/ekonomi-peradaban",
+      "owner": "B11",
+      "links": "B07/B10",
+      "deliverable": "economic literacy and civil research",
+      "status": "PENDING_USER_APPROVAL"
+    }
+  ],
+  "other_candidates": [
+    [
+      "P02",
+      "Rumah Godang Banja Loweh",
+      "B22/B11",
+      "HOLD original source"
+    ],
+    [
+      "P05",
+      "UTG",
+      "B13/B02",
+      "HOLD historical institutional architecture"
+    ],
+    [
+      "P06",
+      "OSIS/OSIM and Koloni",
+      "B10/B13",
+      "logical subtopic"
+    ],
+    [
+      "P08",
+      "Anthene Bee",
+      "B13/B21",
+      "logical subtopic"
+    ],
+    [
+      "P09",
+      "RSI Prevent",
+      "B10/B13",
+      "HOLD evidence and boundaries"
+    ],
+    [
+      "P10",
+      "Kelas 350",
+      "B02/B13",
+      "HOLD taxonomy"
+    ],
+    [
+      "P11",
+      "Corpus Engine",
+      "B02/B01",
+      "logical infrastructure"
+    ],
+    [
+      "P12",
+      "Semantic Knowledge Engine",
+      "B02/B01",
+      "logical infrastructure"
+    ],
+    [
+      "P13",
+      "Research Engine",
+      "B01/B02",
+      "logical infrastructure"
+    ],
+    [
+      "P14",
+      "Knowledge/Research/Learning Commons",
+      "B01/B02/B13",
+      "historical roadmap"
+    ],
+    [
+      "P15",
+      "Ruang Lebah",
+      "B17/P03",
+      "logical media subtopic"
+    ]
+  ],
+  "cross_links": [
+    [
+      "B02",
+      "J01",
+      "ilmu alat"
+    ],
+    [
+      "B02",
+      "J02",
+      "FAHM dan tazkiyah"
+    ],
+    [
+      "B13",
+      "J01",
+      "pedagogik"
+    ],
+    [
+      "B13",
+      "J02",
+      "murabbi dan ikhwan"
+    ],
+    [
+      "B13",
+      "J03",
+      "capstone dan khidmah"
+    ],
+    [
+      "B10",
+      "B11",
+      "ukhuwah dan khidmah"
+    ],
+    [
+      "B06",
+      "B12",
+      "kajian lingkungan sipil"
+    ],
+    [
+      "B18",
+      "B19",
+      "media permainan, implementasi terpisah"
+    ],
+    [
+      "B20",
+      "B02",
+      "epistemologi"
+    ],
+    [
+      "B20",
+      "B07",
+      "sejarah"
+    ],
+    [
+      "B20",
+      "B10",
+      "tasawuf"
+    ],
+    [
+      "B02",
+      "B13",
+      "KU to LU"
+    ],
+    [
+      "B13",
+      "B21",
+      "reviewed curricula to optional games"
+    ],
+    [
+      "B22",
+      "B07",
+      "cultural sources"
+    ],
+    [
+      "B22",
+      "B17",
+      "rights-cleared adaptations"
+    ],
+    [
+      "B14",
+      "B13",
+      "reading"
+    ],
+    [
+      "B03",
+      "B09",
+      "curriculum to application"
+    ],
+    [
+      "B11",
+      "B13",
+      "safe service learning"
+    ],
+    [
+      "B22",
+      "B10",
+      "local adab review"
+    ]
+  ],
+  "year1_cycles": [
+    "Aku, guru, dan cara belajar",
+    "Daun, cahaya, dan air",
+    "Bunyi, bahasa, dan makna",
+    "Rumah, keluarga, dan nagari",
+    "Angka, bentuk, dan pola",
+    "Hadis, kabar, dan kebenaran",
+    "Sawah, kebun, dan pangan",
+    "Kisah Nabi, ulama, dan adab",
+    "Permainan tradisional dan kebudayaan",
+    "Langit, waktu, dan perubahan",
+    "Buku, novel, kaba, dan kreativitas",
+    "Masalah nyata yang dapat ditolong"
+  ],
+  "cycle_owner_proposal": [
+    [
+      "B13",
+      "B02"
+    ],
+    [
+      "B06",
+      "B11"
+    ],
+    [
+      "B03",
+      "B05"
+    ],
+    [
+      "B10",
+      "B07"
+    ],
+    [
+      "B08"
+    ],
+    [
+      "B04"
+    ],
+    [
+      "B06",
+      "B07",
+      "B11"
+    ],
+    [
+      "B04",
+      "B10"
+    ],
+    [
+      "B22",
+      "B08"
+    ],
+    [
+      "B06",
+      "B08",
+      "B03"
+    ],
+    [
+      "B14",
+      "B17",
+      "B22"
+    ],
+    [
+      "B11",
+      "B13"
+    ]
+  ],
+  "learning_pipeline": [
+    "Source and location",
+    "Knowledge Unit: claim/evidence/provenance/review",
+    "Learning Unit: objective, prior knowledge, activity, optional reflection, practice, assessment",
+    "Educator review and source verification",
+    "Age-appropriate contextual delivery",
+    "Observable learning and voluntary safe contribution",
+    "Feedback and revision"
+  ],
+  "book_register": "R150.45G BF01–12 (all retained, not redefined)",
+  "retention": [
+    "R150.27D",
+    "R150.31",
+    "R150.36A/B/C",
+    "SP01–12",
+    "RBX01–10",
+    "27 historical SHA mappings pending",
+    "R150.28C-3",
+    "FD02",
+    "R151–157",
+    "R150.39",
+    "R150.45A–G",
+    "RSIC-01–08",
+    "CUL-01–06",
+    "MED-C01–07",
+    "P01–15",
+    "BF01–12",
+    "12/7/10/17 Sarang Lebah source recovery",
+    "19 historical Sarang Lebah labels preserved in R150.45E",
+    "R150.45H manuscript collation deferred, not replaced"
+  ],
+  "sources": [
+    "R150.37A blob 03f06f98679643b31814b70137b7feb4d011cb9f",
+    "R150.45D blob 12046cb6ab9de6d4e08972d1d51a8aa4f473aeae",
+    "R150.45E–G pinned staging history",
+    "R137_INSTITUTE_EXPERIENCE.md blob e8b47cd454e5143278eff86da339b74268260c2d",
+    "Master Plan Revisi 2 PDF pp2–5 directly read"
+  ],
+  "limitations": [
+    "representative audit not full corpus/code validation",
+    "logical grouping not git ancestry",
+    "B21/B22 retain additive IDs",
+    "historical statuses not fresh test results",
+    "no private sources published",
+    "no spiritual grading, compelled affiliations, youth labor or surveillance",
+    "no military planning",
+    "four proposed refs not created",
+    "no merge/main modification/deployment"
+  ],
+  "counts": {
+    "actual_refs": 23,
+    "retained_old_subtopics": 38,
+    "candidate_refs": 4,
+    "paths": 3
+  }
+}
