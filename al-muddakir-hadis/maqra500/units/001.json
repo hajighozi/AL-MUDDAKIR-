@@ -1,0 +1,34 @@
+{
+  "collectionId": "MQ500",
+  "number": 1,
+  "title": "Li’an dan pertanyaan tentang mahar",
+  "sourceId": "MQ500-STQHN-2023",
+  "sourceSha256": "eb51817774e98e539c63e418d9224f93da56f7a6b022426b973e2a5afacec3ae",
+  "pdfPages": [1],
+  "collection": "Sahih al-Bukhari",
+  "book": "كِتَابُ الطَّلَاقِ",
+  "chapter": "بَابُ الْمُتْعَةِ لِلَّتِي لَمْ يُفْرَضْ لَهَا",
+  "reference": {
+    "hadithNumber": 5350,
+    "bookNumber": 68,
+    "numberInBook": 95,
+    "url": "https://raw.githubusercontent.com/fawazahmed0/hadith-api/1/editions/ara-bukhari/5350.json",
+    "checkedAgainst": "Sanad dan redaksi sesuai. Judul bab dibaca pada naskah Maqra’ halaman 1."
+  },
+  "arabic": {
+    "method": "visual_transcription_from_primary_pdf",
+    "sanadLines": [
+      "حَدَّثَنَا قُتَيْبَةُ بْنُ سَعِيدٍ حَدَّثَنَا سُفْيَانُ عَنْ عَمْرٍو عَنْ سَعِيدِ بْنِ جُبَيْرٍ ...",
+      "... عَنْ ابْنِ عُمَرَ"
+    ],
+    "matn": "أَنَّ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ قَالَ لِلْمُتَلَاعِنَيْنِ حِسَابُكُمَا عَلَى اللَّهِ أَحَدُكُمَا كَاذِبٌ لَا سَبِيلَ لَكَ عَلَيْهَا قَالَ يَا رَسُولَ اللَّهِ مَالِي قَالَ لَا مَالَ لَكَ إِنْ كُنْتَ صَدَقْتَ عَلَيْهَا فَهُوَ بِمَا اسْتَحْلَلْتَ مِنْ فَرْجِهَا وَإِنْ كُنْتَ كَذَبْتَ عَلَيْهَا فَذَاكَ أَبْعَدُ وَأَبْعَدُ لَكَ مِنْهَا"
+  },
+  "translation": {
+    "status": "editorial_draft",
+    "language": "id",
+    "text": "Qutaibah bin Sa‘id menyampaikan kepada kami, Sufyan menyampaikan kepada kami, dari ‘Amr, dari Sa‘id bin Jubair, dari Ibnu Umar, bahwa Nabi ﷺ bersabda kepada kedua orang yang menjalani li’an, “Allah yang menghisab kalian berdua. Salah seorang dari kalian berdusta. Engkau tidak lagi mempunyai hak terhadapnya.” Lelaki itu bertanya, “Wahai Rasulullah, bagaimana dengan hartaku?” Beliau menjawab, “Engkau tidak berhak atas harta itu. Jika tuduhanmu terhadapnya benar, harta itu menjadi imbalan atas hubungan suami istri yang telah halal bagimu dengannya. Jika engkau berdusta dalam tuduhan terhadapnya, lebih jauh lagi kemungkinanmu untuk menuntutnya kembali darinya.”"
+  },
+  "sharh": null,
+  "sharhStatus": "awaiting_kitabpedia_excerpt",
+  "scientificApproval": false
+}
