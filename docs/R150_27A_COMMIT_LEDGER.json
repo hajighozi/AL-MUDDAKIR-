@@ -743,7 +743,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "1ca4dadc865081ce89e15e4b1792c635427bafb2",
+      "verified_commit_message": "docs(pedagogy): establish murabbi as essential human guidance layer",
+      "verified_commit_date": "2026-11-26T17:18:00Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -1207,9 +1210,12 @@
     "overlap_count": 0,
     "main_history_returned": 76,
     "checkpoint_sha_reported": 9,
-    "paths_with_verified_commit_sha": 39,
+    "paths_with_verified_commit_sha": 40,
     "lookup_failed": [
       "1ca4dadc865081ce89e15e4b3792c635427bafb2"
+    ],
+    "lookup_failed_resolved": [
+      "lookup typo corrected for murabbi human layer"
     ]
   },
   "limits": [
