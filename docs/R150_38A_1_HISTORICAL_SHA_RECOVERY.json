@@ -1,0 +1,115 @@
+{
+  "checkpoint": "R150.38A-1",
+  "source": "R150_27A_COMMIT_LEDGER.json",
+  "method": "GitHub commit history queried by exact branch and file path; single match is path-history recovery, not independent patch/content review.",
+  "rows": [
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R144_EPISTEMIC_PEDAGOGY.md",
+      "commits": [
+        {
+          "sha": "69f44b3c20c7dcd9761c6f18cadde09e5c3d0db7",
+          "message": "docs(iqra): R-144 teach inquiry and evidence boundaries",
+          "date": "2026-11-26T10:59:28Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_2_PROVENANCE_REGISTER.json",
+      "commits": [
+        {
+          "sha": "105a69c01eb661bf1db7cfe4f764ee7788d3cf6d",
+          "message": "audit(iqra): R-150.2 trace provenance for 59 public Fashl",
+          "date": "2026-11-26T11:52:16Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_3_GLOSSARY_ONTOLOGY_AUDIT.md",
+      "commits": [
+        {
+          "sha": "8e128bcbc05680a82e6656eb7fc0cbba53662f7a",
+          "message": "audit(iqra): R-150.3 register glossary and ontology conflicts",
+          "date": "2026-11-26T14:58:36Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_4_TAXONOMY_ANNOTATIONS.json",
+      "commits": [
+        {
+          "sha": "2f251aaa1bc71688be99954a2031ca0ef5907ca1",
+          "message": "audit(iqra): R-150.4 annotate 59 candidate learning paths",
+          "date": "2026-11-26T15:27:14Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_CORPUS_AUDIT.md",
+      "commits": [
+        {
+          "sha": "698a7f31b8d71d50a7b5976b0b1a62a014c395d4",
+          "message": "audit(iqra): R-150 record corpus inventory and blocked source gates",
+          "date": "2026-11-26T11:10:05Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R137_INSTITUTE_EXPERIENCE.md",
+      "commits": [
+        {
+          "sha": "bff4711620564593d42f41c90d5b733ad5a135eb",
+          "message": "docs(pedagogy): R-137 register institute and learning experience",
+          "date": "2026-11-26T10:58:48Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R138_SARANG_LEBAH_RASO_PARESO.md",
+      "commits": [
+        {
+          "sha": "c1181346708a9935d8d969ba77bcca04c9494eb6",
+          "message": "docs(surau): R-138 design cooperative learning and raso pareso",
+          "date": "2026-11-26T10:58:50Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_BERMAZHAB_TAZKIYAH.md",
+      "commits": [
+        {
+          "sha": "e6d39286857524e0cd23503fc3e27e643c39c3fe",
+          "message": "docs(surau): record scholarly humility and adab of following a madhhab",
+          "date": "2026-11-26T15:51:09Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_IKHTILAF_LIFE_PURPOSE.md",
+      "commits": [
+        {
+          "sha": "02edfaf27867026f7689b8417c4e25126421a486",
+          "message": "docs(surau): record adab of disagreement and life-purpose education",
+          "date": "2026-11-26T15:45:23Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    }
+  ]
+}
