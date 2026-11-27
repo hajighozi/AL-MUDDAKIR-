@@ -1,0 +1,13 @@
+# R150.30A — Ikhwan dan fungsi preventif persahabatan
+Status: arahan pengguna tentang pengaruh baik dan buruk pergaulan; elaborasi desain C/draft, bukan validasi program.
+## Landasan
+Sahih Muslim 2628, Kitab al-Birr wa al-Silah wa al-Adab, bab anjuran bergaul dengan orang saleh dan menjauhi pergaulan buruk; riwayat Abu Musa, perumpamaan pembawa minyak wangi dan peniup ububan. Teks Arab dibaca di https://sunnah.com/muslim:2628. Padanan Bukhari 5534 https://sunnah.com/bukhari/72/59 (hasil pencarian). Belum tahqiq syarah/edisi cetak. QS al-Furqan 25:27–29 dan al-Zukhruf 43:67 kandidat tafsir lanjutan.
+## Bukti ilmiah awal
+Brechwald & Prinstein (2011), Beyond Homophily, DOI 10.1111/j.1532-7795.2010.00721.x; selection and socialization perlu dibedakan. https://pubmed.ncbi.nlm.nih.gov/23730122/
+Laursen & Veenstra (2021), Toward understanding the functions of peer influence, https://pmc.ncbi.nlm.nih.gov/articles/PMC8630732/; pengaruh teman dapat adaptif maupun merugikan. Van Hoorn et al. (2016), Peer Influence on Prosocial Behavior in Adolescence, DOI 10.1111/jora.12173, N=197 usia 12–16 (abstrak/metadata); pengaruh teman pada perilaku prososial. Studi eksperimental intensi sukarela https://pubmed.ncbi.nlm.nih.gov/26525387/; intensi bukan bukti perilaku jangka panjang. Penelusuran hasil/abstrak, akses teks lengkap PMC/Wiley terhalang; bukan systematic review atau bukti efektivitas Throwbadly.
+## Model pedagogik
+Murabbi membimbing ilmu, adab, keputusan; Ikhwan membantu menciptakan norma kebajikan, teladan sehari-hari, dukungan saat sulit dan kesempatan belajar/berkhidmah. Mekanisme yang diusulkan: modelling, norma kelompok, rasa memiliki, dukungan sosial dan pilihan yang aman. Hubungan sehat memungkinkan berbeda pendapat, berkata tidak, berteman di luar komunitas, mencari bantuan orang dewasa tepercaya. Tidak menggolongkan manusia sebagai buruk permanen; evaluasi perilaku dan dinamika, bukan iman atau martabat. Tidak ada pemaksaan kedekatan, pengawasan pribadi, isolasi, laporan rahasia kepada teman, atau tanggung jawab menyembuhkan kecanduan/masalah klinis oleh teman. Bantuan profesional dan keluarga tetap tersedia.
+## Pilot usulan
+Kegiatan bersama sukarela dengan tujuan pembelajaran konkret, kerja sama, umpan balik dan akses orang dewasa; indikator agregat rasa aman, kemampuan meminta bantuan, menolak tekanan, keterampilan kolaborasi. Tidak merekam pengakuan batin, data anak atau membuat daftar teman buruk. Tidak mengklaim semua keburukan dapat dicegah, tidak menggantikan pilihan individu atau tanggung jawab lembaga.
+## Hubungan
+IKH-01/02/03, R150.30, R151B, R154B. Audit 398 dan semua mandat lain tetap dipertahankan. Tidak ada tes, merge, implementasi, atau validasi ilmiah program.
