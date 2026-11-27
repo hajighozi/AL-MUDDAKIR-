@@ -1,11 +1,11 @@
-# R150.31A — MAIN chronological commit index
+# R150.31-MAIN-A — MAIN chronological commit index
 
-27 November 2026. User instruction: main first, then branches. Preserve history: no reset, rebase, squash, force-push, branch deletion or unreviewed merge. This documentation-only index records the main baseline before this index commit. The next branch audit must compare against that pinned baseline and the new main head separately.
+27 November 2026. User instruction: main first, then branches. Preserve history: no reset, rebase, squash, force-push, branch deletion or unreviewed merge. This documentation-only index records the main baseline before this index commit. The branch audit is pinned to the two-documentation-commit checkpoint; this correction only repairs formatting and includes those two commits in the table.
 
 ## Baseline
 - Initial commit: 220cc12da0b35e386278bda8a757a7654b7e9345
 - Latest integrated commit before this index: 6d37763c8cb63f70db5bef951a0050b2a3692e93
-- 76 commits returned by repository recent-commit listing, matching the prior main register's count and initial/latest SHA. Listing order reversed for chronological navigation, not a reconstructed parent DAG. Dates UTC. Commit messages are recorded claims, not fresh test evidence.
+- 76 original commits and two documentation commits (78 total before this formatting correction), returned by repository recent-commit listing. Listing order reversed for chronological navigation, not a reconstructed parent DAG. Dates UTC. Commit messages are recorded claims, not fresh test evidence.
 
 ## Chronological history
 
@@ -49,14 +49,10 @@
 | 36 | 2026-11-26T03:22:18Z | [a0b6ce4](https://github.com/hajighozi/AL-MUDDAKIR-/commit/a0b6ce43c4674d479f1c62d77e602902b727a22a) | docs(repo): define module branches and integration gates |
 | 37 | 2026-11-26T03:22:21Z | [1ac8d92](https://github.com/hajighozi/AL-MUDDAKIR-/commit/1ac8d92fd9fb0b4fcf96663f8e0c01e8fba04194) | docs(repo): clarify main, staging and faculty navigation |
 | 38 | 2026-11-26T03:22:23Z | [5060307](https://github.com/hajighozi/AL-MUDDAKIR-/commit/50603076d5670d578e68d43a3124a8e930405999) | docs(hurairah): reconcile 0.9.2 features and regression counts |
-| 39 | 2026-11-26T03:22:42Z | [c531d8e](https://github.com/hajighozi/AL-MUDDAKIR-/commit/c531d8e3a1ce632d4e86c1f1e0d7317d41e326aa) | Merge R-129.1 — Raudhah’s Dome integrated baseline
-
-Preserve prior history; integrate tested prototypes and module branch governance. Curriculum stays draft. |
+| 39 | 2026-11-26T03:22:42Z | [c531d8e](https://github.com/hajighozi/AL-MUDDAKIR-/commit/c531d8e3a1ce632d4e86c1f1e0d7317d41e326aa) | Merge R-129.1 — Raudhah’s Dome integrated baseline |
 | 40 | 2026-11-26T09:14:24Z | [e4c5f45](https://github.com/hajighozi/AL-MUDDAKIR-/commit/e4c5f4559f0d860d3e6cbba1c5763bc0290c82c4) | feat(portal): add mobile-friendly academy homepage |
 | 41 | 2026-11-26T09:14:27Z | [fe45037](https://github.com/hajighozi/AL-MUDDAKIR-/commit/fe45037cb75cd3fc6ee80b162704245f9280dd93) | fix(deploy): skip package install and build for static portal |
-| 42 | 2026-11-26T09:14:50Z | [125240f](https://github.com/hajighozi/AL-MUDDAKIR-/commit/125240f0414aed9d9e2aea59c32a4805c2f8862e) | Merge static portal and Vercel deployment fix
-
-Root homepage and zero-install static configuration; no application code modified. |
+| 42 | 2026-11-26T09:14:50Z | [125240f](https://github.com/hajighozi/AL-MUDDAKIR-/commit/125240f0414aed9d9e2aea59c32a4805c2f8862e) | Merge static portal and Vercel deployment fix |
 | 43 | 2026-11-26T10:14:06Z | [486d7e7](https://github.com/hajighozi/AL-MUDDAKIR-/commit/486d7e7765858581061cc9f59a0e43af7547e084) | feat(knowledge): add knowledge-core/registry.json |
 | 44 | 2026-11-26T10:14:10Z | [f731277](https://github.com/hajighozi/AL-MUDDAKIR-/commit/f7312777d3bff01f25398e8766effeabe94b44cd) | feat(knowledge): add knowledge-core/map.css |
 | 45 | 2026-11-26T10:14:12Z | [3048654](https://github.com/hajighozi/AL-MUDDAKIR-/commit/3048654ae45432eb0e2c7d88a6e93820232c7e27) | feat(knowledge): add knowledge-core/map.js |
@@ -69,38 +65,30 @@ Root homepage and zero-install static configuration; no application code modifie
 | 52 | 2026-11-26T10:14:30Z | [2918d9a](https://github.com/hajighozi/AL-MUDDAKIR-/commit/2918d9a915e21efc07a3cd5ed6badf0bebb2d5a7) | feat(knowledge): add knowledge-core/README.md |
 | 53 | 2026-11-26T10:14:33Z | [c406fd7](https://github.com/hajighozi/AL-MUDDAKIR-/commit/c406fd7aa51c7a28396eb1a59996f136439c0f9f) | feat(portal): link six faculty knowledge maps |
 | 54 | 2026-11-26T10:14:35Z | [bc9be95](https://github.com/hajighozi/AL-MUDDAKIR-/commit/bc9be958263c4c6253934e2fd37cb72523d2dc52) | feat(learning): open selected pilot by faculty and unit |
-| 55 | 2026-11-26T10:15:16Z | [8730530](https://github.com/hajighozi/AL-MUDDAKIR-/commit/8730530ba0e65b0a200ba3e041978e2dbc97eaf1) | Merge R-131 faculty knowledge maps
-
-Six faculty entry points, 59 draft paths and nine existing pilot deep links. Construction and simulated UI checks passed. |
+| 55 | 2026-11-26T10:15:16Z | [8730530](https://github.com/hajighozi/AL-MUDDAKIR-/commit/8730530ba0e65b0a200ba3e041978e2dbc97eaf1) | Merge R-131 faculty knowledge maps |
 | 56 | 2026-11-26T10:19:17Z | [0f1f9dd](https://github.com/hajighozi/AL-MUDDAKIR-/commit/0f1f9ddeb1fbeb1424be80d729ec63ae947e73cf) | feat(pedagogy): add R-133 competency and pilot learning map |
 | 57 | 2026-11-26T10:19:20Z | [4290858](https://github.com/hajighozi/AL-MUDDAKIR-/commit/429085868bf58ccbb308ecd3781e99d0dadef3f9) | feat(pedagogy): add R-133 competency and pilot learning map |
 | 58 | 2026-11-26T10:27:53Z | [28089cb](https://github.com/hajighozi/AL-MUDDAKIR-/commit/28089cb68ec0cee3df4991f29cb37af3b45caa9b) | feat(knowledge): add audited reference index R-134 |
 | 59 | 2026-11-26T10:27:56Z | [08dd272](https://github.com/hajighozi/AL-MUDDAKIR-/commit/08dd27290942c4857eebd8e32b3ef49ad4fe89bd) | feat(knowledge): add audited reference index R-134 |
 | 60 | 2026-11-26T10:27:59Z | [e6a7914](https://github.com/hajighozi/AL-MUDDAKIR-/commit/e6a79147dff8b505f5143f78b7757e0cab5518d5) | feat(knowledge): add audited reference index R-134 |
 | 61 | 2026-11-26T10:28:02Z | [85b6b4f](https://github.com/hajighozi/AL-MUDDAKIR-/commit/85b6b4fe0e4b50d65c64edd3e3ae2eb37498e77b) | feat(portal): link Open Knowledge Network |
-| 62 | 2026-11-26T10:28:24Z | [c98bf04](https://github.com/hajighozi/AL-MUDDAKIR-/commit/c98bf0419d6f0d912fa01d77b3878e010ed155e7) | Merge R-133/R-134 pedagogy and knowledge reference network
-
-Integrate draft pedagogical map and reference-only external knowledge index; no third-party content imported. |
+| 62 | 2026-11-26T10:28:24Z | [c98bf04](https://github.com/hajighozi/AL-MUDDAKIR-/commit/c98bf0419d6f0d912fa01d77b3878e010ed155e7) | Merge R-133/R-134 pedagogy and knowledge reference network |
 | 63 | 2026-11-26T10:31:15Z | [b442331](https://github.com/hajighozi/AL-MUDDAKIR-/commit/b4423310d9b39fd069631881c06a98d7cc592e1f) | feat(acquisition): open-knowledge/acquisition.json |
 | 64 | 2026-11-26T10:31:18Z | [be9a324](https://github.com/hajighozi/AL-MUDDAKIR-/commit/be9a3245a988f46d486acc5a0c0009eb94fbd183) | feat(acquisition): open-knowledge/acquisition.html |
 | 65 | 2026-11-26T10:31:21Z | [71530a6](https://github.com/hajighozi/AL-MUDDAKIR-/commit/71530a6e692a1f459bfad801445d624fd50dccd5) | feat(acquisition): open-knowledge/acquisition.js |
 | 66 | 2026-11-26T10:31:24Z | [8292204](https://github.com/hajighozi/AL-MUDDAKIR-/commit/82922041b9e4b4694717bbf5dc872444c464f6cb) | feat(acquisition): docs/R135_ACQUISITION.md |
 | 67 | 2026-11-26T10:31:27Z | [ab1a644](https://github.com/hajighozi/AL-MUDDAKIR-/commit/ab1a6443f790f21c11ab4d4f07c8c957889ea7f6) | feat(knowledge): link acquisition audit |
-| 68 | 2026-11-26T10:31:58Z | [6dd0b29](https://github.com/hajighozi/AL-MUDDAKIR-/commit/6dd0b29b65b860cf22f484df2bad3dbf01536c7e) | Merge R-135 source acquisition audit
-
-59 candidate paths and seven located references, filterable draft audit UI; no source approval or full external import. |
+| 68 | 2026-11-26T10:31:58Z | [6dd0b29](https://github.com/hajighozi/AL-MUDDAKIR-/commit/6dd0b29b65b860cf22f484df2bad3dbf01536c7e) | Merge R-135 source acquisition audit |
 | 69 | 2026-11-26T10:34:29Z | [7210e47](https://github.com/hajighozi/AL-MUDDAKIR-/commit/7210e47a6749cce8f4746dd8cd6b64ffec035500) | feat(turats): add open-knowledge/turats.json |
 | 70 | 2026-11-26T10:34:32Z | [708e368](https://github.com/hajighozi/AL-MUDDAKIR-/commit/708e36884f1bfbaabdd3dd7073d08c7f71fc6e9a) | feat(turats): add open-knowledge/turats.html |
 | 71 | 2026-11-26T10:34:35Z | [dbe6a07](https://github.com/hajighozi/AL-MUDDAKIR-/commit/dbe6a073ef8286f76c68f3dabdc211d478af3fed) | feat(turats): add open-knowledge/turats.js |
 | 72 | 2026-11-26T10:34:37Z | [00b4b61](https://github.com/hajighozi/AL-MUDDAKIR-/commit/00b4b61f47ece73c1245c05e8e4e7ede6cfda433) | feat(turats): add docs/R136_TURATS.md |
 | 73 | 2026-11-26T10:34:40Z | [b085f4f](https://github.com/hajighozi/AL-MUDDAKIR-/commit/b085f4f64ed8decc4111dc94b3ac0442f8f013bf) | feat(knowledge): link turats register |
-| 74 | 2026-11-26T10:35:01Z | [7e80f90](https://github.com/hajighozi/AL-MUDDAKIR-/commit/7e80f90ac70c4b333171be37ca4af88431e83657) | Merge R-136 Turats knowledge register
-
-Reference-only provider catalog and draft book mapping with metadata completeness checks. |
+| 74 | 2026-11-26T10:35:01Z | [7e80f90](https://github.com/hajighozi/AL-MUDDAKIR-/commit/7e80f90ac70c4b333171be37ca4af88431e83657) | Merge R-136 Turats knowledge register |
 | 75 | 2026-11-26T10:39:53Z | [9e6cfca](https://github.com/hajighozi/AL-MUDDAKIR-/commit/9e6cfcac166d8bf42bfc22c64bb661971a35713f) | feat(khidmah): hubungkan kajian lingkungan Padang Longang ke portal |
-| 76 | 2026-11-26T10:44:12Z | [6d37763](https://github.com/hajighozi/AL-MUDDAKIR-/commit/6d37763c8cb63f70db5bef951a0050b2a3692e93) | Integrasikan Khidmah Lingkungan Padang Longang ke portal
-
-Khidmah Lingkungan Al Muddakir untuk Padang Longang |
+| 76 | 2026-11-26T10:44:12Z | [6d37763](https://github.com/hajighozi/AL-MUDDAKIR-/commit/6d37763c8cb63f70db5bef951a0050b2a3692e93) | Integrasikan Khidmah Lingkungan Padang Longang ke portal |
+| 77 | 2026-11-27T11:25:00Z | [e12026c](https://github.com/hajighozi/AL-MUDDAKIR-/commit/e12026ce0235a4aea8e517f885240e373ed51e9e) | docs(main): index existing commit history without rewriting it |
+| 78 | 2026-11-27T11:25:15Z | [30d0550](https://github.com/hajighozi/AL-MUDDAKIR-/commit/30d0550f69d85e68557bd59cc0114f3b2196deec) | docs(main): link chronological commit index from README |
 
 ## Reading order
 1. Founding and Throwbadly concept: README and docs/THROWBADLY_PROJECT_CONCLUSION.md.
@@ -111,3 +99,8 @@ Khidmah Lingkungan Al Muddakir untuk Padang Longang |
 
 ## Retention and open gates
 Existing [branch workflow](BRANCH_WORKFLOW.md) remains binding. Staging branch is `raudhah-integrated`, not `staging`. Prior ledger and mandate crosswalk are retained there, including R150_27A_COMMIT_LEDGER.json, R150_27D_MANDATE_RETENTION_AND_BRANCH_ISOLATION.md, R150_28B_6_MANDATE_SOURCE_BRANCH_CROSSWALK.json and R150_28B_6A_LIVE_BRANCH_RECONCILIATION.json. Historical 27 SHA unresolved at prior audit; two private ZIP inventories blocked, original 398 candidate list incomplete, 59 paths not validated; no claim of complete source recovery. No personal data, private corpus or credentials copied. Next: reconcile all branches, identify divergence from documentation-only main changes, and maintain unresolved work. No application code modified or tests run for this index.
+
+## Branch reconciliation and current decision register
+- [Master Commit Index (staging)](https://github.com/hajighozi/AL-MUDDAKIR-/blob/raudhah-integrated/docs/R150_31_MASTER_COMMIT_INDEX.md): recent source and decision SHAs, retained SP01–12, all roadmap entries.
+- [MAIN-B reconciliation](https://github.com/hajighozi/AL-MUDDAKIR-/commit/896717a14c829f0f0c0498a9c067fd2f42b09c3a): comparison of all 20 non-main branches at main SHA 30d0550f69d85e68557bd59cc0114f3b2196deec, before this formatting-only correction; 114 summed ahead counts and 117 distinct path strings, not a merge approval.
+- Namespace MAIN-A distinguishes the main index from Surau Shift's separate R150.31A reading index. Both are preserved. Latest directions recorded on branches: Murabbi first, Ikhwan second, family first circle; first Surau mission leaving wrongdoing, wholesome activity and weekly dhikr opportunity; collective economy and civic development; Fiqh Dakwah as final advanced lesson after demonstrable field-appropriate Khidmah. Not a new legal ruling or approval of unreviewed research. R150.30L rubric and R150.28C-3 source audit remain queued.
