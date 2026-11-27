@@ -2127,7 +2127,69 @@
       "id": "RBX-01",
       "title": "Original Learning World",
       "state": "COMMITTED_DRAFT",
-      "sha": "a48f40642df64b9450b737823e72bf70bcf3e9f3"
+      "sha": "a48f40642df64b9450b737823e72bf70bcf3e9f3",
+      "commit_verified": true,
+      "paths": [
+        "docs/roblox-learning/R150_29_ORIGINAL_LEARNING_WORLD.md"
+      ]
+    },
+    {
+      "id": "RBX-02",
+      "title": "original place layout and asset-rights register, manually created in Studio; safe age-appropriate design.",
+      "state": "COMMITTED_CODE_UNTESTED",
+      "sha": "22de9a9e13e03cbbb087745a807aa9d3d0436598",
+      "commit_verified": true,
+      "paths": [
+        "roblox-learning/studio/RBX02_NagariIlmu.command.lua"
+      ]
+    },
+    {
+      "id": "RBX-03",
+      "title": "opening UI class/topic selection.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-04",
+      "title": "teacher NPC and reviewed lesson/question data.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-05",
+      "title": "practice feedback and local session progress, no sensitive data.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-06",
+      "title": "family demo and optional virtual completion ceremony.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-07",
+      "title": "Studio Play tests, device/accessibility checks, content and safety review.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-08",
+      "title": "private pilot, adult/parent review and applicable Roblox publication questionnaire/eligibility.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-09",
+      "title": "original YouTube trailer for parents, truthful educational claims, no identifiable children without appropriate permissions; classify audience accurately and comply with platform rules; adult manages any paid campaign.",
+      "state": "PLANNED",
+      "sha": null
+    },
+    {
+      "id": "RBX-10",
+      "title": "versioned updates (proposed weekly if capacity and testing allow), changelog, bugs first, new reviewed lessons, feedback, rollback. Measure task comprehension, accessibility, satisfaction and defects, not time spent or addictive engagement; no streak pressure or paid advantages.",
+      "state": "PLANNED",
+      "sha": null
     }
   ],
   "related_task_groups": [
@@ -2169,14 +2231,15 @@
     "REC-08 source locator remains uncertain; link to DRAFT-003 provisional",
     "Two ZIPs not fully audited; 398 original candidate list not recovered; no fabricated rows",
     "27 SHA from old ledger remain unresolved; compare-all call exceeded connector limit; no new branch-wide ahead/behind counts claimed",
-    "No changes to main or application code, no publication of private records, no merge or tests"
+    "No changes to main or application code, no publication of private records, no merge or tests",
+    "Initial RBX parser accepted only bulleted lines, omitted RBX-02–10; corrected in subsequent commit and verified two existing commit objects. No change to code or history."
   ],
   "checks": {
     "units": 71,
     "candidates": 34,
     "special": 12,
     "roadmap": 25,
-    "roblox": 1,
+    "roblox": 10,
     "branches": 21,
     "private": 14,
     "hold": 1,
@@ -2185,6 +2248,7 @@
     "missing_branches": [],
     "unlinked_candidates": [],
     "invalid_source_refs": [],
-    "unique_candidate_ids": true
+    "unique_candidate_ids": true,
+    "roblox_unique_ids": true
   }
 }
