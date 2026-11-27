@@ -1,0 +1,394 @@
+{
+  "checkpoint": "R150.38B",
+  "sources": [
+    "docs/R150_38A_1_HISTORICAL_SHA_RECOVERY.json",
+    "docs/R150_38A_2_HISTORICAL_SHA_RECOVERY.json",
+    "docs/R150_38A_3_HISTORICAL_SHA_RECOVERY.json",
+    "docs/R150_37A_BRANCH_SUBBRANCH_REGISTER.json",
+    "docs/R150_27A_COMMIT_LEDGER.json",
+    "docs/R150_27B_COMMIT_ROADMAP.md"
+  ],
+  "coverage": {
+    "historical_pending_before": 27,
+    "unique_path_matches": 27,
+    "pending_after_path_history": 0,
+    "original_ledger_rows": 67,
+    "previous_commit_path_confirmed": 40,
+    "roadmap_rows": 25,
+    "roadmap_with_branch_id": 25
+  },
+  "historical_crosswalk": [
+    {
+      "branch_id": "B02",
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R144_EPISTEMIC_PEDAGOGY.md",
+      "sha": "69f44b3c20c7dcd9761c6f18cadde09e5c3d0db7",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B02",
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_2_PROVENANCE_REGISTER.json",
+      "sha": "105a69c01eb661bf1db7cfe4f764ee7788d3cf6d",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B02",
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_3_GLOSSARY_ONTOLOGY_AUDIT.md",
+      "sha": "8e128bcbc05680a82e6656eb7fc0cbba53662f7a",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B02",
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_4_TAXONOMY_ANNOTATIONS.json",
+      "sha": "2f251aaa1bc71688be99954a2031ca0ef5907ca1",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B02",
+      "branch": "feature/kitab-iqra",
+      "path": "docs/kitab-iqra/R150_CORPUS_AUDIT.md",
+      "sha": "698a7f31b8d71d50a7b5976b0b1a62a014c395d4",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B13",
+      "branch": "feature/raudhah-pedagogy",
+      "path": "docs/pedagogy/R137_INSTITUTE_EXPERIENCE.md",
+      "sha": "bff4711620564593d42f41c90d5b733ad5a135eb",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R138_SARANG_LEBAH_RASO_PARESO.md",
+      "sha": "c1181346708a9935d8d969ba77bcca04c9494eb6",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_BERMAZHAB_TAZKIYAH.md",
+      "sha": "e6d39286857524e0cd23503fc3e27e643c39c3fe",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_ADAB_IKHTILAF_LIFE_PURPOSE.md",
+      "sha": "02edfaf27867026f7689b8417c4e25126421a486",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_CONTOH_JALUR_TAZKIYAH_SYAFII_ASYARI_QADIRI.md",
+      "sha": "824108cb16ab5bf3fc7ecf4bf5246b94a4fc9568",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FAHM_TAZKIYAH_NONCOERCIVE_ADAB.md",
+      "sha": "10e05801adf05eb5fae0cbdac82d9c6a4f6b72ec",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FARD_AYN_KHIDMAH.md",
+      "sha": "a927bafec3f1a1a159642d57689ca892bd6942a6",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_INTEGRITY_MURAQABAH.md",
+      "sha": "3b1ec7a98959127e60540808ae8c6fc295ec5c45",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_IQRA_FAHM_FOUNDATION_TAZKIYAH.md",
+      "sha": "101ecd98c949bdeffe6c654146f23a7ea09f6401",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_LIFELONG_TAZKIYAH.md",
+      "sha": "9adcec49ddc74e06bfd4345091203f5c9a26c75f",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_MAJELIS_TAKJUB_KEBERSAMAAN.md",
+      "sha": "986909826c6b784de74478b790d4f8aacefbb596",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DEPTH_AUDIT.md",
+      "sha": "445e16d2204daec97f6c86f064b4a6a6960a71ae",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DIVERSITY_ATLAS.md",
+      "sha": "4a5f6090772d2b4e7f30c0dabeb411f5c7b669f6",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B10",
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_INTEGRAL.md",
+      "sha": "e2fa733dde814dfdd3a756ddd3aadb5cb7535cfc",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B11",
+      "branch": "feature/tan-project",
+      "path": "tan-project/docs/R139_KHIDMAH_PEDAGOGY.md",
+      "sha": "9f555435fa910caa6fbe3c6ce0c0b7d7e0673f98",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_1_SPECIAL_REQUESTS.md",
+      "sha": "d3e2a677b6563fa879039cb52f664328a8248a9f",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_PEDAGOGY_INTEGRATION_BACKLOG.md",
+      "sha": "55efdfbcebad77d773f96112d6c46fadbbefe832",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_6_AUTOPILOT_AUDIT_GATE.md",
+      "sha": "8051a9ceebde12c11b9fa7db88bf54b38c276bb4",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_7_DECISION_CONSISTENCY_AUDIT.md",
+      "sha": "c1ac25493974857629539be2a1c82c173c7eb539",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_FOUR_DNA_CONSTITUTION_ADDENDUM.md",
+      "sha": "10b472338d2fe153c0f4376b08020b39f8d31f51",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_IKRAR_KEHIDUPAN.md",
+      "sha": "7d4a7a0deb02c793348ff2b8518a2229828b619b",
+      "status": "single_path_history_match"
+    },
+    {
+      "branch_id": "B01",
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_UNITY_PURPOSE_DIVERSITY_METHOD.md",
+      "sha": "ac91df1deac81ac75721caaf74fe6e2bb7a55f15",
+      "status": "single_path_history_match"
+    }
+  ],
+  "roadmap_crosswalk": [
+    {
+      "id": "R150.26",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "audit(corpus): register MG04 pedagogical genealogy",
+      "acceptance_gate": "lokator, tipe sumber, klaim dan keterbatasan; belum dilakukan"
+    },
+    {
+      "id": "R150.28A",
+      "branch": "feature/kitab-iqra",
+      "branch_id": "B02",
+      "planned_commit": "audit(corpus): verify two ZIP inventories locally",
+      "acceptance_gate": "hash, jumlah, duplikasi, provenance, tanpa isi privat di repo; R150.7 asli masih blocked"
+    },
+    {
+      "id": "R150.28B",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "audit(corpus): segment MG03 and MG04",
+      "acceptance_gate": "unit dokumen dan rentang halaman; MG01 baru batas awal; MG02 belum dedup penuh"
+    },
+    {
+      "id": "R150.28C",
+      "branch": "feature/kitab-iqra",
+      "branch_id": "B02",
+      "planned_commit": "audit(ontology): reconcile 398 candidate disciplines",
+      "acceptance_gate": "sumber asli dan A-H tiap kandidat; R150.8 asli belum selesai; tidak menyamakan 59 Fashl"
+    },
+    {
+      "id": "R150.28D",
+      "branch": "feature/surau-shift",
+      "branch_id": "B10",
+      "planned_commit": "audit(turats): reconcile definitions and transmission",
+      "acceptance_gate": "edisi, halaman, bukti, perbedaan ulama; R150.8C dan R150.17 belum tuntas; KitabPedia custom GPT tidak dapat dipanggil langsung"
+    },
+    {
+      "id": "R150.28E",
+      "branch": "feature/kitab-iqra",
+      "branch_id": "B02",
+      "planned_commit": "docs(ontology): resolve glossary and five domains",
+      "acceptance_gate": "konflik istilah, 5 objek vs 6 aplikasi; keputusan pengguna/ahli diperlukan"
+    },
+    {
+      "id": "R151A",
+      "branch": "feature/raudhah-pedagogy",
+      "branch_id": "B13",
+      "planned_commit": "docs(identity): reconcile institute names and pedagogy",
+      "acceptance_gate": "konfirmasi nama, ejaan, hak media, cakupan Sumatera"
+    },
+    {
+      "id": "R151B",
+      "branch": "feature/raudhah-pedagogy",
+      "branch_id": "B13",
+      "planned_commit": "docs(murabbi): consolidate competency and safeguarding",
+      "acceptance_gate": "MB01–08; tanggung jawab orang dewasa, kebebasan memilih, jalur pengaduan, tidak ada skor iman"
+    },
+    {
+      "id": "R152A",
+      "branch": "feature/kitab-iqra",
+      "branch_id": "B02",
+      "planned_commit": "feat(knowledge): version approved source mappings",
+      "acceptance_gate": "59 Fashl dengan status eksplisit, jangan menaikkan status tanpa evidensi"
+    },
+    {
+      "id": "R152B",
+      "branch": "feature/raudhah-pedagogy",
+      "branch_id": "B13",
+      "planned_commit": "feat(pedagogy): implement M3 schema and links",
+      "acceptance_gate": "16 komponen, 30 kompetensi, 9 unit; review schema, referensi, tes"
+    },
+    {
+      "id": "R153A",
+      "branch": "feat/fahimuunal-vercel",
+      "branch_id": "B09",
+      "planned_commit": "chore(quran): recover original app and tests",
+      "acceptance_gate": "branch saat ini identik main; perlu kode asli/akses; jangan mengaku sudah ada app utuh"
+    },
+    {
+      "id": "R153B",
+      "branch": "feat/fahimuunal-vercel",
+      "branch_id": "B09",
+      "planned_commit": "feat(quran): verified FAHIM content and spaced review",
+      "acceptance_gate": "data tervalidasi, tes pengulangan, offline, preview; tanpa data pribadi"
+    },
+    {
+      "id": "R153C",
+      "branch": "feature/hadis",
+      "branch_id": "B04",
+      "planned_commit": "feat(hadis): reconcile Maqra 500+100",
+      "acceptance_gate": "cek naskah resmi, nomor, matan, takhrij; data belum lengkap"
+    },
+    {
+      "id": "R153D",
+      "branch": "feature/lughah",
+      "branch_id": "B05",
+      "planned_commit": "feat(lughah): add validated learning exercises",
+      "acceptance_gate": "sumber, ahli bahasa, tes"
+    },
+    {
+      "id": "R154A",
+      "branch": "feature/tan-project",
+      "branch_id": "B11",
+      "planned_commit": "feat(khidmah): build first safe service-learning unit",
+      "acceptance_gate": "kebutuhan mitra, persetujuan, pengawasan dewasa, manfaat terukur"
+    },
+    {
+      "id": "R154B",
+      "branch": "feature/surau-shift",
+      "branch_id": "B10",
+      "planned_commit": "feat(surau): implement community learning pilot",
+      "acceptance_gate": "partisipasi sukarela, perlindungan, evaluasi"
+    },
+    {
+      "id": "R154C",
+      "branch": "feature/alam",
+      "branch_id": "B06",
+      "planned_commit": "feat(alam): implement safe nature observation unit",
+      "acceptance_gate": "ketepatan data dan supervisi"
+    },
+    {
+      "id": "R154D",
+      "branch": "feature/peradaban",
+      "branch_id": "B07",
+      "planned_commit": "feat(peradaban): implement local history unit",
+      "acceptance_gate": "sumber, izin narasumber, tidak expose data"
+    },
+    {
+      "id": "R154E",
+      "branch": "feature/matematika",
+      "branch_id": "B08",
+      "planned_commit": "feat(matematika): implement reasoning unit",
+      "acceptance_gate": "tes soal dan pembahasan"
+    },
+    {
+      "id": "R154F",
+      "branch": "feature/pustaka-rehat",
+      "branch_id": "B14",
+      "planned_commit": "feat(library): offline reading and bookmarks",
+      "acceptance_gate": "hak sumber, penyimpanan aman, tes"
+    },
+    {
+      "id": "R154G",
+      "branch": "hurairah-web-stable",
+      "branch_id": "B18",
+      "planned_commit": "feat(game): connect optional learning experiences",
+      "acceptance_gate": "tidak menjadikan game pengganti murabbi; uji cache, aksesibilitas"
+    },
+    {
+      "id": "R154H",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "docs(pilot): assemble 12 learning cycles",
+      "acceptance_gate": "satu siklus lengkap terlebih dahulu; uji dan review"
+    },
+    {
+      "id": "R155",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "test(integration): node, browser, offline, privacy",
+      "acceptance_gate": "hasil nyata, catatan lingkungan uji; Vercel preview"
+    },
+    {
+      "id": "R156",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "docs(validation): record educator and partner pilot review",
+      "acceptance_gate": "persetujuan, keamanan, umpan balik; tidak mengevaluasi batin"
+    },
+    {
+      "id": "R157",
+      "branch": "raudhah-integrated",
+      "branch_id": "B01",
+      "planned_commit": "release: review PRs and integrate approved modules",
+      "acceptance_gate": "PR feature ke staging, uji, review, PR ke main, cek deploy; tidak force-push"
+    }
+  ],
+  "limits": [
+    "Single path-history match is not independent diff/content review, mandate completion, or scientific validation.",
+    "Roadmap crosswalk preserves the old snapshot and acceptance gates; no task status is automatically advanced.",
+    "R150.30E separately recovered in R150.36; original ledger retained.",
+    "SP01–12, RBX01–10, FD02, R150.28C-3, R151–157 and other open mandates retained. No merges, tests or deployments."
+  ]
+}
