@@ -1,0 +1,24 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+const html=readFileSync(new URL('./index.html',import.meta.url),'utf8');
+const data=JSON.parse(readFileSync(new URL('./curriculum.json',import.meta.url),'utf8'));
+const embedded=JSON.parse(html.match(/const curriculum=(\{[^\n]+\});/)[1]);
+assert.deepEqual(embedded,data,'embedded curriculum matches source');
+const source=html.slice(html.indexOf('function createModel('),html.indexOf('const model=createModel('));
+const sandbox=vm.createContext({places:data.places,quests:data.quests});
+vm.runInContext(source+'\n globalThis.model=createModel(places,quests);',sandbox);
+const model=sandbox.model;
+assert.equal(data.quests.length,13);
+assert.equal(new Set(data.quests.map(q=>q.id)).size,13);
+assert.equal(data.tracks.length,6);
+for(const q of data.quests){assert.ok(data.places.some(p=>p.id===q.place));assert.ok(data.tracks.some(t=>t.id===q.track&&t.id!=='all'));assert.ok(q.objective&&q.evidence&&q.link&&q.review==='draft');assert.equal(q.options.length,2);assert.ok(q.real);let s=model.transition(model.fresh(),{type:'SELECT',id:q.id});assert.equal(s.selected,q.id);s=model.transition(s,{type:'ANSWER',index:0});assert.equal(s.visited.length,1);s=model.transition(s,{type:'ANSWER',index:1});assert.equal(s.visited.length,1);assert.equal(s.answers[q.id],1);}
+let s=model.fresh();assert.equal(model.transition(s,{type:'ANSWER',index:0}).visited.length,0);
+assert.equal(model.transition({...s,x:0},{type:'MOVE',dx:-1,dy:0}).x,0);
+assert.equal(model.transition(s,{type:'MOVE',dx:3,dy:3}),s);
+s=model.transition(s,{type:'PAUSE'});assert.equal(model.transition(s,{type:'SELECT',id:'SE13'}),s);
+assert.equal(model.transition(s,{type:'PAUSE'}).paused,false);
+assert.equal(model.transition(s,{type:'RESET'}).visited.length,0);
+assert.ok(html.includes("quests.length+' pengalaman dicoba"));
+assert.ok(html.includes('id="track"'));
+console.log('SE curriculum and model assertions passed. No browser DOM test performed.');
