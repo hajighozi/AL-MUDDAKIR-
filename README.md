@@ -79,3 +79,9 @@ Semua pelajaran baru berstatus draf; korpus privat tidak dimigrasikan ke repo pu
 
 - [R150.31A — Indeks kronologis main](docs/R150_31A_MAIN_COMMIT_INDEX.md): 76 commit historis sebelum indeks, dari initial commit hingga Khidmah Lingkungan. Riwayat tidak ditulis ulang.
 - Keputusan dan pekerjaan modul yang belum terintegrasi tetap dicatat di cabang terkait; lihat tata kelola branch. Dokumen indeks bukan persetujuan merge atau sertifikasi aplikasi.
+
+## R150.47 — Master Branch & Pedagogical Network
+
+Kurikulum integral Raudhah’s Dome dalam konteks Indonesia bernama **RSI**, dengan Kitab IQRA’ sebagai worldview bersama. Identitas lokal dapat mengikuti budaya dan tempat; cakupan kerja Throwbadly tetap Sumatera.
+
+Baca [Master Branch Hierarchy](docs/R150_47_MASTER_BRANCH_HIERARCHY.md) untuk daftar 25 branch, induk koordinasi, subbranch dan hubungan lintas jalur. Dua induk baru: `master/al-muddakir` dan `master/learning-media`. Surau Shift, Tan Project dan Raudhah Pedagogy tetap menjadi induk kontekstual masing-masing. Hubungan ini bersifat logis, bukan riwayat Git atau klaim bahwa kode sudah digabungkan. Semua branch lama dipertahankan; integrasi tetap melalui staging dan review.
