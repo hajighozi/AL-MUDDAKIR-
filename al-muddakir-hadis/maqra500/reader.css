@@ -1,0 +1,19 @@
+.arabic {
+  font-family: "Traditional Arabic", "Noto Naskh Arabic", serif;
+  font-size: clamp(1.45rem, 4vw, 1.85rem);
+  line-height: 2;
+  overflow-wrap: anywhere;
+}
+
+#hadith-list a[aria-current="page"] {
+  background: var(--green);
+  color: white;
+}
+
+#hadith h2 {
+  margin-top: 0;
+}
+
+#source-hash {
+  overflow-wrap: anywhere;
+}
