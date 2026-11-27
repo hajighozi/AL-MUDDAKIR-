@@ -1,0 +1,115 @@
+{
+  "checkpoint": "R150.38A-2",
+  "source": "R150_27A_COMMIT_LEDGER.json",
+  "method": "GitHub commit history queried by exact branch and file path; single match is path-history recovery, not independent patch/content review.",
+  "rows": [
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_CONTOH_JALUR_TAZKIYAH_SYAFII_ASYARI_QADIRI.md",
+      "commits": [
+        {
+          "sha": "824108cb16ab5bf3fc7ecf4bf5246b94a4fc9568",
+          "message": "docs(surau): register complementary Shafii Ashari Qadiri learning pathway",
+          "date": "2026-11-26T15:54:05Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FAHM_TAZKIYAH_NONCOERCIVE_ADAB.md",
+      "commits": [
+        {
+          "sha": "10e05801adf05eb5fae0cbdac82d9c6a4f6b72ec",
+          "message": "docs(surau): register awareness-led adab and nonviolent education",
+          "date": "2026-11-26T15:31:46Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_FARD_AYN_KHIDMAH.md",
+      "commits": [
+        {
+          "sha": "a927bafec3f1a1a159642d57689ca892bd6942a6",
+          "message": "docs(surau): register fard ayn and lifelong service foundations",
+          "date": "2026-11-26T15:40:09Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_INTEGRITY_MURAQABAH.md",
+      "commits": [
+        {
+          "sha": "3b1ec7a98959127e60540808ae8c6fc295ec5c45",
+          "message": "docs(surau): register integrity and ongoing practice of fard ayn",
+          "date": "2026-11-26T15:43:01Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_IQRA_FAHM_FOUNDATION_TAZKIYAH.md",
+      "commits": [
+        {
+          "sha": "101ecd98c949bdeffe6c654146f23a7ea09f6401",
+          "message": "docs(surau): connect IQRA and FAHM to integrated tazkiyah practice",
+          "date": "2026-11-26T15:55:24Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_LIFELONG_TAZKIYAH.md",
+      "commits": [
+        {
+          "sha": "9adcec49ddc74e06bfd4345091203f5c9a26c75f",
+          "message": "docs(surau): record lifelong tazkiyah of heart intellect and action",
+          "date": "2026-11-26T15:35:57Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_MAJELIS_TAKJUB_KEBERSAMAAN.md",
+      "commits": [
+        {
+          "sha": "986909826c6b784de74478b790d4f8aacefbb596",
+          "message": "docs(surau): register shared wonder and fellowship across traditions",
+          "date": "2026-11-26T15:58:29Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DEPTH_AUDIT.md",
+      "commits": [
+        {
+          "sha": "445e16d2204daec97f6c86f064b4a6a6960a71ae",
+          "message": "docs(surau): register tazkiyah depth audit and care boundaries",
+          "date": "2026-11-26T15:28:56Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_DIVERSITY_ATLAS.md",
+      "commits": [
+        {
+          "sha": "4a5f6090772d2b4e7f30c0dabeb411f5c7b669f6",
+          "message": "docs(surau): add preliminary atlas of diverse tazkiyah traditions",
+          "date": "2026-11-26T15:57:07Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    }
+  ]
+}
