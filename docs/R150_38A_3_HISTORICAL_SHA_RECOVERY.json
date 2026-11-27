@@ -1,0 +1,115 @@
+{
+  "checkpoint": "R150.38A-3",
+  "source": "R150_27A_COMMIT_LEDGER.json",
+  "method": "GitHub commit history queried by exact branch and file path; single match is path-history recovery, not independent patch/content review.",
+  "rows": [
+    {
+      "branch": "feature/surau-shift",
+      "path": "surau-shift/docs/R150_TAZKIYAH_INTEGRAL.md",
+      "commits": [
+        {
+          "sha": "e2fa733dde814dfdd3a756ddd3aadb5cb7535cfc",
+          "message": "docs(surau): integrate aqidah kalam fiqh tasawuf and lived adab",
+          "date": "2026-11-26T15:34:55Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "feature/tan-project",
+      "path": "tan-project/docs/R139_KHIDMAH_PEDAGOGY.md",
+      "commits": [
+        {
+          "sha": "9f555435fa910caa6fbe3c6ce0c0b7d7e0673f98",
+          "message": "docs(tan): R-139 define safe community learning cycle",
+          "date": "2026-11-26T10:58:53Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_1_SPECIAL_REQUESTS.md",
+      "commits": [
+        {
+          "sha": "d3e2a677b6563fa879039cb52f664328a8248a9f",
+          "message": "docs(integration): R-149.1 register overlooked special requests",
+          "date": "2026-11-26T11:25:11Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R149_PEDAGOGY_INTEGRATION_BACKLOG.md",
+      "commits": [
+        {
+          "sha": "55efdfbcebad77d773f96112d6c46fadbbefe832",
+          "message": "docs(integration): R-149 register pedagogical branches and remaining gates",
+          "date": "2026-11-26T11:00:18Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_6_AUTOPILOT_AUDIT_GATE.md",
+      "commits": [
+        {
+          "sha": "8051a9ceebde12c11b9fa7db88bf54b38c276bb4",
+          "message": "docs(integration): R-150.6 checkpoint audit gates and autonomous resume order",
+          "date": "2026-11-26T15:27:53Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_7_DECISION_CONSISTENCY_AUDIT.md",
+      "commits": [
+        {
+          "sha": "c1ac25493974857629539be2a1c82c173c7eb539",
+          "message": "audit(integration): R-150.7 reconcile four DNA decisions and source boundaries",
+          "date": "2026-11-26T15:50:18Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_FOUR_DNA_CONSTITUTION_ADDENDUM.md",
+      "commits": [
+        {
+          "sha": "10b472338d2fe153c0f4376b08020b39f8d31f51",
+          "message": "docs(integration): register unified lifelong fard ayn direction",
+          "date": "2026-11-26T15:41:10Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_IKRAR_KEHIDUPAN.md",
+      "commits": [
+        {
+          "sha": "7d4a7a0deb02c793348ff2b8518a2229828b619b",
+          "message": "docs(integration): record lifelong four DNA educational manifesto",
+          "date": "2026-11-26T15:46:56Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    },
+    {
+      "branch": "raudhah-integrated",
+      "path": "docs/R150_UNITY_PURPOSE_DIVERSITY_METHOD.md",
+      "commits": [
+        {
+          "sha": "ac91df1deac81ac75721caaf74fe6e2bb7a55f15",
+          "message": "docs(integration): record unity of purpose and respect for scholarly diversity",
+          "date": "2026-11-26T15:45:25Z"
+        }
+      ],
+      "status": "single_path_history_match"
+    }
+  ]
+}
