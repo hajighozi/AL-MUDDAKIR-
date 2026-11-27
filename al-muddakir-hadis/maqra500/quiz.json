@@ -1,0 +1,76 @@
+{
+  "collectionId": "MQ500",
+  "sourceSha256": "eb51817774e98e539c63e418d9224f93da56f7a6b022426b973e2a5afacec3ae",
+  "units": {
+    "1": [
+      {
+        "prompt": "Apa yang ditanyakan lelaki itu kepada Rasulullah ﷺ dalam dialog hadis ini?",
+        "choices": ["Bagaimana dengan hartaku?", "Kapan aku harus berangkat?", "Siapa yang harus membawa kabar?"],
+        "answer": 0,
+        "explanation": "Dalam matan, lelaki itu bertanya tentang hartanya."
+      },
+      {
+        "prompt": "Siapa sahabat yang meriwayatkan hadis ini pada akhir sanad?",
+        "choices": ["Ibnu Abbas", "Ibnu Umar", "Jabir bin Abdullah"],
+        "answer": 1,
+        "explanation": "Sanad berakhir pada Ibnu Umar."
+      }
+    ],
+    "2": [
+      {
+        "prompt": "Apa yang diminta untuk dikembalikan dalam dialog ini?",
+        "choices": ["Sebuah rumah", "Seekor unta", "Sebuah kebun"],
+        "answer": 2,
+        "explanation": "Rasulullah ﷺ bertanya apakah ia mau mengembalikan kebun itu kepada Tsabit."
+      },
+      {
+        "prompt": "Siapa sahabat pada akhir sanad riwayat ini?",
+        "choices": ["Ibnu Abbas", "Ibnu Umar", "Aisyah"],
+        "answer": 0,
+        "explanation": "Ikrimah meriwayatkan hadis ini dari Ibnu Abbas."
+      }
+    ],
+    "3": [
+      {
+        "prompt": "Apa yang mereka pilih dalam riwayat Aisyah ini?",
+        "choices": ["Sebuah tempat tinggal", "Allah dan Rasul-Nya", "Sebuah kebun"],
+        "answer": 1,
+        "explanation": "Dalam matan, Aisyah berkata bahwa mereka memilih Allah dan Rasul-Nya."
+      },
+      {
+        "prompt": "Dari siapa Masruq menerima riwayat ini?",
+        "choices": ["Jabir bin Abdullah", "Ibnu Umar", "Aisyah"],
+        "answer": 2,
+        "explanation": "Masruq menerima riwayat ini dari Aisyah."
+      }
+    ],
+    "4": [
+      {
+        "prompt": "Kepada siapa Rasulullah ﷺ menduga perempuan dalam hadis ini ingin kembali?",
+        "choices": ["Rifa‘ah", "Ibnu Syihab", "‘Urwah"],
+        "answer": 0,
+        "explanation": "Dalam pertanyaan tersebut, Rasulullah ﷺ menyebut Rifa‘ah."
+      },
+      {
+        "prompt": "Siapa yang menceritakan peristiwa ini kepada ‘Urwah?",
+        "choices": ["Ibnu Abbas", "Aisyah", "Jabir bin Abdullah"],
+        "answer": 1,
+        "explanation": "Pada sambungan sanad, Aisyah menyampaikan peristiwa tersebut kepada ‘Urwah."
+      }
+    ],
+    "5": [
+      {
+        "prompt": "Mengapa dalam hadis ini orang yang pulang pada malam hari diminta menunggu sebelum menemui keluarganya?",
+        "choices": ["Agar dapat menyelesaikan catatan perjalanan", "Agar dapat mencari tempat menginap", "Agar keluarga sempat merapikan diri"],
+        "answer": 2,
+        "explanation": "Matan menyebut memberi waktu untuk merapikan diri dan menyisir rambut."
+      },
+      {
+        "prompt": "Siapa yang menyampaikan sabda Nabi ﷺ pada riwayat ini?",
+        "choices": ["Jabir bin Abdullah", "Ibnu Abbas", "Aisyah"],
+        "answer": 0,
+        "explanation": "Pada akhir sanad, asy-Sya‘bi meriwayatkan dari Jabir bin Abdullah."
+      }
+    ]
+  }
+}

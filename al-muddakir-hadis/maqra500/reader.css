@@ -5,7 +5,8 @@
   overflow-wrap: anywhere;
 }
 
-#hadith-list a[aria-current="page"] {
+#hadith-list a[aria-current="page"],
+.reading-steps button[aria-pressed="true"] {
   background: var(--green);
   color: white;
 }
@@ -16,4 +17,27 @@
 
 #source-hash {
   overflow-wrap: anywhere;
+}
+
+.reading-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.reading-steps button,
+.reading-actions button {
+  min-height: 44px;
+}
+
+.reading-steps button:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
+
+.reading-steps button:focus-visible,
+.reading-actions button:focus-visible {
+  outline: 3px solid #ab812d;
+  outline-offset: 3px;
 }

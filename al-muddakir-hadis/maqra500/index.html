@@ -6,14 +6,16 @@
   <title>Maqra’ 500 · Al Muddakir Hadis</title>
   <link rel="stylesheet" href="../../knowledge-core/map.css">
   <link rel="stylesheet" href="reader.css">
-  <script src="reader.js" defer></script>
+  <link rel="stylesheet" href="practice.css">
+  <link rel="stylesheet" href="quiz.css">
+  <script src="reader.js" type="module"></script>
 </head>
 <body>
   <main>
     <nav aria-label="Kembali ke fakultas"><a href="../index.html">← Al Muddakir Hadis</a></nav>
     <header>
       <h1>Maqra’ 500</h1>
-      <p>Sanad, matan, dan draf terjemahan dari naskah STQHN 2023.</p>
+      <p>Baca hadis dari naskah STQHN 2023, lalu latih hafalan dan pemahaman.</p>
     </header>
     <section aria-labelledby="catalog-title">
       <h2 id="catalog-title">Pilih hadis</h2>
@@ -21,20 +23,41 @@
       <p id="load-error" class="notice" role="alert" hidden></p>
       <a id="reload" class="button" href="" hidden>Muat ulang</a>
       <nav id="hadith-list" aria-label="Daftar hadis" hidden></nav>
+      <a id="resume-reading" class="button" href="" hidden></a>
     </section>
     <noscript><p class="notice">Aktifkan JavaScript untuk membuka catatan hadis.</p></noscript>
     <article id="hadith" aria-labelledby="hadith-title" class="panel" hidden>
       <h2 id="hadith-title"></h2>
       <p id="hadith-reference"></p>
       <p id="hadith-chapter" class="arabic" lang="ar" dir="rtl"></p>
-      <h3>Sanad</h3>
-      <div id="hadith-sanad"></div>
-      <h3>Matan</h3>
-      <p id="hadith-matn" class="arabic" lang="ar" dir="rtl"></p>
-      <h3>Draf terjemahan Indonesia</h3>
-      <p id="hadith-translation"></p>
-      <p><a id="study-notes" href="">Catatan belajar dan bahasa</a></p>
-      <p id="sharh-status" class="small"></p>
+      <nav class="reading-steps" aria-label="Bagian bacaan">
+        <button type="button" data-stage="arab" aria-controls="stage-arab" aria-pressed="true">Arab</button>
+        <button type="button" data-stage="terjemahan" aria-controls="stage-terjemahan" aria-pressed="false">Terjemahan</button>
+        <button type="button" data-stage="syarah" aria-controls="stage-syarah" aria-pressed="false">Syarah</button>
+      </nav>
+      <p id="recall-notice" role="status" hidden>Teks disembunyikan untuk latihan. Gunakan tombol Tampilkan teks Arab pada bagian hafalan untuk membukanya.</p>
+      <div id="reading-content">
+        <section id="stage-arab" aria-label="Arab">
+          <h3>Sanad</h3>
+          <div id="hadith-sanad"></div>
+          <h3>Matan</h3>
+          <p id="hadith-matn" class="arabic" lang="ar" dir="rtl"></p>
+        </section>
+        <section id="stage-terjemahan" aria-label="Terjemahan" hidden>
+          <h3>Draf terjemahan Indonesia</h3>
+          <p id="hadith-translation"></p>
+        </section>
+        <section id="stage-syarah" aria-label="Syarah" hidden>
+          <h3>Syarah</h3>
+          <p id="sharh-status"></p>
+        </section>
+        <div class="reading-actions">
+          <button id="next-stage" type="button"></button>
+          <button id="save-reading" type="button">Simpan tempat baca</button>
+        </div>
+        <p id="bookmark-status" class="small" role="status"></p>
+        <p><a id="study-notes" href="">Catatan belajar dan bahasa</a></p>
+      </div>
       <details>
         <summary>Sumber dan pencocokan</summary>
         <p id="source-location"></p>
@@ -43,6 +66,8 @@
         <a id="reference-link" href="">Salinan digital pembanding</a>
       </details>
     </article>
+    <section id="practice" class="panel" hidden></section>
+    <section id="quiz" class="panel" hidden></section>
   </main>
 </body>
 </html>

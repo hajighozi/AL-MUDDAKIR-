@@ -1,7 +1,63 @@
-"use strict";
+import { createMaterial } from "./learning.mjs";
+import { mountPractice } from "./practice.mjs";
+import { mountQuiz } from "./quiz.mjs";
 
 const get = (id) => document.getElementById(id);
 const formatNumber = (number) => String(number).padStart(3, "0");
+const readingStages = ["arab", "terjemahan", "syarah"];
+const stageLabels = { arab: "Arab", terjemahan: "Terjemahan", syarah: "Syarah" };
+const stageButtons = [...document.querySelectorAll("[data-stage]")];
+const bookmarkKey = "al-muddakir.maqra500.bookmark.v1";
+let stage = "arab";
+
+function showStage(nextStage) {
+  stage = nextStage;
+  for (const name of readingStages) get(`stage-${name}`).hidden = name !== stage;
+  for (const button of stageButtons) {
+    button.setAttribute("aria-pressed", String(button.dataset.stage === stage));
+  }
+  const next = readingStages[readingStages.indexOf(stage) + 1];
+  get("next-stage").hidden = next === undefined;
+  get("next-stage").textContent = next ? `Lanjut ke ${stageLabels[next].toLowerCase()}` : "";
+}
+
+function setRecall(concealed) {
+  get("reading-content").hidden = concealed;
+  get("recall-notice").hidden = !concealed;
+  for (const button of stageButtons) button.disabled = concealed;
+  showStage("arab");
+}
+
+function mountBookmark(unit, source, units) {
+  const resume = get("resume-reading");
+  function refresh() {
+    resume.hidden = true;
+    try {
+      const saved = JSON.parse(localStorage.getItem(bookmarkKey) ?? "null");
+      if (saved?.sourceSha256 !== source.sha256 || !readingStages.includes(saved.stage) ||
+          !units.some(({ number }) => saved.number === number)) return;
+      const id = formatNumber(saved.number);
+      resume.href = `?hadis=${id}&bagian=${saved.stage}`;
+      resume.textContent = `Lanjutkan hadis ${id} · ${stageLabels[saved.stage]}`;
+      resume.hidden = false;
+    } catch {
+      // Reading remains available if the browser blocks local storage.
+    }
+  }
+  get("save-reading").addEventListener("click", () => {
+    try {
+      localStorage.setItem(bookmarkKey, JSON.stringify({ sourceSha256: source.sha256, number: unit.number, stage }));
+      get("bookmark-status").textContent = "Tempat baca disimpan di browser ini.";
+      refresh();
+    } catch {
+      get("bookmark-status").textContent = "Tempat baca belum dapat disimpan di browser ini.";
+    }
+  });
+  window.addEventListener("storage", (event) => {
+    if (event.key === bookmarkKey || event.key === null) refresh();
+  });
+  refresh();
+}
 
 async function readJson(path) {
   const response = await fetch(path);
@@ -38,7 +94,8 @@ function showUnit(unit, source, id) {
 async function start() {
   try {
     const { source, units } = await readJson("catalog.json");
-    const requested = new URLSearchParams(location.search).get("hadis");
+    const params = new URLSearchParams(location.search);
+    const requested = params.get("hadis");
     const selected = requested === null ? units[0] : units.find(({ number }) => formatNumber(number) === requested);
     const links = units.map(({ number, title }) => {
       const id = formatNumber(number);
@@ -60,10 +117,29 @@ async function start() {
     const id = formatNumber(selected.number);
     const unit = await readJson(`units/${id}.json`);
     if (unit.collectionId !== "MQ500" || unit.number !== selected.number ||
-        unit.sourceId !== source.id || unit.sourceSha256 !== source.sha256) {
+        unit.sourceId !== source.id || unit.sourceSha256 !== source.sha256 ||
+        !Array.isArray(unit.pdfPages) || unit.pdfPages.length !== selected.pdfPages.length ||
+        unit.pdfPages.some((page, index) => page !== selected.pdfPages[index])) {
       throw new Error("Identitas catatan tidak cocok dengan daftar.");
     }
+    const materials = units.map(({ number, pdfPages }) => createMaterial(
+      { collectionId: "MQ500", source }, { number, arabicPages: pdfPages },
+    ));
     showUnit(unit, source, id);
+    const initialStage = params.get("bagian");
+    showStage(readingStages.includes(initialStage) ? initialStage : "arab");
+    for (const button of stageButtons) {
+      button.addEventListener("click", () => showStage(button.dataset.stage));
+    }
+    get("next-stage").addEventListener("click", () => {
+      showStage(readingStages[readingStages.indexOf(stage) + 1]);
+      stageButtons.find((button) => button.dataset.stage === stage).focus();
+    });
+    mountBookmark(unit, source, units);
+    get("practice").hidden = false;
+    get("quiz").hidden = false;
+    mountPractice(get("practice"), { unit, materials, onRecallChange: setRecall });
+    mountQuiz(get("quiz"), { unit });
   } catch {
     get("load-error").textContent = "Catatan hadis belum bisa dimuat. Coba muat ulang halaman.";
     get("load-error").hidden = false;

@@ -9,23 +9,39 @@
   "units": [
     {
       "number": 1,
-      "title": "Li’an dan pertanyaan tentang mahar"
+      "title": "Li’an dan pertanyaan tentang mahar",
+      "pdfPages": [
+        1
+      ]
     },
     {
       "number": 2,
-      "title": "Permohonan khulu’ istri Tsabit bin Qais"
+      "title": "Permohonan khulu’ istri Tsabit bin Qais",
+      "pdfPages": [
+        1
+      ]
     },
     {
       "number": 3,
-      "title": "Pilihan yang diberikan Rasulullah kepada istri-istrinya"
+      "title": "Pilihan yang diberikan Rasulullah kepada istri-istrinya",
+      "pdfPages": [
+        1
+      ]
     },
     {
       "number": 4,
-      "title": "Pertanyaan istri Rifa‘ah setelah perceraian"
+      "title": "Pertanyaan istri Rifa‘ah setelah perceraian",
+      "pdfPages": [
+        1
+      ]
     },
     {
       "number": 5,
-      "title": "Adab pulang pada malam hari"
+      "title": "Adab pulang pada malam hari",
+      "pdfPages": [
+        1,
+        2
+      ]
     }
   ]
 }
