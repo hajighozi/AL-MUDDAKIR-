@@ -485,7 +485,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "5aa28123816dae37654702d7dc93bd1a90fb2e87",
+      "verified_commit_message": "docs(alam): R-145 extend empirical learning progression",
+      "verified_commit_date": "2026-11-26T10:59:47Z"
     },
     {
       "branch": "feature/hadis",
@@ -494,7 +497,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "6722c3042ccb5cc6f4ef4b6a150dfe6e7eccf5ad",
+      "verified_commit_message": "docs(hadis): R-142 design tahqiq-to-learning workflow",
+      "verified_commit_date": "2026-11-26T10:59:24Z"
     },
     {
       "branch": "feature/kitab-iqra",
@@ -602,7 +608,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "79b695c4d519a13c1fcd4fa9442aa534329e8f54",
+      "verified_commit_message": "docs(lughah): R-143 design sorogan progression",
+      "verified_commit_date": "2026-11-26T10:59:26Z"
     },
     {
       "branch": "feature/matematika",
@@ -611,7 +620,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "3b759c2a5b878cdedb36f9e58149c710bbe70405",
+      "verified_commit_message": "docs(matematika): R-147 design reasoning and proof progression",
+      "verified_commit_date": "2026-11-26T10:59:52Z"
     },
     {
       "branch": "feature/peradaban",
@@ -620,7 +632,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "fa5fb90f7adc96578776ab8d205469486b3fcf5b",
+      "verified_commit_message": "docs(peradaban): R-146 design historical inquiry progression",
+      "verified_commit_date": "2026-11-26T10:59:50Z"
     },
     {
       "branch": "feature/pustaka-rehat",
@@ -629,7 +644,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "43c1efda551dc7bef15cdabe3472e8340e1eb0e1",
+      "verified_commit_message": "docs(pustaka): R-140 design voluntary reading experience",
+      "verified_commit_date": "2026-11-26T10:58:55Z"
     },
     {
       "branch": "feature/quran",
@@ -638,7 +656,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "e3716fe1e026f398e0d72155cf93bdba6f5d52f2",
+      "verified_commit_message": "docs(quran): R-141 design FAHIM learning units",
+      "verified_commit_date": "2026-11-26T10:59:22Z"
     },
     {
       "branch": "feature/raudhah-pedagogy",
@@ -719,7 +740,10 @@
       "reported_commit_sha": "e2e5fe0a47d47cf78f5440eb33abc7a02e7393a7",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "e2e5fe0a47d47cf78f5440eb33abc7a02e7393a7",
+      "verified_commit_message": "audit(surau): register 42 historical tariqa and movement candidates",
+      "verified_commit_date": "2026-11-26T17:45:28Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -728,7 +752,10 @@
       "reported_commit_sha": "ef3ffc32bba7ce6bd11d6de552028cc1974d4227",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "ef3ffc32bba7ce6bd11d6de552028cc1974d4227",
+      "verified_commit_message": "audit(surau): distinguish tariqa definition, scriptural foundations and empirical evidence",
+      "verified_commit_date": "2026-11-26T17:46:53Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -737,7 +764,10 @@
       "reported_commit_sha": "62895d3f0e5d02d1dfd9eff5064aba418f89943f",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "62895d3f0e5d02d1dfd9eff5064aba418f89943f",
+      "verified_commit_message": "audit(surau): apply ten principles and provisional ontology to tariqa studies",
+      "verified_commit_date": "2026-11-26T17:49:18Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -746,7 +776,10 @@
       "reported_commit_sha": "53ed1b67a85c5d8cd58ff81f4ce5fb5ea15e88df",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "53ed1b67a85c5d8cd58ff81f4ce5fb5ea15e88df",
+      "verified_commit_message": "audit(surau): verify Ghazali self terminology and faculties with hadith caveats",
+      "verified_commit_date": "2026-11-27T00:59:09Z"
     },
     {
       "branch": "feature/surau-shift",
@@ -890,7 +923,10 @@
       "reported_commit_sha": "26ca983e13ee83223952d187a0ca11410aabe3b9",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "26ca983e13ee83223952d187a0ca11410aabe3b9",
+      "verified_commit_message": "audit(tan-project): register four incoming archive references and duplicate risk",
+      "verified_commit_date": "2026-11-27T02:10:37Z"
     },
     {
       "branch": "feature/tan-project",
@@ -899,7 +935,10 @@
       "reported_commit_sha": "622d46da12f3f177d458ec5dc64a442b87311154",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "622d46da12f3f177d458ec5dc64a442b87311154",
+      "verified_commit_message": "audit(tan-project): register recent service-learning and sustainability education references",
+      "verified_commit_date": "2026-11-27T02:09:03Z"
     },
     {
       "branch": "hurairah-web-stable",
@@ -908,7 +947,10 @@
       "reported_commit_sha": null,
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "historical_sha_pending"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "e7f0b813db1bc26e1af56af2015cea39480eec4c",
+      "verified_commit_message": "docs(hurairah): R-148 define curriculum-aligned game experience",
+      "verified_commit_date": "2026-11-26T10:59:55Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -962,7 +1004,10 @@
       "reported_commit_sha": "657814022ad29eadf8374cea7f814bdf9cbe549b",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "657814022ad29eadf8374cea7f814bdf9cbe549b",
+      "verified_commit_message": "audit(integration): record critical MERGE corpus findings and recent khidmah evidence",
+      "verified_commit_date": "2026-11-27T02:14:53Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -971,7 +1016,10 @@
       "reported_commit_sha": "9070c6ad327cab3f969f82d3d1c461cc444b9d64",
       "state": "committed_diff_verified",
       "review": "pending",
-      "sha_status": "prior_checkpoint_not_reverified_in_this_run"
+      "sha_status": "commit_and_path_confirmed",
+      "verified_commit_sha": "9070c6ad327cab3f969f82d3d1c461cc444b9d64",
+      "verified_commit_message": "audit(integration): segment first MERGE and register source-level evidence with gaps",
+      "verified_commit_date": "2026-11-27T02:21:19Z"
     },
     {
       "branch": "raudhah-integrated",
@@ -1089,7 +1137,9 @@
     "unique_paths": 67,
     "overlap_count": 0,
     "main_history_returned": 76,
-    "checkpoint_sha_reported": 9
+    "checkpoint_sha_reported": 9,
+    "paths_with_verified_commit_sha": 16,
+    "lookup_failed": []
   },
   "limits": [
     "Main history from search commits; feature compare returns changed files and counts, not complete individual commit histories. Do not equate file paths with exact commit identity.",
