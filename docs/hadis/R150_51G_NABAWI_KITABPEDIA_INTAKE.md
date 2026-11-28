@@ -1,0 +1,4 @@
+# R150.51G — Nabawi and KitabPedia source intake
+B04 owner, G01 coordination, B13 pedagogy. PLANNED.
+Candidate sources Abu Ghuddah al-Rasul al-Mu'allim, Bukhari 68/69/95/61/101/631/2442, Muslim 537a/2699a; verify numbering, Arabic, edition, full context and classical sharh (Fath al-Bari, Nawawi, Umdat al-Qari). Prior assistant web references not verified in this commit. Distinguish classical text and modern pedagogical inference. Maqra 500+100 audit, exact searchedArabic, three turats sharh with volume/page remain pending as prior mandated work. Do not replace original dataset.
+Two KitabPedia Sejarah Islam Menyeluruh PDFs internal metadata: Jilid 1 pp 415 lessons 1–52; Jilid 2 pp 693 lessons 53–134, missing 65–67 per p3. Source pilot J1 pp99–102,144–145,159–163; J2 pp188–189,600–602; internal draft not independently validated. B07 owns historical study. Deliver source/evidence register and tahqiq, no upload of original PDFs or book text.
