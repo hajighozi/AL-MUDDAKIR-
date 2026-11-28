@@ -1,0 +1,16 @@
+# R150.52A — P3LP untuk semua
+Status PLANNED; new user mandate: simplify access to psychological first aid, mental health literacy and affordable professional support. Owner B10 Surau Shift; B11 Khidmah service/access, B13 educational review, B17 accessible media, B20 evidence. No new branch; additive documentation only.
+## Scope
+Free public education and basic humane supportive assistance for distress, not diagnosis, therapy, treatment prescriptions, or a substitute for professional care. Do not promise recovery or free clinical services. Include mental health literacy on everyday stress, grief, anxiety, depression, trauma-related conditions, OCD, bipolar disorder, psychosis, and neurodevelopmental differences; distinguish conditions and avoid symptom-based self-diagnosis. Clinical content and all case guidance require qualified review. No disorder-specific treatment by volunteers or AI.
+## Sources
+- Kemenkes public P3LP training: https://s.kemkes.go.id/moocp3lp
+- Kemenkes age-specific handbooks: https://s.kemkes.go.id/BukuSakuP3LP
+- WHO Psychological first aid field guide: https://www.who.int/publications-detail-redirect/9789241548205
+- UNICEF I Support My Friends: https://www.unicef.org/documents/i-support-my-friends
+- Kemenkes support/referral: https://healing119.id/ (119 ext 8 as published by Kemenkes; recheck access before release)
+These are source leads, with official publication pages located; full manuals not yet audited, no copying copyrighted text.
+## Design
+LOOK (notice safety and practical needs); LISTEN (ask permission, listen without pressure); LINK (connect with trusted adults and relevant services). In emergencies seek immediate adult/professional assistance and emergency care; children and teens never responsible for crisis response or counseling peers. Adult safeguarding lead and clinical reviewer required before any pilot. No confidential disclosures required, no unsupervised peer counseling, no promise of secrecy in safety emergencies. Respect religion and culture; optional spiritual support only if desired; no attribution of illness to weak faith or moral failure; no replacement of clinical care. No spiritual/mental health scoring, automated triage, symptom quiz, chat diagnosis, private monitoring, case database or sensitive data collection. No real patient scenarios in public training.
+Deliver free plain-language cards, low-bandwidth/offline educational pages, age-adapted guides, verified professional referral directory and affordability navigation (Puskesmas, JKN eligibility check, qualified providers), reviewed by psychologists and physicians. Print and local language options. Referral access and eligibility must be verified locally. Adults handle actual cases; youth may learn how to seek help and tell a trusted adult. 
+## Acceptance
+Clinical and safeguarding review; source provenance, accessible language, correct referral and limits; voluntary participation; no patient data in GitHub; pilot using fictional non-crisis educational examples and aggregate non-sensitive feedback; no untested claims of effectiveness. Preserve R150.51E and P09 as existing context without implying previous project clinically validated. No deployment or merger.
