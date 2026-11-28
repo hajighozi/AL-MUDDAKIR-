@@ -1,0 +1,3 @@
+# R150.51F — Tafsir corpus intake
+Owner B03 under G01, B09 delivery child. Cross-link B04/B13/B02. PLANNED.
+Quraish Shihab al-Mishbah, Gus Baha al-Jalalain lessons, Gus Awis and al-Sha'rawi; classical tafsir and ulum al-Quran as source anchors. Compare language, context, relation between verses, oral teaching and written analysis with actual passage/edition/timestamp. Distinguish revelation, tafsir, teacher explanation and learner reflection. FAHIM 1–3 and matan/mu'jam/syarah/hasyiyah remain intact. Prioritize accuracy and teacher review; no rehosting copyrighted recordings/books. Deliver verified source metadata and LU candidate crosswalk. No Fahimuunal app change.
