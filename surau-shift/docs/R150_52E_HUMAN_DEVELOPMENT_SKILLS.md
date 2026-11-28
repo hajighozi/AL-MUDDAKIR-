@@ -1,0 +1,22 @@
+# R150.52E — Human development and wellbeing skills
+Status PLANNED; 2026-11-28. Owner B10 Surau Shift; B13 pedagogy and family education, B11 RKU and career exploration, B17/B14 public media, B20 evidence. Preserve HS01–65 and R150.52A–D. No new Git ref, implementation, or clinical service.
+## Source leads verified via official indexed publication descriptions (full texts not audited)
+- WHO parenting guidelines for caregivers of ages 0–17, 2023: https://www.who.int/teams/social-determinants-of-health/violence-prevention/parenting-guidelines — supportive parent-child relationships, reducing harsh parenting and maltreatment. Adult caregiver responsibility; no child responsibility for household conflict.
+- WHO early childhood development guideline, 2020: https://www.who.int/publications/i/item/97892400020986/ — responsive caregiving, early learning and caregiver support.
+- UNICEF Global Framework on Transferable Skills, 2019: https://www.unicef.org/reports/global-framework-transferable-skills — formal, nonformal and community education across life course.
+- ILO Global Framework on Core Skills for Life and Work, 13 July 2021: https://www.ilo.org/publications/global-framework-core-skills-life-and-work-21st-century — lifelong personal and professional development.
+- OECD PISA 2022 Financial Literacy Framework: https://www.oecd.org/en/publications/pisa-2022-assessment-and-analytical-framework_dfe0bf9c-en/full-report/component-4.html — financial education and decisions, not investment recommendations.
+## HS66–89 proposed extensions (not official framework list)
+Family and relationships: HS66 adult responsive caregiving; HS67 adult nonviolent guidance; HS68 age-appropriate communication across generations; HS69 shared household responsibility with age-appropriate limits; HS70 recognizing when to involve a trusted adult; HS71 respectful family decision-making with adult accountability.
+Learning: HS72 finding learning resources; HS73 planning a learning goal; HS74 organizing notes and sources; HS75 reviewing learning strategies; HS76 giving an evidence-based explanation; HS77 asking constructive questions.
+Career and work: HS78 exploring occupations; HS79 mapping skill prerequisites; HS80 describing learning accomplishments; HS81 recognizing workplace rights and safety; HS82 understanding fair agreements in simulations; HS83 project review and documentation.
+Community and everyday living: HS84 understanding local cultural practices; HS85 respectful intercultural communication; HS86 accessibility-aware planning; HS87 resource conservation; HS88 comparing hypothetical costs and benefits; HS89 recognizing misleading commercial claims.
+Overlap candidates HS70/01/08; HS73/44; HS75/41; HS85/50; HS86/63; HS88/58; HS89/57/59. Retain IDs as aliases or narrower subskills after review; no assertion of 89 distinct constructs.
+## Pilot learning units (nonclinical educational proposals)
+LU-LS05 family dialogue: fictional scheduling disagreement; learners can request help or decline, adult caregivers own conflict and protection.
+LU-LS06 learning plan: choose a topic and find two credible sources; optional reflection, no private disclosure.
+LU-LS07 career exploration: compare two occupations by tasks, qualifications and learning interests; no vocational profiling, income promises, real job placement or required work for minors.
+LU-LS08 community access: review a fictional library for accessibility and propose improvements; no collection of personal or medical data.
+LU-LS09 financial literacy: compare hypothetical school supply offers and hidden charges; no real purchases, borrowing or investment.
+## Governance
+Public materials free to read, offline/print and accessible. Caregiver modules adult-facing; youth modules teach rights, healthy communication and help-seeking, not crisis counseling, parenting siblings or mediating adult disputes. RKU voluntary and age-appropriate; no compulsory work, hazardous tasks, fixed career labels or spiritual/mental scores. Assess demonstrated learning through fictional exercises, not personal health, faith, income or family records. Distinguish IQRA/FAHM/TAZKIYAH/KHIDMAH conceptual mapping from evidence of effectiveness. M7 source/evidence/claim/validation and rights review apply. Educator, qualified clinician when health content involved, and safeguarding review required. No private data, no application change or deployment.
